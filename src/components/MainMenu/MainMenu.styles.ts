@@ -1,12 +1,14 @@
 import styled from '@emotion/styled';
 
-export const MenuStyled = styled.header`
+export const MenuStyled = styled.header<{ isScrollOnTop: boolean }>`
   color: white;
-  padding: 40px;
   position: fixed;
   display: flex;
   justify-content: space-between;
   width: 100vw;
+  transition: all 0.3s;
+  background-color: ${(props) => !props.isScrollOnTop && `rgba(0, 0, 0, 0.4)`};
+  padding: ${(props) => (props.isScrollOnTop ? `40px` : `20px 40px`)};
 `;
 
 export const MenuGroup = styled.div`
