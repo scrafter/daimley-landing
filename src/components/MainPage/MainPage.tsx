@@ -1,5 +1,5 @@
 import React from 'react';
-import MainPageHeader from '@/pages/MainPage/MainPageHeader/MainPageHeader';
+import MainPageHeader from '@/components/MainPage/MainPageHeader/MainPageHeader';
 
 function MainPage() {
   return (

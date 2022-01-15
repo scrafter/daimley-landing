@@ -5,7 +5,7 @@ import { Global, css, ThemeProvider } from '@emotion/react';
 import SEO from '@/components/SEO/SEO';
 import useTranslation from '@/useTranslation';
 import Footer from '@/components/Footer/Footer';
-import MainPage from '@/pages/MainPage/MainPage';
+import MainPage from '@/components/MainPage/MainPage';
 
 import '@fontsource/lato';
 import { theme } from '../theme';

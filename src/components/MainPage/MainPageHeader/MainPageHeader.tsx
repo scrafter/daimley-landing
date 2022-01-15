@@ -1,6 +1,6 @@
 import React from 'react';
 import useTranslation from '@/useTranslation';
-import HeaderTile from './HeaderTile/HeaderTile';
+import HeaderTile from 'src/components/MainPage/MainPageHeader/HeaderTile/HeaderTile';
 import {
   StyledMainPageHeader,
   MainPageTitle,
@@ -8,7 +8,7 @@ import {
   MainPageButton,
   MainPageLeftWrapper,
   MainPageRightWrapper,
-} from './MainPageHeader.styles';
+} from 'src/components/MainPage/MainPageHeader/MainPageHeader.styles';
 
 const LINKS = [
   [
