@@ -4,7 +4,7 @@ import {
   HeaderTileTitle,
   HeaderTileWrapper,
   HeaderTileLink,
-} from './HeaderTile.styles';
+} from '@/pages/MainPage/MainPageHeader/HeaderTile/HeaderTile.styles';
 
 interface Props {
   title: string;

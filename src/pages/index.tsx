@@ -5,9 +5,10 @@ import { Global, css, ThemeProvider } from '@emotion/react';
 import SEO from '@/components/SEO/SEO';
 import useTranslation from '@/intl/useTranslation';
 import Footer from '@/components/Footer/Footer';
-import { theme } from '../theme';
-import '@fontsource/lato';
 import MainPage from '@/pages/MainPage/MainPage';
+
+import '@fontsource/lato';
+import { theme } from '../theme';
 
 export default function Home() {
   const { lang, translate } = useTranslation();
