@@ -1,32 +1,40 @@
 import React from 'react';
 import MainMenu from '@/components/MainMenu/MainMenu';
-import { MainMenuStyled } from '@/pages/index.styles';
 import emotionReset from 'emotion-reset';
-import { Global, css } from '@emotion/react';
+import { Global, css, ThemeProvider } from '@emotion/react';
 import SEO from '@/components/SEO/SEO';
 import useTranslation from '@/intl/useTranslation';
+import Footer from '@/components/Footer/Footer';
+import { theme } from '../theme';
+import '@fontsource/lato';
 
 export default function Home() {
   const { lang, translate } = useTranslation();
 
   return (
-    <>
+    <ThemeProvider theme={theme}>
       <SEO title={translate(`pageTitle`)} lang={lang} />
-      <MainMenuStyled>
-        <Global
-          styles={css`
-            ${emotionReset}
+      <MainMenu />
 
-            *, *::after, *::before {
-              box-sizing: border-box;
-              -moz-osx-font-smoothing: grayscale;
-              -webkit-font-smoothing: antialiased;
-              font-smoothing: antialiased;
-            }
-          `}
-        />
-        <MainMenu />
-      </MainMenuStyled>
-    </>
+      <Footer />
+
+      <Global
+        styles={css`
+          ${emotionReset}
+          body {
+            font-family: 'lato';
+          }
+
+          *,
+          *::after,
+          *::before {
+            box-sizing: border-box;
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-smoothing: antialiased;
+          }
+        `}
+      />
+    </ThemeProvider>
   );
 }

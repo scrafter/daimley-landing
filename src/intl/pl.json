@@ -3,5 +3,19 @@
   "menu.main": "Strona główna",
   "menu.trainings": "Szkolenia",
   "menu.aboutUs": "O nas",
-  "menu.contact": "Kontakt"
+  "menu.contact": "Kontakt",
+
+  "footer.mainSite": "Strona główna",
+  "footer.aboutUs": "O nas",
+  "footer.contact": "Kontakt",
+  "footer.privacyPolicy": "Polityka prywatności",
+  "footer.regulations": "Regulamin",
+  "footer.ourOffer": "Nasza oferta",
+  "footer.trainings": "Szkolenia",
+  "footer.recruitment": "Rekrutacje",
+  "footer.specialities": "Nasza specjalizacja i stanowiska, na które rekrutujemy",
+  "footer.industry": "Branże, w których rekrutujemy",
+  "footer.recruitmentProcess": "Proces rekrutacji",
+  "footer.example": "Pozycja nr 1"
+
 }
