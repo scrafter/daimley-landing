@@ -1,5 +1,5 @@
 import React from 'react';
-import useTranslation from '@/intl/useTranslation';
+import useTranslation from '@/useTranslation';
 import {
   StyledFooter,
   FooterColumn,

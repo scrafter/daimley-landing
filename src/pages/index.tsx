@@ -3,7 +3,7 @@ import MainMenu from '@/components/MainMenu/MainMenu';
 import emotionReset from 'emotion-reset';
 import { Global, css, ThemeProvider } from '@emotion/react';
 import SEO from '@/components/SEO/SEO';
-import useTranslation from '@/intl/useTranslation';
+import useTranslation from '@/useTranslation';
 import Footer from '@/components/Footer/Footer';
 import MainPage from '@/pages/MainPage/MainPage';
 

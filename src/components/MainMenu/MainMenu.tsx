@@ -1,5 +1,5 @@
 import React from 'react';
-import useTranslation from '@/intl/useTranslation';
+import useTranslation from '@/useTranslation';
 import { EMAIL_ADDRESS, PHONE_NUMBER } from '@/constants';
 import { MenuStyled, MenuItemStyled, MenuGroup } from './MainMenu.styles';
 

@@ -1,6 +1,6 @@
 import React from 'react';
-import useTranslation from '@/intl/useTranslation';
-import HeaderTile from '@/pages/MainPage/MainPageHeader/HeaderTile/HeaderTile';
+import useTranslation from '@/useTranslation';
+import HeaderTile from './HeaderTile/HeaderTile';
 import {
   StyledMainPageHeader,
   MainPageTitle,
@@ -39,7 +39,7 @@ function MainPageHeader() {
       </MainPageLeftWrapper>
 
       <MainPageRightWrapper>
-        <HeaderTile title="mainPage.header.bossSpace" links={LINKS[0] as any} />
+        <HeaderTile title="mainPage.header.bossSpace" links={LINKS[0]} />
         <HeaderTile title="mainPage.header.employeeSpace" links={LINKS[1]} />
       </MainPageRightWrapper>
     </StyledMainPageHeader>
