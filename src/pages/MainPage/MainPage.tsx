@@ -1,9 +1,10 @@
 import React from 'react';
+import MainPageHeader from '@/pages/MainPage/MainPageHeader/MainPageHeader';
 
 function MainPage() {
   return (
     <main>
-      <h1>main page</h1>
+      <MainPageHeader />
     </main>
   );
 }

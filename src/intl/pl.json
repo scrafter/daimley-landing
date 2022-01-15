@@ -5,6 +5,17 @@
   "menu.aboutUs": "O nas",
   "menu.contact": "Kontakt",
 
+  "mainPage.header.recruitment": "Rekrutacje\nSzkolenia\nConsulting",
+  "mainPage.header.weSupport": "Wspieramy naszych Klientów w kluczowych\nchwilach dla rozwoju ich biznesu",
+  "mainPage.header.checkOut": "Dowiedz się więcej",
+  "mainPage.header.bossSpace": "Strefa pracodawcy",
+  "mainPage.header.delegateRecruitment": "Zleć projekt rekrutacyjny",
+  "mainPage.header.delegateTraining": "Zleć projekt szkoleniowy",
+  "mainPage.header.employeeSpace": "Strefa pracownika",
+  "mainPage.header.jobOffers": "Oferty pracy",
+  "mainPage.header.buyTraining": "Kup szkolenie dla siebie",
+  "mainPage.header.register": "Zarejestruj się",
+
   "footer.mainSite": "Strona główna",
   "footer.aboutUs": "O nas",
   "footer.contact": "Kontakt",

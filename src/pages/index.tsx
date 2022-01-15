@@ -7,6 +7,7 @@ import useTranslation from '@/intl/useTranslation';
 import Footer from '@/components/Footer/Footer';
 import { theme } from '../theme';
 import '@fontsource/lato';
+import MainPage from '@/pages/MainPage/MainPage';
 
 export default function Home() {
   const { lang, translate } = useTranslation();
@@ -14,8 +15,9 @@ export default function Home() {
   return (
     <ThemeProvider theme={theme}>
       <SEO title={translate(`pageTitle`)} lang={lang} />
-      <MainMenu />
 
+      <MainMenu />
+      <MainPage />
       <Footer />
 
       <Global

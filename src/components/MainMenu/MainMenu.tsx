@@ -1,12 +1,23 @@
 import React from 'react';
 import useTranslation from '@/intl/useTranslation';
-import { MenuStyled, MenuItemStyled } from './MainMenu.styles';
+import { EMAIL_ADDRESS, PHONE_NUMBER } from '@/constants';
+import { MenuStyled, MenuItemStyled, MenuGroup } from './MainMenu.styles';
 
 function MainMenu() {
   const { translate } = useTranslation();
   return (
     <MenuStyled>
-      <MenuItemStyled>{translate(`menu.main`)}</MenuItemStyled>
+      <MenuGroup>
+        <MenuItemStyled>{translate(`menu.main`)}</MenuItemStyled>
+        <MenuItemStyled>{translate(`menu.trainings`)}</MenuItemStyled>
+        <MenuItemStyled>{translate(`menu.aboutUs`)}</MenuItemStyled>
+        <MenuItemStyled>{translate(`menu.contact`)}</MenuItemStyled>
+      </MenuGroup>
+
+      <MenuGroup>
+        <MenuItemStyled>{PHONE_NUMBER}</MenuItemStyled>
+        <MenuItemStyled>{EMAIL_ADDRESS}</MenuItemStyled>
+      </MenuGroup>
     </MenuStyled>
   );
 }
