@@ -7,7 +7,7 @@ interface Props extends DaimleyTheme {
 }
 
 export const StyledPhotoMock = styled.div`
-  background-color: ${(props: Props) => props.theme.gray};
+  background-color: #707070;
   width: ${(props: Props) => props.width}px;
   height: ${(props: Props) => props.height}px;
 `;

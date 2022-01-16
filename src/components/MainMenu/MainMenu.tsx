@@ -1,6 +1,6 @@
 import React, { useLayoutEffect, useState } from 'react';
 import useTranslation from '@/useTranslation';
-import { EMAIL_ADDRESS, PHONE_NUMBER } from '@/constants';
+import { EMAIL_ADDRESS, PHONE_NUMBER, PHONE_NUMBER_TO_READ } from '@/constants';
 import { MenuStyled, MenuItemStyled, MenuGroup } from './MainMenu.styles';
 
 function MainMenu() {
@@ -30,8 +30,12 @@ function MainMenu() {
       </MenuGroup>
 
       <MenuGroup>
-        <MenuItemStyled>{PHONE_NUMBER}</MenuItemStyled>
-        <MenuItemStyled>{EMAIL_ADDRESS}</MenuItemStyled>
+        <MenuItemStyled href={`tel:${PHONE_NUMBER}`}>
+          {PHONE_NUMBER_TO_READ}
+        </MenuItemStyled>
+        <MenuItemStyled href={`mailto:${EMAIL_ADDRESS}`}>
+          {EMAIL_ADDRESS}
+        </MenuItemStyled>
       </MenuGroup>
     </MenuStyled>
   );

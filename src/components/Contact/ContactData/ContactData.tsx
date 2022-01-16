@@ -9,7 +9,11 @@ import {
 } from '@/components/Contact/ContactData/ContactData.styles';
 import PhotoMock from '@/components/PhotoMock/PhotoMock';
 import useTranslation from '@/useTranslation';
-import { OPINION_EMAIL_ADDRESS, PHONE_NUMBER } from '@/constants';
+import {
+  OPINION_EMAIL_ADDRESS,
+  PHONE_NUMBER,
+  PHONE_NUMBER_TO_READ,
+} from '@/constants';
 import ContactDataForm from '@/components/Contact/ContactData/ContactDataForm/ContactDataForm';
 
 function ContactData() {
@@ -21,7 +25,7 @@ function ContactData() {
 
         <DataSection>
           <Title>{translate(`contact.data.title`)}</Title>
-          <Phone href={`tel:${PHONE_NUMBER}`}>726 280 872</Phone>
+          <Phone href={`tel:${PHONE_NUMBER}`}>{PHONE_NUMBER_TO_READ}</Phone>
           <Email href={`mailto:${OPINION_EMAIL_ADDRESS}`}>
             {OPINION_EMAIL_ADDRESS}
           </Email>
