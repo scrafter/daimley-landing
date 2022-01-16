@@ -49,10 +49,8 @@ export const Description = styled.h4`
   font-size: 1.125rem;
   color: ${(props: DaimleyTheme) => props.theme.gray};
   max-width: 600px;
-
-  &:first-of-type {
-    margin-bottom: 40px;
-  }
+  line-height: 2;
+  margin-bottom: 40px;
 
   &:last-of-type {
     text-align: right;

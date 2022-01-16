@@ -32,6 +32,8 @@ export const Brief = styled.p`
   font-size: 1.125rem;
   color: ${(props: DaimleyTheme) => props.theme.gray};
   line-height: 2;
+  width: 600px;
+  margin: 0 auto;
 `;
 
 export const SectionsWrapper = styled.div`

@@ -23,9 +23,10 @@ export const WeAreDaimleySubTitle = styled.h6`
 export const WeAreDaimleyTitle = styled.h1`
   font-size: 2.75rem;
   font-weight: bold;
+  line-height: 1.36;
 
-  & > div {
-    margin-bottom: 10px;
+  & span {
+    margin-left: 1rem;
   }
 `;
 

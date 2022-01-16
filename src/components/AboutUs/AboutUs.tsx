@@ -5,6 +5,7 @@ import AboutUsArticles from '@/components/AboutUs/AboutUsArticles/AboutUsArticle
 import AboutUsConsulting from '@/components/AboutUs/AboutUsConsulting/AboutUsConsulting';
 import AboutUsServices from '@/components/AboutUs/AboutUsServices/AboutUsServices';
 import AboutUsKnowLedge from '@/components/AboutUs/AboutUsKnowLedge/AboutUsKnowLedge';
+import AboutUsDaimleyWorld from '@/components/AboutUs/AboutUsDaimleyWorld/AboutUsDaimleyWorld';
 
 function AboutUs() {
   return (
@@ -15,6 +16,7 @@ function AboutUs() {
       <AboutUsConsulting />
       <AboutUsServices />
       <AboutUsKnowLedge />
+      <AboutUsDaimleyWorld />
     </main>
   );
 }
