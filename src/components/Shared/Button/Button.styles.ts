@@ -4,7 +4,6 @@ import { DaimleyTheme } from '@/theme';
 export const StyledButton = styled.button`
   background-color: ${(props: DaimleyTheme) => props.theme?.orange};
   padding: 25px 20px;
-  width: 220px;
   color: white;
   font-size: 1rem;
   border: 0;

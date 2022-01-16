@@ -2,6 +2,7 @@ import React from 'react';
 import AboutUsHeader from '@/components/AboutUs/AboutUsHeader/AboutUsHeader';
 import AboutUsTeam from '@/components/AboutUs/AboutUsTeam/AboutUsTeam';
 import AboutUsArticles from '@/components/AboutUs/AboutUsArticles/AboutUsArticles';
+import AboutUsConsulting from '@/components/AboutUs/AboutUsConsulting/AboutUsConsulting';
 
 function AboutUs() {
   return (
@@ -9,6 +10,7 @@ function AboutUs() {
       <AboutUsHeader />
       <AboutUsTeam />
       <AboutUsArticles />
+      <AboutUsConsulting />
     </main>
   );
 }
