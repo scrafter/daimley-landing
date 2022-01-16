@@ -36,7 +36,7 @@ export const WeAreDaimleyTilesWrapper = styled.div`
 `;
 
 export const WeAreDaimleyTile = styled.div`
-  padding: 80px 10px 140px;
+  padding: 80px 20px 140px;
   margin-top: 40px;
   background-color: ${(props: DaimleyTheme) => props.theme.greenSecondary};
   display: flex;
