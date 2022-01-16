@@ -1,9 +1,10 @@
 import React from 'react';
+import AboutUsHeader from '@/components/AboutUs/AboutUsHeader/AboutUsHeader';
 
 function AboutUs() {
   return (
     <main>
-      <h1>about us</h1>
+      <AboutUsHeader />
     </main>
   );
 }

@@ -1,13 +1,13 @@
 import React from 'react';
-import MainPage from '@/components/MainPage/MainPage';
-
-import '@fontsource/lato';
 import PageWrapper from '@/components/PageWrapper/PageWrapper';
+import AboutUs from '@/components/AboutUs/AboutUs';
 
-export default function Home() {
+function Index() {
   return (
     <PageWrapper>
-      <MainPage />
+      <AboutUs />
     </PageWrapper>
   );
 }
+
+export default Index;
