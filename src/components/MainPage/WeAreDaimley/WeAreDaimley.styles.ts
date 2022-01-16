@@ -2,10 +2,11 @@ import styled from '@emotion/styled';
 import { DaimleyTheme } from '@/theme';
 
 export const WeAreDaimleyStyled = styled.section`
-  margin: 150px 30px;
+  padding: 150px 30px 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
 `;
 
 export const WeAreDaimleyWrapper = styled.div`
