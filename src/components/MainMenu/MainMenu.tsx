@@ -24,7 +24,9 @@ function MainMenu() {
         <MenuItemStyled href="/about-us">
           {translate(`menu.aboutUs`)}
         </MenuItemStyled>
-        <MenuItemStyled>{translate(`menu.contact`)}</MenuItemStyled>
+        <MenuItemStyled href="/contact">
+          {translate(`menu.contact`)}
+        </MenuItemStyled>
       </MenuGroup>
 
       <MenuGroup>

@@ -13,8 +13,9 @@ export const AboutUsDaimleyWorldStyles = styled.section`
 
 export const Header = styled.header`
   border-bottom: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
-  padding: 0 10vw 120px;
+  padding: 0 13vw 120px;
   width: 100vw;
+  display: flex;
 `;
 
 export const SubTitle = styled.h5`
