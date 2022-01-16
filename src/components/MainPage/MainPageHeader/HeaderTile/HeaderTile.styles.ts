@@ -9,7 +9,7 @@ export const HeaderTileWrapper = styled.div`
   background-color: white;
   &:first-of-type {
     margin-left: 100px;
-    background-color: ${(props: DaimleyTheme) => props.theme.greenBg};
+    background-color: ${(props: DaimleyTheme) => props.theme.greenSecondary};
   }
 `;
 
