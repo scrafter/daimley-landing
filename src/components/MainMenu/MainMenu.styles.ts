@@ -19,4 +19,6 @@ export const MenuItemStyled = styled.a`
   padding: 0 60px;
   font-weight: 600;
   cursor: pointer;
+  text-decoration: none;
+  color: white;
 `;

@@ -19,9 +19,11 @@ function MainMenu() {
   return (
     <MenuStyled isScrollOnTop={scrollPosition === 0}>
       <MenuGroup>
-        <MenuItemStyled>{translate(`menu.main`)}</MenuItemStyled>
+        <MenuItemStyled href="/">{translate(`menu.main`)}</MenuItemStyled>
         <MenuItemStyled>{translate(`menu.trainings`)}</MenuItemStyled>
-        <MenuItemStyled>{translate(`menu.aboutUs`)}</MenuItemStyled>
+        <MenuItemStyled href="/about-us">
+          {translate(`menu.aboutUs`)}
+        </MenuItemStyled>
         <MenuItemStyled>{translate(`menu.contact`)}</MenuItemStyled>
       </MenuGroup>
 
