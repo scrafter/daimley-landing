@@ -20,7 +20,9 @@ function MainMenu() {
     <MenuStyled isScrollOnTop={scrollPosition === 0}>
       <MenuGroup>
         <MenuItemStyled href="/">{translate(`menu.main`)}</MenuItemStyled>
-        <MenuItemStyled>{translate(`menu.trainings`)}</MenuItemStyled>
+        <MenuItemStyled href="/trainings">
+          {translate(`menu.trainings`)}
+        </MenuItemStyled>
         <MenuItemStyled href="/about-us">
           {translate(`menu.aboutUs`)}
         </MenuItemStyled>
