@@ -1,3 +1,6 @@
+import '@fontsource/lato';
+import 'react-toastify/dist/ReactToastify.css';
+
 import React from 'react';
 import { theme } from '@/theme';
 import SEO from '@/components/SEO/SEO';
@@ -6,6 +9,7 @@ import Footer from '@/components/Footer/Footer';
 import { css, Global, ThemeProvider } from '@emotion/react';
 import emotionReset from 'emotion-reset';
 import useTranslation from '@/useTranslation';
+import { ToastContainer } from 'react-toastify';
 
 interface Props {
   children: JSX.Element;
@@ -17,6 +21,12 @@ function PageWrapper({ children }: Props) {
   return (
     <ThemeProvider theme={theme}>
       <SEO title={translate(`pageTitle`)} lang={lang} />
+      <ToastContainer
+        position="bottom-right"
+        theme="colored"
+        hideProgressBar
+        draggable={false}
+      />
 
       <MainMenu />
       {children}

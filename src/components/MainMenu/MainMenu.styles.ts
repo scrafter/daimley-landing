@@ -9,6 +9,7 @@ export const MenuStyled = styled.header<{ isScrollOnTop: boolean }>`
   transition: all 0.3s;
   background-color: ${(props) => !props.isScrollOnTop && `rgba(0, 0, 0, 0.4)`};
   padding: ${(props) => (props.isScrollOnTop ? `40px` : `20px 40px`)};
+  z-index: 1000;
 `;
 
 export const MenuGroup = styled.div`
