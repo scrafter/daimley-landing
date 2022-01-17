@@ -23,7 +23,7 @@ function AboutUsKnowLedge() {
           <SubTitle>{translate(`aboutUs.knowledge.subTitle`)}</SubTitle>
           <Title>
             {translate(`aboutUs.knowledge.title1`)}
-            <UnderlinedText text={translate(`aboutUs.knowledge.subTitle`)} />
+            <UnderlinedText text={translate(`aboutUs.knowledge.title2`)} />
           </Title>
 
           <Description>

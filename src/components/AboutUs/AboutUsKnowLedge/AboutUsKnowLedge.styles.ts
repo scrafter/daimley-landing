@@ -30,6 +30,10 @@ export const Title = styled.h1`
   font-size: 2.75rem;
   font-weight: bold;
   margin-bottom: 50px;
+
+  & > span {
+    margin-left: 0.5rem;
+  }
 `;
 
 export const Description = styled.article`
