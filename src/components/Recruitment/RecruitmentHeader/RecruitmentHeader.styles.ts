@@ -5,6 +5,8 @@ export const RecruitmentHeaderStyled = styled.header`
   height: 600px;
   padding: 50px 200px;
   background-image: url(${header});
+  background-size: cover;
+  background-repeat: no-repeat;
   color: white;
   display: flex;
   flex-direction: column;

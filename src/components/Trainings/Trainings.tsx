@@ -1,9 +1,10 @@
 import React from 'react';
+import TrainingsHeader from '@/components/Trainings/TrainingsHeader/TrainingsHeader';
 
 function Trainings() {
   return (
     <main>
-      <h1>Trainings</h1>
+      <TrainingsHeader />
     </main>
   );
 }
