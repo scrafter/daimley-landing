@@ -10,7 +10,7 @@ export const RecruitmentBenefitsStyled = styled.section`
 `;
 
 export const BackgroundWrapper = styled.div`
-  height: 650px;
+  height: 600px;
   background-color: ${(props: DaimleyTheme) => props.theme.gray};
   position: absolute;
   top: 0;
@@ -32,7 +32,7 @@ export const Title = styled.h2`
 `;
 
 export const BulletsWrapper = styled.div`
-  margin-bottom: 230px;
+  margin-bottom: 200px;
 
   p {
     color: white;
