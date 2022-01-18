@@ -28,6 +28,7 @@ export const Title = styled.h2`
   font-weight: bold;
   color: white;
   margin-bottom: 90px;
+  line-height: 1.36;
 `;
 
 export const BulletsWrapper = styled.div`
