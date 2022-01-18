@@ -2,6 +2,7 @@ import React from 'react';
 import RecruitmentHeader from '@/components/Recruitment/RecruitmentHeader/RecruitmentHeader';
 import RecruitmentSpeciality from '@/components/Recruitment/RecruitmentSpeciality/RecruitmentSpeciality';
 import RecruitmentDelegate from '@/components/Recruitment/RecruitmentDelegate/RecruitmentDelegate';
+import RecruitmentProcess from '@/components/Recruitment/RecruitmentProcess/RecruitmentProcess';
 
 function Recruitment() {
   return (
@@ -9,6 +10,7 @@ function Recruitment() {
       <RecruitmentHeader />
       <RecruitmentSpeciality />
       <RecruitmentDelegate />
+      <RecruitmentProcess />
     </main>
   );
 }

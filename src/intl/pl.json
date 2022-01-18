@@ -142,6 +142,18 @@
   "recruitment.delegate.button": "Zleć proces rekrutacyjny",
   "recruitment.delegate.description": "Jeśli chcesz zlecić proces rekrutacyjny, szkoleniowy lub otrzymać ofertę wypełnij formularz. Po jego otrzymaniu skontaktujemy się z Tobą.",
 
+  "recruitment.process.subtitle": "Rekrutacje",
+  "recruitment.process.title": "Proces rekrutacji",
+  "recruitment.process.description": "Aby lepiej zarządzać procesem podzieliliśmy go na pięć etapów, które dają naszym Klientom pełną kontrolę i nad realizacją projektu. Cały proces rozpoczyna się od inicjacjai kontaktu ze strony klienta i nasz pierwszy kontakt telefoniczny lub mailowy podczas,  którego umawiamy termin spotkania lub rozmowy telefonicznej/telekonferencji z Klientem lub osobą decyzyjną.",
+  "recruitment.process.stage1Title": "Etap 1 spotkanie",
+  "recruitment.process.stage1": "Na tym etapie ustalone zostaną oczekiwania Klienta względem poszukiwanego/nej Kandydatki/a. Pomożemy Ci w tej bardzo istotnej kwestii bo jest to kluczowy moment w poszukiwaniu. Możesz liczyć na naszą wiedzę i kompetencje.",
+  "recruitment.process.stage2Title": "Etap 2 Znajdywanie Kandydatów",
+  "recruitment.process.stage2": "W zależności od stanowiska i oczekiwańw ciągu około 15 dni spotkasz się z pierwszymi kandydatami. Będziemy z Toba w stałym kontakcie, abyś na bieżąco miał pewną wiedzę na temat procesu.",
+  "recruitment.process.stage3Title": "Etap 3 - Podpisanie umowy",
+  "recruitment.process.stage3": "Wybór kandydata i ustalenie warunków pracy. Pomożemy Ci wybrać najlepiej, a w razie wątpliwości przygotujemy metodę wyłonienia najlepszego spośród kandydatów",
+  "recruitment.process.stage4Title": "Etap 4 - Podpisanie umowy",
+  "recruitment.process.stage4": "Podpisanie umowy. Wybrany kandydat jest zatrudniany. Zawarcie umowy lub podpisanie promesy zatrudnienia to ważny element naszej współpracy. Pomożemy Ci w przygotowaniu dokumentów",
+
   "footer.mainSite": "Strona główna",
   "footer.aboutUs": "O nas",
   "footer.contact": "Kontakt",
