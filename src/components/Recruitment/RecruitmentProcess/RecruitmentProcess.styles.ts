@@ -48,7 +48,7 @@ export const Stage = styled.article`
 `;
 
 export const StageTitle = styled.h3`
-  margin: 30px 0 40px;
+  margin: 25px 0 40px;
   font-size: 1.875rem;
   font-weight: bold;
   line-height: 1.2;

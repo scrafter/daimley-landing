@@ -10,6 +10,10 @@ import {
   StagesWrapper,
 } from '@/components/Recruitment/RecruitmentProcess/RecruitmentProcess.styles';
 import useTranslation from '@/useTranslation';
+import Etap1 from '@/assets/icons/Etap1';
+import Etap2 from '@/assets/icons/Etap2';
+import Etap3 from '@/assets/icons/Etap3';
+import Etap4 from '@/assets/icons/Etap4';
 
 function RecruitmentProcess() {
   const { translate } = useTranslation();
@@ -22,6 +26,7 @@ function RecruitmentProcess() {
 
       <StagesWrapper>
         <Stage>
+          <Etap1 />
           <StageTitle>
             {translate(`recruitment.process.stage1Title`)}
           </StageTitle>
@@ -31,6 +36,7 @@ function RecruitmentProcess() {
         </Stage>
 
         <Stage>
+          <Etap2 />
           <StageTitle>
             {translate(`recruitment.process.stage2Title`)}
           </StageTitle>
@@ -40,6 +46,7 @@ function RecruitmentProcess() {
         </Stage>
 
         <Stage>
+          <Etap3 />
           <StageTitle>
             {translate(`recruitment.process.stage3Title`)}
           </StageTitle>
@@ -49,6 +56,7 @@ function RecruitmentProcess() {
         </Stage>
 
         <Stage>
+          <Etap4 />
           <StageTitle>
             {translate(`recruitment.process.stage4Title`)}
           </StageTitle>
