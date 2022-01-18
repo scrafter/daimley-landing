@@ -23,6 +23,9 @@ function MainMenu() {
         <MenuItemStyled href="/trainings">
           {translate(`menu.trainings`)}
         </MenuItemStyled>
+        <MenuItemStyled href="/recruitment">
+          {translate(`menu.recruitment`)}
+        </MenuItemStyled>
         <MenuItemStyled href="/about-us">
           {translate(`menu.aboutUs`)}
         </MenuItemStyled>

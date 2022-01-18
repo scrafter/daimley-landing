@@ -2,6 +2,7 @@
   "pageTitle": "Daimley Polska",
   "menu.main": "Strona główna",
   "menu.trainings": "Szkolenia",
+  "menu.recruitment": "Rekrutacje",
   "menu.aboutUs": "O nas",
   "menu.contact": "Kontakt",
 
@@ -123,6 +124,20 @@
   "recruitment.header.subTitle": "Wieloletnie doświadczenie, usugi najwyższej jakości",
   "recruitment.header.title": "Rekrutacje",
   "recruitment.header.button": "Zlecić proces rekrutacyjny",
+
+  "recruitment.speciality.description": "Znalezienie właściwego pracownika to ważne wydarzenie dla każdej organizacji. Od powodzenia tego procesu zależy późniejszy rozwój przedsiębiorstwa i to czy będzie osiągać swoje cele. Wiemy o tym i dlatego wspieramy naszych Klientów i odnajdujemy dla nich optymalnych pracowników. Nasza firma działa wielowymiarowo. Wieloletnie doświadczenie pozwala na zapewnienie usług najwyższej jakości  i szerokiego ich spektrum.",
+  "recruitment.speciality.button": "Zlecić proces rekrutacyjny",
+  "recruitment.speciality.subTitle": "Rekrutacje",
+  "recruitment.speciality.title1": "Nasza",
+  "recruitment.speciality.title2": "Specjalizacja",
+  "recruitment.speciality.weSpecialize": "Specjalizujemy się w rekrutacjach na stanowiska:Execiutie search – najwyższe stanowiska w organizacjach Managerów / Kierowników / Specjalistów.",
+  "recruitment.speciality.bulletsDescription": "Rekrutujemy w następujących obszarach:",
+  "recruitment.speciality.bullet1": "Sprzedaż i marketing",
+  "recruitment.speciality.bullet2": "Finanse i księgowość",
+  "recruitment.speciality.bullet3": "Produkcja",
+  "recruitment.speciality.bullet4": "IT",
+  "recruitment.speciality.bullet5": "E-commerce",
+  "recruitment.speciality.bullet6": "Logistyka",
 
   "footer.mainSite": "Strona główna",
   "footer.aboutUs": "O nas",
