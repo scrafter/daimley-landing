@@ -9,6 +9,7 @@ import {
 import useTranslation from '@/useTranslation';
 import { StaticImage } from 'gatsby-plugin-image';
 import Button from '@/components/Shared/Button/Button';
+import UnderlinedText from '@/components/Shared/UnderlinedText/UnderlinedText';
 
 function TrainingsBrief() {
   const { translate } = useTranslation();
@@ -20,7 +21,9 @@ function TrainingsBrief() {
       />
 
       <DescriptionWrapper>
-        <Title>{translate(`trainings.brief.title`)}</Title>
+        <Title>
+          <UnderlinedText text={translate(`trainings.brief.title`)} />
+        </Title>
         <Summary>{translate(`trainings.brief.summary`)}</Summary>
 
         <Paragraph>{translate(`trainings.brief.paragraph1`)}</Paragraph>
