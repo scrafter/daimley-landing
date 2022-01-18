@@ -3,6 +3,7 @@ import RecruitmentHeader from '@/components/Recruitment/RecruitmentHeader/Recrui
 import RecruitmentSpeciality from '@/components/Recruitment/RecruitmentSpeciality/RecruitmentSpeciality';
 import RecruitmentDelegate from '@/components/Recruitment/RecruitmentDelegate/RecruitmentDelegate';
 import RecruitmentProcess from '@/components/Recruitment/RecruitmentProcess/RecruitmentProcess';
+import RecruitmentBenefits from '@/components/Recruitment/RecruitmentBenefits/RecruitmentBenefits';
 
 function Recruitment() {
   return (
@@ -11,6 +12,7 @@ function Recruitment() {
       <RecruitmentSpeciality />
       <RecruitmentDelegate />
       <RecruitmentProcess />
+      <RecruitmentBenefits />
     </main>
   );
 }
