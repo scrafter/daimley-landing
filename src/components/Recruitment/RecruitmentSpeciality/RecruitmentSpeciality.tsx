@@ -26,7 +26,6 @@ function RecruitmentSpeciality() {
         <StaticImage
           src="../../../assets/recruitment/recr1.png"
           alt="Recruitment photo"
-          transformOptions={{ fit: `contain` }}
         />
 
         <DescriptionSection>
