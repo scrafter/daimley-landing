@@ -172,6 +172,17 @@
   "trainings.brief.paragraph3": "Dzięki metodologii Learn Understand Apply, jesteśmy w stanie nauczyć Cię konkretnych zachowani, sposobu rozwiązywania pojawiających się w Twoim życiu zawodowym problemów. To właśnie praktyczne umiejętności powodują, że po naszym szkoleniu ich uczestnicy osiągają swoje cele i poprawiają swoje wyniki.",
   "trainings.brief.button": "Zapytaj o szkolenie",
 
+  "trainings.list.subTitle": "Daimley",
+  "trainings.list.title": "Nasze szkolenia",
+  "trainings.list.button": "Zapytaj o szkolenie",
+  "trainings.list.readMore": "Czytaj więcej",
+  "trainings.list.readLess": "Czytaj mniej",
+  "trainings.list.target": "Cel warsztatów",
+  "trainings.list.receivers": "Odbiorcami szkolenia powinny być",
+  "trainings.list.structure": "Budowa warsztatów",
+  "trainings.list.effects": "Efekt szkoleniowy",
+  "trainings.list.consistOf": "Szkolenie składa się z {number} modułów:",
+
   "trainings.contact.title1": "Masz dodatkowe pytania?",
   "trainings.contact.title2": "Skontaktuj się z nami.",
   "trainings.contact.button": "Kontakt",

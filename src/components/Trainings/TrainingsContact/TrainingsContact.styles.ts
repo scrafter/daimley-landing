@@ -17,6 +17,7 @@ export const Title = styled.h2`
   font-size: 2.75rem;
   font-weight: bold;
   margin-right: 70px;
+  line-height: 1.36;
 `;
 
 export const ContactDataWrapper = styled.address`

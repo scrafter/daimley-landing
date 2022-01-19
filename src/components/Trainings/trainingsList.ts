@@ -1,5 +1,7 @@
 export const TRAININGS_LIST = [
   {
+    type: `Warsztaty szkoleniowe`,
+    title: `Nowoczesne techniki sprzedaży w praktyce. Level expert 1`,
     description: [
       `Szkolenie „Techniki sprzedaży w praktyce. Level expert 1” jest nowoczesnym i eksperckim szkoleniem prowadzonym w formie wykładowo-warsztatowej. Skierowane jest do osób chcących rozwijać swoje umiejętności w ramach handlu i sprzedaży, jak również osób wiążących rozwój swojej kariery zawodowej z tematyką sprzedaży. Powstało na kanwie wieloletniej praktyki specjalistów związanych z handlem oraz psychologią i prowadzących swoją działalność w różnych gałęziach gospodarki.`,
       `Warsztaty pomagają osiągnąć zadowolenie u wszystkich stron związanych z procesem sprzedaży tj. u Przedsiębiorcy (Pracodawcy),  Pracownika i  Klienta. Wyszkolona osoba, która umiejętnie przeprowadza proces sprzedaży, nie tylko osiąga swoje cele, przyczynia się do rozwoju i osiągania celów swojej organizacji/swojego pracodawcy, ale również rozwija swoich klientów osiągając dodatkowy efekt synergii i zwiększenie sprzedaży w przyszłości.`,
@@ -48,6 +50,8 @@ export const TRAININGS_LIST = [
 
   // drugie szkolenie
   {
+    type: `Warsztaty szkoleniowe`,
+    title: `Nowoczesne techniki sprzedaży w praktyce. Level expert 2`,
     description: [
       `Szkolenie „Nowoczesne techniki sprzedaży w praktyce. Level expert 2” jest kontynuacją szkolenia poziomu pierwszego. Skierowane jest do osób, które ukończyły szkolenie na poziomie pierwszym i chcą dalej rozwijać swoje umiejętności. `,
     ],
@@ -88,6 +92,8 @@ export const TRAININGS_LIST = [
 
   // trzecie szkolenie
   {
+    type: `Warsztaty szkoleniowe`,
+    title: `Ekspercka asysta sprzedażowa`,
     description: [
       `Szkolenie „Asysta sprzedażowa w praktyce” skierowane jest do osób, które odpowiedzialne są za bezpośrednie kierowanie grupą handlowców, za ich osiągnięcia i realizację wyznaczonych celów, oraz za szkolenia tych osób podczas codziennej pracy.`,
     ],

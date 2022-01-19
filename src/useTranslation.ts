@@ -5,7 +5,8 @@ const useTranslation = () => {
   const intl = useIntl();
 
   const translate = useCallback(
-    (message: string) => intl.formatMessage({ id: message }),
+    (message: string, parameter?: Record<string, number>) =>
+      intl.formatMessage({ id: message }, parameter),
     [intl.formatMessage],
   );
 
