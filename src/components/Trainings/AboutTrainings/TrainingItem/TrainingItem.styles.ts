@@ -14,7 +14,7 @@ export const TrainingItemStyled = styled.article`
 export const Table = styled.table`
   table-layout: fixed;
 
-  & tr:last-of-type button {
+  .last-row button {
     width: 100%;
   }
 `;

@@ -126,7 +126,7 @@ function TrainingItem({ item }: Props) {
               </td>
             </tr>
 
-            <tr>
+            <tr className="last-row">
               <td />
               <td colSpan={2}>
                 <Button label={translate(`trainings.list.button`)} />
