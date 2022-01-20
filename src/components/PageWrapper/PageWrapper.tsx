@@ -13,9 +13,10 @@ import { ToastContainer } from 'react-toastify';
 
 interface Props {
   children: JSX.Element;
+  darkMenu?: boolean;
 }
 
-function PageWrapper({ children }: Props) {
+function PageWrapper({ children, darkMenu }: Props) {
   const { translate, lang } = useTranslation();
 
   return (
@@ -28,7 +29,7 @@ function PageWrapper({ children }: Props) {
         draggable={false}
       />
 
-      <MainMenu />
+      <MainMenu darkMenu={darkMenu} />
       {children}
       <Footer />
 

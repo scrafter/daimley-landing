@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const ContactDataStyled = styled.section`
-  padding: 0 80px;
+  padding: 0 40px;
   display: flex;
   position: relative;
   justify-content: center;

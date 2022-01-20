@@ -3,10 +3,14 @@ import { DaimleyTheme } from '@/theme';
 
 interface IMenuStyled extends DaimleyTheme {
   isScrollOnTop: boolean;
+  darkMenu?: boolean;
 }
 
 export const MenuStyled = styled.header<IMenuStyled>`
-  color: white;
+  border-bottom: ${(props) =>
+    props.darkMenu &&
+    props.isScrollOnTop &&
+    `1px solid ${props.theme.borderGray}`};
   position: fixed;
   display: flex;
   align-items: center;
@@ -16,6 +20,9 @@ export const MenuStyled = styled.header<IMenuStyled>`
   background-color: ${(props) => !props.isScrollOnTop && `rgba(0, 0, 0, 0.4)`};
   padding: ${(props) => (props.isScrollOnTop ? `30px` : `20px 40px`)};
   z-index: 1000;
+
+  & a {
+    color: ${(props) => (props.darkMenu ? `#000` : `#fff`)}
 `;
 
 export const MenuGroup = styled.div`
@@ -28,7 +35,6 @@ export const MenuItemStyled = styled.a`
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
-  color: white;
   flex-shrink: 0;
 
   :first-of-type {

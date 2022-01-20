@@ -4,7 +4,7 @@ import Form from '@/components/Form/Form';
 
 function Index() {
   return (
-    <PageWrapper>
+    <PageWrapper darkMenu>
       <Form />
     </PageWrapper>
   );

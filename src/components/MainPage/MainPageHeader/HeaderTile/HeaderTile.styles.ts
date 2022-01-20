@@ -3,7 +3,7 @@ import { DaimleyTheme } from '@/theme';
 
 export const HeaderTileWrapper = styled.div`
   border-radius: 6px;
-  padding: 70px 50px;
+  padding: 70px 30px;
   display: flex;
   flex-direction: column;
   background-color: white;

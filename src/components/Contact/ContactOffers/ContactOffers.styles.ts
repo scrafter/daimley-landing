@@ -9,7 +9,6 @@ export const ContactOffersStyled = styled.section`
 `;
 
 export const Wrapper = styled.div`
-  width: 75vw;
   display: flex;
 `;
 

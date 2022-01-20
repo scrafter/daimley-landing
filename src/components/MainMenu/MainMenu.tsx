@@ -4,7 +4,11 @@ import { EMAIL_ADDRESS, PHONE_NUMBER, PHONE_NUMBER_TO_READ } from '@/constants';
 import { MenuStyled, MenuItemStyled, MenuGroup } from './MainMenu.styles';
 import Logo from '@/assets/icons/Logo';
 
-function MainMenu() {
+interface Props {
+  darkMenu?: boolean;
+}
+
+function MainMenu({ darkMenu }: Props) {
   const { translate } = useTranslation();
   const [scrollPosition, setScrollPosition] = useState<number>(0);
 
@@ -18,7 +22,7 @@ function MainMenu() {
   }, []);
 
   return (
-    <MenuStyled isScrollOnTop={scrollPosition === 0}>
+    <MenuStyled isScrollOnTop={scrollPosition === 0} darkMenu={darkMenu}>
       <MenuGroup>
         <MenuItemStyled href="/">
           <Logo />
