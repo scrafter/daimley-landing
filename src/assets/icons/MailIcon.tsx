@@ -1,15 +1,8 @@
 import React, { SVGAttributes } from 'react';
-import styled from '@emotion/styled';
-
-const Root = styled.svg`
-  height: 20px;
-  width: 28px;
-  fill: #ff9e48;
-`;
 
 export function MailIcon(props: SVGAttributes<SVGElement>) {
   return (
-    <Root
+    <svg
       version="1.1"
       id="Warstwa_1"
       xmlns="http://www.w3.org/2000/svg"
@@ -31,8 +24,14 @@ export function MailIcon(props: SVGAttributes<SVGElement>) {
 		C3.5,4.4,6.7,6.3,9.9,8.3z"
         />
       </g>
-    </Root>
+    </svg>
   );
 }
+
+MailIcon.defaultProps = {
+  height: 20,
+  width: 20,
+  fill: `#ff9e48`,
+};
 
 export default MailIcon;

@@ -1,15 +1,8 @@
 import React, { SVGAttributes } from 'react';
-import styled from '@emotion/styled';
-
-const Root = styled.svg`
-  height: 20px;
-  width: 28px;
-  fill: #ff9e48;
-`;
 
 export function PhoneIcon(props: SVGAttributes<SVGElement>) {
   return (
-    <Root
+    <svg
       version="1.1"
       id="Warstwa_1"
       xmlns="http://www.w3.org/2000/svg"
@@ -27,8 +20,14 @@ export function PhoneIcon(props: SVGAttributes<SVGElement>) {
 	c-1.5-0.5-2.9-1.3-4.2-2.3c-2.2-1.6-4.1-3.4-5.7-5.5c-1.2-1.6-2.2-3.2-2.9-5.1C0.2,5.9,0,5.1,0,4.2c0-0.8,0.3-1.4,0.9-2
 	c0.5-0.5,0.9-0.9,1.4-1.4C2.7,0.4,3.1,0.1,3.7,0C3.8,0,4,0,4.1,0z"
       />
-    </Root>
+    </svg>
   );
 }
+
+PhoneIcon.defaultProps = {
+  height: 20,
+  width: 28,
+  fill: `#ff9e48`,
+};
 
 export default PhoneIcon;

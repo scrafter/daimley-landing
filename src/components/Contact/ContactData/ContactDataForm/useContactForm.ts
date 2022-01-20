@@ -2,7 +2,8 @@ import { useCallback } from 'react';
 import useTranslation from '@/useTranslation';
 import { toast } from 'react-toastify';
 
-interface FormData {
+export interface FormData {
+  topic?: string;
   firstName: string;
   lastName: string;
   companyName: string;
@@ -13,6 +14,9 @@ interface FormData {
 
 const getData = (data: FormData) => {
   const formData = new FormData();
+  if (data.topic) {
+    formData.append(`topic`, data.topic);
+  }
   formData.append(`name`, `Ze strony Daimley.pl`);
   formData.append(`Imię`, data.firstName);
   formData.append(`Nazwisko`, data.lastName);
