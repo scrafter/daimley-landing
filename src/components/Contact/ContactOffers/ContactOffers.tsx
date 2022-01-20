@@ -10,9 +10,11 @@ import {
   PostScript,
 } from '@/components/Contact/ContactOffers/ContactOffers.styles';
 import useTranslation from '@/useTranslation';
-import PhotoMock from '@/components/PhotoMock/PhotoMock';
 import Button from '@/components/Shared/Button/Button';
-import { EMAIL_ADDRESS, PHONE_NUMBER_TO_READ } from '@/constants';
+import { EMAIL_ADDRESS, PHONE_NUMBER, PHONE_NUMBER_TO_READ } from '@/constants';
+import PhoneIcon from '@/assets/icons/PhoneIcon';
+import BossIcon from '@/assets/icons/BossIcon';
+import WorkIcon from '@/assets/icons/WorkIcon';
 
 function ContactOffers() {
   const { translate } = useTranslation();
@@ -22,7 +24,7 @@ function ContactOffers() {
       <Wrapper>
         <Section>
           <TitleWrapper>
-            <PhotoMock width={68} height={60} />
+            <WorkIcon />
             <Title>{translate(`contact.offers.sectionTitle1`)}</Title>
           </TitleWrapper>
 
@@ -35,12 +37,17 @@ function ContactOffers() {
           <PostScript>
             {translate(`contact.offers.sectionPostScript1`)}
           </PostScript>
-          <Contact>{PHONE_NUMBER_TO_READ}</Contact>
+          <Contact>
+            <PhoneIcon width={20} height={20} />
+            <a className="phone" href={`tel:${PHONE_NUMBER}`}>
+              {PHONE_NUMBER_TO_READ}
+            </a>
+          </Contact>
         </Section>
 
         <Section>
           <TitleWrapper>
-            <PhotoMock width={68} height={60} />
+            <BossIcon width={54} height={60} />
             <Title>{translate(`contact.offers.sectionTitle2`)}</Title>
           </TitleWrapper>
 
@@ -53,12 +60,17 @@ function ContactOffers() {
           <PostScript>
             {translate(`contact.offers.sectionPostScript2`)}
           </PostScript>
-          <Contact>{PHONE_NUMBER_TO_READ}</Contact>
+          <Contact>
+            <PhoneIcon width={20} height={20} />
+            <a className="phone" href={`tel:${PHONE_NUMBER}`}>
+              {PHONE_NUMBER_TO_READ}
+            </a>
+          </Contact>
         </Section>
 
         <Section>
           <TitleWrapper>
-            <PhotoMock width={68} height={60} />
+            <BossIcon width={54} height={60} />
             <Title>{translate(`contact.offers.sectionTitle3`)}</Title>
           </TitleWrapper>
 

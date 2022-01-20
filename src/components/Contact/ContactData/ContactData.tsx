@@ -7,7 +7,6 @@ import {
   Email,
   Wrapper,
 } from '@/components/Contact/ContactData/ContactData.styles';
-import PhotoMock from '@/components/PhotoMock/PhotoMock';
 import useTranslation from '@/useTranslation';
 import {
   OPINION_EMAIL_ADDRESS,
@@ -15,13 +14,17 @@ import {
   PHONE_NUMBER_TO_READ,
 } from '@/constants';
 import ContactDataForm from '@/components/Contact/ContactData/ContactDataForm/ContactDataForm';
+import { StaticImage } from 'gatsby-plugin-image';
 
 function ContactData() {
   const { translate } = useTranslation();
   return (
     <ContactDataStyled>
       <Wrapper>
-        <PhotoMock width={350} height={500} />
+        <StaticImage
+          src="../../../assets/contact/contact2.jpg"
+          alt="Recruitment photo"
+        />
 
         <DataSection>
           <Title>{translate(`contact.data.title`)}</Title>

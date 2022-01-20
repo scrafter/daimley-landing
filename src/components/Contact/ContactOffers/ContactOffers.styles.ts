@@ -65,8 +65,16 @@ export const PostScript = styled.p`
 export const Contact = styled.p`
   font-size: 1.125rem;
   line-height: 2;
+  display: flex;
+  align-items: center;
 
   & > a {
+    margin-left: 10px;
     color: ${(props: DaimleyTheme) => props.theme.orange};
+
+    &.phone {
+      text-decoration: none;
+      color: #fff;
+    }
   }
 `;

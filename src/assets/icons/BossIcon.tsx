@@ -1,6 +1,11 @@
 import React from 'react';
 
-function BossIcon() {
+interface Props {
+  height?: number;
+  width?: number;
+}
+
+function BossIcon(props: Props) {
   return (
     <svg
       version="1.1"
@@ -10,9 +15,8 @@ function BossIcon() {
       y="0px"
       viewBox="0 0 70.9 80"
       xmlSpace="preserve"
-      height={80}
-      width={70}
       fill="#419d3e"
+      {...props}
     >
       <path
         d="M30.8,80c-1.2-0.1-2.5-0.2-3.7-0.3c-8.7-0.6-17.2-2.2-25.5-4.9c-1.3-0.4-1.6-0.9-1.5-2.2c0.3-5.7,2-11,5.5-15.6
@@ -44,5 +48,10 @@ function BossIcon() {
     </svg>
   );
 }
+
+BossIcon.defaultProps = {
+  height: 80,
+  width: 70,
+};
 
 export default BossIcon;

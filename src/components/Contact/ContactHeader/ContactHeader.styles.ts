@@ -1,4 +1,5 @@
 import styled from '@emotion/styled';
+import header from '@/assets/contact/contact1.jpg';
 
 export const ContactHeaderStyled = styled.section`
   height: 470px;
@@ -7,7 +8,9 @@ export const ContactHeaderStyled = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  background-color: #707070;
+  background-image: url(${header});
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
 
 export const SubTitle = styled.h6`
