@@ -2,7 +2,7 @@ module.exports = {
   // Since `gatsby-plugin-typescript` is automatically included in Gatsby you
   // don't need to define it here (just if you need to change the options)
   siteMetadata: {
-    title: `Daimley Polska`,
+    title: `Daimley Polska - Agencja zatrudnienia`,
     description: `Agencja zatrudnienia oraz szkolenia sprzedażowe`,
     siteUrl: `https://daimley.pl`,
     author: `Andrzej Urbaniak`,
