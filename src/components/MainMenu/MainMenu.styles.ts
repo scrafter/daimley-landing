@@ -13,8 +13,7 @@ export const MenuStyled = styled.header<IMenuStyled>`
   justify-content: space-between;
   width: 100vw;
   transition: all 0.3s;
-  background-color: ${(props) =>
-    !props.isScrollOnTop ? `rgba(0, 0, 0, 0.4)` : props.theme.gray};
+  background-color: ${(props) => !props.isScrollOnTop && `rgba(0, 0, 0, 0.4)`};
   padding: ${(props) => (props.isScrollOnTop ? `30px` : `20px 40px`)};
   z-index: 1000;
 `;

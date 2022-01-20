@@ -1,8 +1,11 @@
 import styled from '@emotion/styled';
 import { DaimleyTheme } from '@/theme';
+import header from '@/assets/home/home1.jpg';
 
 export const StyledMainPageHeader = styled.header`
-  background-color: ${(props: DaimleyTheme) => props.theme.gray};
+  background-image: url(${header});
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: space-between;
   padding: 200px 200px 170px;

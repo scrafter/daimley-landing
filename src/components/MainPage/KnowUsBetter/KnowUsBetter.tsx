@@ -7,9 +7,9 @@ import {
   SubTitle,
   Title,
 } from '@/components/MainPage/KnowUsBetter/KnowUsBetter.styles';
-import PhotoMock from '@/components/PhotoMock/PhotoMock';
 import useTranslation from '@/useTranslation';
 import Button from '@/components/Shared/Button/Button';
+import { StaticImage } from 'gatsby-plugin-image';
 
 function KnowUsBetter() {
   const { translate } = useTranslation();
@@ -17,7 +17,10 @@ function KnowUsBetter() {
   return (
     <KnowUsBetterStyled>
       <KnowUsBetterWrapper>
-        <PhotoMock width={620} height={630} />
+        <StaticImage
+          src="../../../assets/home/home2.jpg"
+          alt="Recruitment photo"
+        />
 
         <DescriptionSection>
           <SubTitle>{translate(`knowUsBetter.subTitle`)}</SubTitle>

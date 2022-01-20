@@ -54,6 +54,7 @@ export const WeAreDaimleyTile = styled.div`
     margin-top: 40px;
     text-align: center;
     font-size: 1.125rem;
+    max-width: 300px;
   }
 `;
 

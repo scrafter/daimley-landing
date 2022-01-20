@@ -12,13 +12,15 @@ interface Props {
     text: string;
     url: string;
   }[];
+  icon: JSX.Element;
 }
 
-function HeaderTile({ title, links }: Props) {
+function HeaderTile({ title, links, icon }: Props) {
   const { translate } = useTranslation();
 
   return (
     <HeaderTileWrapper>
+      {icon}
       <HeaderTileTitle>{translate(title)}</HeaderTileTitle>
 
       {links.map((link) => (

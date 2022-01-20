@@ -11,8 +11,10 @@ import {
 } from './WeAreDaimley.styles';
 import useTranslation from '@/useTranslation';
 import UnderlinedText from '@/components/Shared/UnderlinedText/UnderlinedText';
-import PhotoMock from '@/components/PhotoMock/PhotoMock';
 import Button from '@/components/Shared/Button/Button';
+import FindIcon from '@/assets/icons/FindIcon';
+import TrainingsIcon from '@/assets/icons/TrainingsIcon';
+import SupportIcon from '@/assets/icons/SupportIcon';
 
 function WeAreDaimley() {
   const { translate } = useTranslation();
@@ -34,19 +36,19 @@ function WeAreDaimley() {
 
         <WeAreDaimleyTilesWrapper>
           <WeAreDaimleyTile>
-            <PhotoMock width={80} height={80} />
+            <FindIcon />
 
             <p>{translate(`weAreDaimley.tile1`)}</p>
           </WeAreDaimleyTile>
 
           <WeAreDaimleyTile>
-            <PhotoMock width={80} height={80} />
+            <TrainingsIcon />
 
             <p>{translate(`weAreDaimley.tile2`)}</p>
           </WeAreDaimleyTile>
 
           <WeAreDaimleyTile>
-            <PhotoMock width={80} height={80} />
+            <SupportIcon />
 
             <p>{translate(`weAreDaimley.tile3`)}</p>
           </WeAreDaimleyTile>

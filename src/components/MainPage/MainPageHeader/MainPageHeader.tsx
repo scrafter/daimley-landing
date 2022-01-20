@@ -9,6 +9,8 @@ import {
   MainPageLeftWrapper,
   MainPageRightWrapper,
 } from 'src/components/MainPage/MainPageHeader/MainPageHeader.styles';
+import BossIcon from '@/assets/icons/BossIcon';
+import EmployeeIcon from '@/assets/icons/EmployeeIcon';
 
 const LINKS = [
   [
@@ -39,8 +41,16 @@ function MainPageHeader() {
       </MainPageLeftWrapper>
 
       <MainPageRightWrapper>
-        <HeaderTile title="mainPage.header.bossSpace" links={LINKS[0]} />
-        <HeaderTile title="mainPage.header.employeeSpace" links={LINKS[1]} />
+        <HeaderTile
+          icon={<BossIcon />}
+          title="mainPage.header.bossSpace"
+          links={LINKS[0]}
+        />
+        <HeaderTile
+          icon={<EmployeeIcon />}
+          title="mainPage.header.employeeSpace"
+          links={LINKS[1]}
+        />
       </MainPageRightWrapper>
     </StyledMainPageHeader>
   );
