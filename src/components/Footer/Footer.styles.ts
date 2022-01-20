@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
 import { DaimleyTheme } from '@/theme';
 
-export const StyledFooter = styled.footer`
-  background-color: white;
-  padding: 100px 100px 150px;
+export const StyledFooter = styled.footer``;
+
+export const ColumnsWrapper = styled.div`
+  padding: 100px 100px 70px;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -23,4 +24,11 @@ export const FooterColumnTitle = styled.h4`
 export const FooterColumnItem = styled.a`
   color: ${(props: DaimleyTheme) => props.theme?.grayText};
   margin: 10px 0;
+`;
+
+export const Copyright = styled.p`
+  padding: 40px 0 40px 200px;
+  border-top: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
+  font-size: 1rem;
+  color: ${(props: DaimleyTheme) => props.theme.gray};
 `;

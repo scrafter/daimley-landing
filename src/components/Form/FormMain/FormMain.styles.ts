@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { DaimleyTheme } from '@/theme';
 
 export const FormMainStyles = styled.section`
-  padding: 120px 20px 120px;
+  padding: 140px 20px 120px;
   border-bottom: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
   display: flex;
   justify-content: center;

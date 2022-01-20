@@ -2,6 +2,7 @@ import React, { useLayoutEffect, useState } from 'react';
 import useTranslation from '@/useTranslation';
 import { EMAIL_ADDRESS, PHONE_NUMBER, PHONE_NUMBER_TO_READ } from '@/constants';
 import { MenuStyled, MenuItemStyled, MenuGroup } from './MainMenu.styles';
+import Logo from '@/assets/icons/Logo';
 
 function MainMenu() {
   const { translate } = useTranslation();
@@ -19,6 +20,9 @@ function MainMenu() {
   return (
     <MenuStyled isScrollOnTop={scrollPosition === 0}>
       <MenuGroup>
+        <MenuItemStyled href="/">
+          <Logo />
+        </MenuItemStyled>
         <MenuItemStyled href="/">{translate(`menu.main`)}</MenuItemStyled>
         <MenuItemStyled href="/trainings">
           {translate(`menu.trainings`)}

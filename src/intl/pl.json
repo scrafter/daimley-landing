@@ -226,5 +226,8 @@
   "footer.recruitmentProcess": "Proces rekrutacji",
   "footer.example": "Pozycja nr 1",
 
-  "general.formSent": "Formularz pomyślnie wysłany"
+  "general.formSent": "Formularz pomyślnie wysłany",
+  "general.404": "Strona, której szukasz nie istnieje",
+  "general.goBack": "Powrót do strony głównej",
+  "general.copyright": "Copyright © {year} Daimley Polska."
 }
