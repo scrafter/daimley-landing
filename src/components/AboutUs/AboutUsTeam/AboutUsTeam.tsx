@@ -2,23 +2,28 @@ import React from 'react';
 import {
   AboutUsTeamStyled,
   Wrapper,
-  Image,
   Title,
   SubTitle,
   Brief,
   Description,
+  DescriptionWrapper,
+  ImageWrapper,
 } from '@/components/AboutUs/AboutUsTeam/AboutUsTeam.styles';
 import useTranslation from '@/useTranslation';
 import UnderlinedText from '@/components/Shared/UnderlinedText/UnderlinedText';
+import { StaticImage } from 'gatsby-plugin-image';
 
 function AboutUsTeam() {
   const { translate } = useTranslation();
   return (
     <AboutUsTeamStyled>
       <Wrapper>
-        <Image />
+        <StaticImage
+          src="../../../assets/aboutUs/aboutUs2.jpg"
+          alt="Recruitment photo"
+        />
 
-        <div>
+        <DescriptionWrapper>
           <SubTitle>{translate(`aboutUs.main.subTitle`)}</SubTitle>
           <Title>
             <UnderlinedText text={translate(`aboutUs.main.title1`)} />
@@ -32,7 +37,14 @@ function AboutUsTeam() {
           <Description>{translate(`aboutUs.main.description2`)}</Description>
 
           <Description>{translate(`aboutUs.main.greetings`)}</Description>
-        </div>
+
+          <ImageWrapper>
+            <StaticImage
+              src="../../../assets/aboutUs/aboutUs5.jpg"
+              alt="Recruitment photo"
+            />
+          </ImageWrapper>
+        </DescriptionWrapper>
       </Wrapper>
     </AboutUsTeamStyled>
   );

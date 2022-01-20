@@ -3,9 +3,9 @@ import useTranslation from '@/useTranslation';
 import {
   AboutUsConsultingStyled,
   Description,
-  Image,
 } from '@/components/AboutUs/AboutUsConsulting/AboutUsConsulting.styles';
 import Button from '@/components/Shared/Button/Button';
+import { StaticImage } from 'gatsby-plugin-image';
 
 function AboutUsConsulting() {
   const { translate } = useTranslation();
@@ -15,7 +15,11 @@ function AboutUsConsulting() {
         <Description>{translate(`aboutUs.consulting.description`)}</Description>
         <Button label={translate(`aboutUs.consulting.button`)} />
       </div>
-      <Image />
+
+      <StaticImage
+        src="../../../assets/aboutUs/aboutUs3.jpg"
+        alt="Recruitment photo"
+      />
     </AboutUsConsultingStyled>
   );
 }

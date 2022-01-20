@@ -10,15 +10,19 @@ import {
   Article,
   ArticlesWrapper,
 } from '@/components/AboutUs/AboutUsKnowLedge/AboutUsKnowLedge.styles';
-import PhotoMock from '@/components/PhotoMock/PhotoMock';
 import UnderlinedText from '@/components/Shared/UnderlinedText/UnderlinedText';
+import { StaticImage } from 'gatsby-plugin-image';
 
 function AboutUsKnowLedge() {
   const { translate } = useTranslation();
   return (
     <AboutUsKnowLedgeStyled>
       <PositionWrapper>
-        <PhotoMock width={540} height={630} />
+        <StaticImage
+          src="../../../assets/aboutUs/aboutUs4.jpg"
+          alt="Recruitment photo"
+        />
+
         <DescriptionWrapper>
           <SubTitle>{translate(`aboutUs.knowledge.subTitle`)}</SubTitle>
           <Title>

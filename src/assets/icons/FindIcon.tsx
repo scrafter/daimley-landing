@@ -1,6 +1,11 @@
 import React from 'react';
 
-function FindIcon() {
+interface Props {
+  height?: number;
+  width?: number;
+}
+
+function FindIcon(props: Props) {
   return (
     <svg
       version="1.1"
@@ -10,9 +15,8 @@ function FindIcon() {
       y="0px"
       viewBox="0 0 55 55"
       xmlSpace="preserve"
-      height={80}
-      width={80}
       fill="#419d3e"
+      {...props}
     >
       <g>
         <path
@@ -58,5 +62,10 @@ function FindIcon() {
     </svg>
   );
 }
+
+FindIcon.defaultProps = {
+  height: 80,
+  width: 80,
+};
 
 export default FindIcon;

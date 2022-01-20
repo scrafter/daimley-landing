@@ -1,6 +1,11 @@
 import React from 'react';
 
-function TrainingsIcon() {
+interface Props {
+  height?: number;
+  width?: number;
+}
+
+function TrainingsIcon(props: Props) {
   return (
     <svg
       version="1.1"
@@ -10,9 +15,8 @@ function TrainingsIcon() {
       y="0px"
       viewBox="0 0 62.9 55"
       xmlSpace="preserve"
-      height={70}
-      width={70}
       fill="#419d3e"
+      {...props}
     >
       <g>
         <path
@@ -52,5 +56,10 @@ function TrainingsIcon() {
     </svg>
   );
 }
+
+TrainingsIcon.defaultProps = {
+  height: 70,
+  width: 70,
+};
 
 export default TrainingsIcon;

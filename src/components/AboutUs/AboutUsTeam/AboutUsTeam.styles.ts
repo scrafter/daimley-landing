@@ -8,15 +8,17 @@ export const AboutUsTeamStyled = styled.section`
 `;
 
 export const Wrapper = styled.div`
-  max-width: 75vw;
   display: flex;
 `;
 
-export const Image = styled.img`
-  height: 670px;
-  width: 540px;
-  background-color: #707070;
-  margin-right: 100px;
+export const DescriptionWrapper = styled.div`
+  margin-left: 100px;
+  max-width: 600px;
+`;
+
+export const ImageWrapper = styled.div`
+  display: flex;
+  justify-content: flex-end;
 `;
 
 export const SubTitle = styled.h6`
@@ -55,5 +57,6 @@ export const Description = styled.h4`
   &:last-of-type {
     text-align: right;
     margin-top: 25px;
+    margin-bottom: 0;
   }
 `;

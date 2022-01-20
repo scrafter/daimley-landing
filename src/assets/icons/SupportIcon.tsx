@@ -1,6 +1,11 @@
 import React from 'react';
 
-function SupportIcon() {
+interface Props {
+  height?: number;
+  width?: number;
+}
+
+function SupportIcon(props: Props) {
   return (
     <svg
       version="1.1"
@@ -10,10 +15,8 @@ function SupportIcon() {
       y="0px"
       viewBox="0 0 55 55"
       xmlSpace="preserve"
-      height={60}
-      width={60}
       fill="#419d3e"
-      style={{ marginBottom: `10px` }}
+      {...props}
     >
       <g>
         <path
@@ -56,5 +59,10 @@ function SupportIcon() {
     </svg>
   );
 }
+
+SupportIcon.defaultProps = {
+  height: 60,
+  width: 60,
+};
 
 export default SupportIcon;

@@ -1,8 +1,11 @@
 import styled from '@emotion/styled';
+import header from '@/assets/aboutUs/aboutUs1.jpg';
 
 export const AboutUsHeaderStyled = styled.header`
   height: 600px;
-  background-color: #707070;
+  background-image: url(${header});
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;

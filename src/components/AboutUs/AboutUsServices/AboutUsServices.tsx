@@ -12,9 +12,11 @@ import {
   Title,
   Brief,
 } from '@/components/AboutUs/AboutUsServices/AboutUsServices.styles';
-import PhotoMock from '@/components/PhotoMock/PhotoMock';
 import Button from '@/components/Shared/Button/Button';
 import { EMAIL_ADDRESS, PHONE_NUMBER } from '@/constants';
+import TrainingsIcon from '@/assets/icons/TrainingsIcon';
+import FindIcon from '@/assets/icons/FindIcon';
+import SupportIcon from '@/assets/icons/SupportIcon';
 
 function AboutUsServices() {
   const { translate } = useTranslation();
@@ -28,7 +30,7 @@ function AboutUsServices() {
 
       <SectionsWrapper>
         <Section>
-          <PhotoMock width={62} height={62} />
+          <TrainingsIcon width={62} height={62} />
           <SectionTitle>
             {translate(`aboutUs.services.trainingsTitle`)}
           </SectionTitle>
@@ -39,7 +41,7 @@ function AboutUsServices() {
         </Section>
 
         <Section>
-          <PhotoMock width={62} height={62} />
+          <FindIcon width={62} height={62} />
           <SectionTitle>
             {translate(`aboutUs.services.recruitmentTitle`)}
           </SectionTitle>
@@ -50,7 +52,7 @@ function AboutUsServices() {
         </Section>
 
         <Section>
-          <PhotoMock width={62} height={62} />
+          <SupportIcon width={62} height={62} />
           <SectionTitle>
             {translate(`aboutUs.services.supportTitle`)}
           </SectionTitle>
