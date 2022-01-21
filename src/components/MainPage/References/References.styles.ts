@@ -1,5 +1,6 @@
 import styled from '@emotion/styled';
 import { DaimleyTheme } from '@/theme';
+import backgroundImage from '@/assets/home/home3.jpg';
 
 export const ReferencesStyled = styled.section`
   background-color: ${(props: DaimleyTheme) => props.theme.gray};
@@ -37,5 +38,7 @@ export const BackgroundImage = styled.img`
   bottom: 0;
   height: 100%;
   width: 550px;
-  background-color: lightgray;
+  background-image: url(${backgroundImage});
+  background-size: cover;
+  background-repeat: no-repeat;
 `;
