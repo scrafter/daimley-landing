@@ -9,7 +9,7 @@ interface Props {
 
 function Button({ label, type, link }: Props) {
   const onClick = () => {
-    window.location.replace(link);
+    window.location.href = link;
   };
   return (
     <StyledButton type={type} onClick={onClick}>

@@ -10,6 +10,7 @@ import { css, Global, ThemeProvider } from '@emotion/react';
 import emotionReset from 'emotion-reset';
 import useTranslation from '@/useTranslation';
 import { ToastContainer } from 'react-toastify';
+import CookiesBar from '@/components/CookiesBar/CookiesBar';
 
 interface Props {
   children: JSX.Element;
@@ -32,6 +33,7 @@ function PageWrapper({ children, darkMenu }: Props) {
       <MainMenu darkMenu={darkMenu} />
       {children}
       <Footer />
+      <CookiesBar />
 
       <Global
         styles={css`

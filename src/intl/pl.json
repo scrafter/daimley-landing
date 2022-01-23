@@ -228,6 +228,12 @@
   "footer.industry": "Branże, w których rekrutujemy",
   "footer.recruitmentProcess": "Proces rekrutacji",
   "footer.example": "Pozycja nr 1",
+  "footer.statute": "Regulamin i polityka prywatności",
+
+  "statute.title": "Regulamin i polityka prywatności",
+  "statute.download": "Pobierz stąd",
+
+  "cookies.content": "Strona daimley.pl wykorzystuje pliki cookies. Umożliwiają one sprawne działanie strony, narzędzi analitycznych, reklamowych i społecznościowych. Szczegóły na ten temat znajdziesz w Polityce Prywatności. Ustawienia cookies możesz zmienić w preferencjach swojej przeglądarki internetowej.",
 
   "general.formSent": "Formularz pomyślnie wysłany",
   "general.404": "Strona, której szukasz nie istnieje",

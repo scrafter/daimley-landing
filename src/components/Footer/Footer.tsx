@@ -1,6 +1,6 @@
 import React from 'react';
 import useTranslation from '@/useTranslation';
-import { StyledFooter, Copyright } from './Footer.styles';
+import { StyledFooter, Copyright, StatuteLink } from './Footer.styles';
 
 function Footer() {
   const { translate } = useTranslation();
@@ -56,6 +56,8 @@ function Footer() {
 
       <Copyright>
         {translate(`general.copyright`, { year: currentYear })}
+
+        <StatuteLink href="/statute">{translate(`footer.statute`)}</StatuteLink>
       </Copyright>
     </StyledFooter>
   );

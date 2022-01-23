@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import { DaimleyTheme } from '@/theme';
 
-export const StyledButton = styled.button`
+export const StyledButton = styled.a`
   background-color: ${(props: DaimleyTheme) => props.theme?.orange};
   padding: 25px 20px;
   color: white;

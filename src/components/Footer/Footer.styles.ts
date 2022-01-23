@@ -27,8 +27,16 @@ export const FooterColumnItem = styled.a`
 `;
 
 export const Copyright = styled.p`
-  padding: 40px 0 40px 200px;
+  padding: 40px 50px;
   border-top: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
   font-size: 1rem;
+  color: ${(props: DaimleyTheme) => props.theme.gray};
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+`;
+
+export const StatuteLink = styled.a`
+  text-decoration: none;
   color: ${(props: DaimleyTheme) => props.theme.gray};
 `;
