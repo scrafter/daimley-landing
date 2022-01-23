@@ -36,6 +36,12 @@ export const MenuItemStyled = styled.a`
   cursor: pointer;
   text-decoration: none;
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+
+  svg {
+    margin-right: 6px;
+  }
 
   :first-of-type {
     padding-left: 0;

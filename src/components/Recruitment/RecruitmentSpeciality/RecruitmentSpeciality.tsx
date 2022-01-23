@@ -32,7 +32,10 @@ function RecruitmentSpeciality() {
           <Description>
             {translate(`recruitment.speciality.description`)}
           </Description>
-          <Button label={translate(`recruitment.speciality.button`)} />
+          <Button
+            label={translate(`recruitment.speciality.button`)}
+            link="/form"
+          />
 
           <SubTitle>{translate(`recruitment.speciality.subTitle`)}</SubTitle>
 

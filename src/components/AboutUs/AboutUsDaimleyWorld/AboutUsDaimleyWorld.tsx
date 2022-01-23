@@ -77,7 +77,10 @@ function AboutUsDaimleyWorld() {
             />
           </ContactTitle>
 
-          <Button label={translate(`aboutUs.daimleyWorld.contactButton`)} />
+          <Button
+            link="/contact"
+            label={translate(`aboutUs.daimleyWorld.contactButton`)}
+          />
         </ContactSection>
       </BottomWrapper>
     </AboutUsDaimleyWorldStyles>

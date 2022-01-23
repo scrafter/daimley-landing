@@ -8,7 +8,6 @@ import {
 } from '@/components/MainPage/References/References.styles';
 import { testimonialsList } from './testimonials';
 import Testimonial from '@/components/MainPage/References/Testimonial/Testimonial';
-import Button from '@/components/Shared/Button/Button';
 import useTranslation from '@/useTranslation';
 
 function References() {
@@ -21,8 +20,6 @@ function References() {
         <div>
           <SubTitle>{translate(`references.subTitle`)}</SubTitle>
           <Title>{translate(`references.title`)}</Title>
-
-          <Button label={translate(`references.button`)} />
         </div>
 
         <Testimonial

@@ -59,7 +59,7 @@ function WeAreDaimley() {
             {translate(`weAreDaimley.footerDescription`)}
           </WeAreDaimleyDescription>
 
-          <Button label={translate(`weAreDaimley.button`)} />
+          <Button link="/about-us" label={translate(`weAreDaimley.button`)} />
         </WeAreDaimleyFooter>
       </WeAreDaimleyWrapper>
     </WeAreDaimleyStyled>

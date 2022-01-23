@@ -13,7 +13,7 @@ import {
   Brief,
 } from '@/components/AboutUs/AboutUsServices/AboutUsServices.styles';
 import Button from '@/components/Shared/Button/Button';
-import { EMAIL_ADDRESS, PHONE_NUMBER } from '@/constants';
+import { EMAIL_ADDRESS, PHONE_NUMBER, PHONE_NUMBER_TO_READ } from '@/constants';
 import TrainingsIcon from '@/assets/icons/TrainingsIcon';
 import FindIcon from '@/assets/icons/FindIcon';
 import SupportIcon from '@/assets/icons/SupportIcon';
@@ -37,7 +37,10 @@ function AboutUsServices() {
           <SectionContent>
             {translate(`aboutUs.services.trainingsContent`)}
           </SectionContent>
-          <Button label={translate(`aboutUs.services.trainingsButton`)} />
+          <Button
+            link="/trainings"
+            label={translate(`aboutUs.services.trainingsButton`)}
+          />
         </Section>
 
         <Section>
@@ -48,7 +51,10 @@ function AboutUsServices() {
           <SectionContent>
             {translate(`aboutUs.services.recruitmentContent`)}
           </SectionContent>
-          <Button label={translate(`aboutUs.services.recruitmentButton`)} />
+          <Button
+            link="/recruitment"
+            label={translate(`aboutUs.services.recruitmentButton`)}
+          />
         </Section>
 
         <Section>
@@ -59,13 +65,16 @@ function AboutUsServices() {
           <SectionContent>
             {translate(`aboutUs.services.supportContent`)}
           </SectionContent>
-          <Button label={translate(`aboutUs.services.supportButton`)} />
+          <Button
+            link="/form"
+            label={translate(`aboutUs.services.supportButton`)}
+          />
         </Section>
       </SectionsWrapper>
 
       <Contact>
         {translate(`aboutUs.services.contact1`)}
-        <a href={`tel:${PHONE_NUMBER}`}>{PHONE_NUMBER}</a>
+        <a href={`tel:${PHONE_NUMBER}`}>{PHONE_NUMBER_TO_READ}</a>
         {translate(`aboutUs.services.contact2`)}
         <a href={`mailto:${EMAIL_ADDRESS}`}>{EMAIL_ADDRESS}</a>
         {translate(`aboutUs.services.contact3`)}

@@ -22,7 +22,7 @@ function TrainingsContact() {
         <UnderlinedText text={translate(`trainings.contact.title2`)} />
       </Title>
 
-      <Button label={translate(`trainings.contact.button`)} />
+      <Button link="/contact" label={translate(`trainings.contact.button`)} />
 
       <ContactDataWrapper>
         <Phone>

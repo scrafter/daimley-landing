@@ -10,7 +10,7 @@ function RecruitmentDelegate() {
   const { translate } = useTranslation();
   return (
     <RecruitmentDelegateStyled>
-      <Button label={translate(`recruitment.delegate.button`)} />
+      <Button link="/form" label={translate(`recruitment.delegate.button`)} />
       <Description>{translate(`recruitment.delegate.description`)}</Description>
     </RecruitmentDelegateStyled>
   );

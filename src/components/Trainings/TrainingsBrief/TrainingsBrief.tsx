@@ -30,7 +30,7 @@ function TrainingsBrief() {
         <Paragraph>{translate(`trainings.brief.paragraph2`)}</Paragraph>
         <Paragraph>{translate(`trainings.brief.paragraph3`)}</Paragraph>
 
-        <Button label={translate(`trainings.brief.button`)} />
+        <Button label={translate(`trainings.brief.button`)} link="/form" />
       </DescriptionWrapper>
     </TrainingsBriefStyled>
   );

@@ -26,7 +26,7 @@ function KnowUsBetter() {
           <SubTitle>{translate(`knowUsBetter.subTitle`)}</SubTitle>
           <Title>{translate(`knowUsBetter.title`)}</Title>
           <Description>{translate(`knowUsBetter.description`)}</Description>
-          <Button label={translate(`knowUsBetter.button`)} />
+          <Button link="/about-us" label={translate(`knowUsBetter.button`)} />
         </DescriptionSection>
       </KnowUsBetterWrapper>
     </KnowUsBetterStyled>

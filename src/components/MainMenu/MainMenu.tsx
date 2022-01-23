@@ -3,6 +3,9 @@ import useTranslation from '@/useTranslation';
 import { EMAIL_ADDRESS, PHONE_NUMBER, PHONE_NUMBER_TO_READ } from '@/constants';
 import { MenuStyled, MenuItemStyled, MenuGroup } from './MainMenu.styles';
 import Logo from '@/assets/icons/Logo';
+import PhoneIcon from '@/assets/icons/PhoneIcon';
+import MailIcon from '@/assets/icons/MailIcon';
+import LogoWhite from '@/assets/icons/LogoWhite';
 
 interface Props {
   darkMenu?: boolean;
@@ -21,11 +24,13 @@ function MainMenu({ darkMenu }: Props) {
     return () => window.removeEventListener(`scroll`, updatePosition);
   }, []);
 
+  const iconsFill = darkMenu ? `#000` : `#FFF`;
+
   return (
     <MenuStyled isScrollOnTop={scrollPosition === 0} darkMenu={darkMenu}>
       <MenuGroup>
         <MenuItemStyled href="/">
-          <Logo />
+          {darkMenu ? <Logo /> : <LogoWhite />}
         </MenuItemStyled>
         <MenuItemStyled href="/">{translate(`menu.main`)}</MenuItemStyled>
         <MenuItemStyled href="/trainings">
@@ -44,9 +49,11 @@ function MainMenu({ darkMenu }: Props) {
 
       <MenuGroup>
         <MenuItemStyled href={`tel:${PHONE_NUMBER}`}>
+          <PhoneIcon fill={iconsFill} />
           {PHONE_NUMBER_TO_READ}
         </MenuItemStyled>
         <MenuItemStyled href={`mailto:${EMAIL_ADDRESS}`}>
+          <MailIcon fill={iconsFill} />
           {EMAIL_ADDRESS}
         </MenuItemStyled>
       </MenuGroup>

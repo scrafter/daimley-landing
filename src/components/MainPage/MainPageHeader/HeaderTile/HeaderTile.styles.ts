@@ -3,14 +3,16 @@ import { DaimleyTheme } from '@/theme';
 
 export const HeaderTileWrapper = styled.div`
   border-radius: 6px;
-  padding: 70px 30px;
+  padding: 70px 30px 32px;
   display: flex;
   flex-direction: column;
   background-color: white;
   align-self: flex-start;
+  width: 320px;
 
   &:first-of-type {
     margin-left: 100px;
+    padding-bottom: 110px;
     background-color: ${(props: DaimleyTheme) => props.theme.greenSecondary};
   }
 `;

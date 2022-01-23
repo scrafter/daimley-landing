@@ -15,14 +15,20 @@ function AboutUsArticles() {
         <ArticleDescription>
           {translate(`aboutUs.articles.trainings`)}
         </ArticleDescription>
-        <Button label={translate(`aboutUs.articles.trainingsButton`)} />
+        <Button
+          link="/trainings"
+          label={translate(`aboutUs.articles.trainingsButton`)}
+        />
       </Article>
 
       <Article>
         <ArticleDescription>
           {translate(`aboutUs.articles.recruitments`)}
         </ArticleDescription>
-        <Button label={translate(`aboutUs.articles.recruitmentsButton`)} />
+        <Button
+          link="/recruitment"
+          label={translate(`aboutUs.articles.recruitmentsButton`)}
+        />
       </Article>
     </AboutUsArticlesStyled>
   );

@@ -13,7 +13,7 @@ function RecruitmentHeader() {
     <RecruitmentHeaderStyled>
       <SubTitle>{translate(`recruitment.header.subTitle`)}</SubTitle>
       <Title>{translate(`recruitment.header.title`)}</Title>
-      <Button label={translate(`recruitment.header.button`)} />
+      <Button link="/form" label={translate(`recruitment.header.button`)} />
     </RecruitmentHeaderStyled>
   );
 }

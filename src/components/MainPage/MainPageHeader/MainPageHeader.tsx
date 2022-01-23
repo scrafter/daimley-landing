@@ -11,15 +11,36 @@ import {
 } from 'src/components/MainPage/MainPageHeader/MainPageHeader.styles';
 import BossIcon from '@/assets/icons/BossIcon';
 import EmployeeIcon from '@/assets/icons/EmployeeIcon';
+import { EMAIL_ADDRESS } from '@/constants';
+
+const EMAIL_BODY = `Szanowni Państwo,
+  W załączniku przesyłam swoje CV.
+  Proszę o umieszczenie go w bazie danych firmy Daimley i informowanie mnie o ofertach pracy zgodnych z moim doświadczeniem.
+`;
+
+const EMAIL_BODY2 = `Szanowni Państwo,
+  Chciałbym/am skorzystać z Państwa darmowej usługi weryfikacji mojego CV.
+  Przesyłam je w załączniku.
+  Jednocześnie proszę o dołączenie mojego CV do bazy danych firmy Daimley.
+`;
 
 const LINKS = [
   [
-    { text: `mainPage.header.delegateRecruitment`, url: `#` },
-    { text: `mainPage.header.delegateTraining`, url: `#` },
+    { text: `mainPage.header.delegateRecruitment`, url: `/form` },
+    { text: `mainPage.header.delegateTraining`, url: `/form` },
+    { text: `mainPage.header.delegateConsulting`, url: `/form` },
   ],
   [
     { text: `mainPage.header.jobOffers`, url: `#` },
-    { text: `mainPage.header.buyTraining`, url: `#` },
+    { text: `mainPage.header.buyTraining`, url: `/trainings` },
+    {
+      text: `mainPage.header.registerCV`,
+      url: `mailto:${EMAIL_ADDRESS}?Subject=Rejestracja CV w bazie Daimley&body=${EMAIL_BODY}`,
+    },
+    {
+      text: `mainPage.header.registerCVToCheck`,
+      url: `mailto:${EMAIL_ADDRESS}?Subject=Darmowa usługa weryfikacji CV&body=${EMAIL_BODY2}`,
+    },
   ],
 ];
 
@@ -37,7 +58,9 @@ function MainPageHeader() {
           {translate(`mainPage.header.weSupport`)}
         </MainPageDescription>
 
-        <MainPageButton>{translate(`mainPage.header.checkOut`)}</MainPageButton>
+        <MainPageButton onClick={() => window.location.replace(`/about-us`)}>
+          {translate(`mainPage.header.checkOut`)}
+        </MainPageButton>
       </MainPageLeftWrapper>
 
       <MainPageRightWrapper>

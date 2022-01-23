@@ -40,7 +40,7 @@ function RecruitmentBenefits() {
           src="../../../assets/recruitment/recr2.png"
           alt="Recruitment photo"
         />
-        <Button label={translate(`recruitment.benefits.button`)} />
+        <Button link="/form" label={translate(`recruitment.benefits.button`)} />
       </ImageWrapper>
     </RecruitmentBenefitsStyled>
   );

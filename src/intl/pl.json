@@ -12,9 +12,12 @@
   "mainPage.header.bossSpace": "Strefa pracodawcy",
   "mainPage.header.delegateRecruitment": "Zleć projekt rekrutacyjny",
   "mainPage.header.delegateTraining": "Zleć projekt szkoleniowy",
+  "mainPage.header.delegateConsulting": "Zleć usługę consultingu",
   "mainPage.header.employeeSpace": "Strefa pracownika",
   "mainPage.header.jobOffers": "Oferty pracy",
-  "mainPage.header.buyTraining": "Kup szkolenie dla siebie",
+  "mainPage.header.buyTraining": "Zadbaj o swój rozwój - wybierz i kup szkolenie dla siebie",
+  "mainPage.header.registerCV": "Wyślij swoje CV",
+  "mainPage.header.registerCVToCheck": "Wyślij swoje CV do sprawdzenia i darmowej konsultacji",
   "mainPage.header.register": "Zarejestruj się",
 
   "weAreDaimley.subTitle": "Rekrutacje · Szkolenia · Consultng",
@@ -53,7 +56,7 @@
   "aboutUs.articles.recruitmentsButton": "Więcej o rekrutacjach",
 
   "aboutUs.consulting.description": "Niemal dwadzieścia pięć lat pracy w biznesie sprawia, iż podczas postukiwania talentów mogę nie tylko skupić się na najważniejszych cechach i umiejętnościach jakich poszukuje u kandydatów mój Klient, ale również doradzić, jacy kandydaci mogą być dla organizacji mojego Klienta optymalni. Idealni pracownicy to klucz do sukcesu, a jednocześnie tylko jeden z ważnych elementów każdej organizacji. Zdarza się, że nawet najlepsi nie potrafią realizować swoich celów bo problem tkwi w zarządzaniu i procesach obowiązujących w firmie. W swojej karierze zrestrukturyzowałem i zoptymalizowałem kilka przedsiębiorstw pomagając im na osiągnięcie sukcesu. Dowiedz się więcej informacji o consultingu zarządczym, który Państwu oferuję",
-  "aboutUs.consulting.button": "Więcej o Consultingu Zarządczym",
+  "aboutUs.consulting.button": "Zapytaj o consulting",
 
   "aboutUs.services.subTitle": "O nas",
   "aboutUs.services.title": "Nasze Usługi",
@@ -109,8 +112,8 @@
   "contact.yourOpinion.section2": "Jeżeli wolisz napisz do nas swoją opinię na adres ",
 
   "contact.offers.sectionTitle1": "Szukasz pracy?",
-  "contact.offers.sectionContent1": "Jeśli jesteś kandydatem i szukasz pracy wypełnij formularz lub wyślij swoje CV na adres e-mail rekrutacje@daimley.pl. W CV umieść te klauzule związane z ustawą z RODO.",
-  "contact.offers.sectionButton1": "Formularz oferty pracy",
+  "contact.offers.sectionContent1": "Jeśli jesteś kandydatem i szukasz pracy wyślij swoje CV na adres e-mail rekrutacje@daimley.pl. W CV umieść te klauzule związane z ustawą z RODO.",
+  "contact.offers.sectionButton1": "Prześlij CV",
   "contact.offers.sectionPostScript1": "W przypadku pytań związanych z ofertami pracy czekamy na Twój telefon pod numerem",
   "contact.offers.sectionTitle2": "Jesteś pracodawcą?",
   "contact.offers.sectionContent2": "Jeśli jesteś pracodawcą i chcesz zlecić rekrutację lub przeprowadzenie szkolenia wypełnij formularz lub wyślij zapytanie drogą mailową na adres info@daimley.pl",

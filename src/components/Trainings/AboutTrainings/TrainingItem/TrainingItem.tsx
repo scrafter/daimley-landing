@@ -55,7 +55,7 @@ function TrainingItem({ item }: Props) {
             </ParapgraphWrapper>
           </td>
           <td>
-            <Button label={translate(`trainings.list.button`)} />
+            <Button link="/form" label={translate(`trainings.list.button`)} />
           </td>
         </tr>
 
@@ -129,7 +129,10 @@ function TrainingItem({ item }: Props) {
             <tr className="last-row">
               <td />
               <td colSpan={2}>
-                <Button label={translate(`trainings.list.button`)} />
+                <Button
+                  link="/form"
+                  label={translate(`trainings.list.button`)}
+                />
               </td>
             </tr>
           </>

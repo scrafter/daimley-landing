@@ -27,13 +27,14 @@ function ContactOffers() {
             <WorkIcon />
             <Title>{translate(`contact.offers.sectionTitle1`)}</Title>
           </TitleWrapper>
-
           <SectionDescription>
             {translate(`contact.offers.sectionContent1`)}
           </SectionDescription>
-
-          <Button label={translate(`contact.offers.sectionButton1`)} />
-
+          {/* {'@TODO ADD EMAIL LINK'} */}
+          <Button
+            link="/form"
+            label={translate(`contact.offers.sectionButton1`)}
+          />
           <PostScript>
             {translate(`contact.offers.sectionPostScript1`)}
           </PostScript>
@@ -55,7 +56,10 @@ function ContactOffers() {
             {translate(`contact.offers.sectionContent2`)}
           </SectionDescription>
 
-          <Button label={translate(`contact.offers.sectionButton2`)} />
+          <Button
+            link="/form"
+            label={translate(`contact.offers.sectionButton2`)}
+          />
 
           <PostScript>
             {translate(`contact.offers.sectionPostScript2`)}
@@ -78,7 +82,10 @@ function ContactOffers() {
             {translate(`contact.offers.sectionContent3`)}
           </SectionDescription>
 
-          <Button label={translate(`contact.offers.sectionButton3`)} />
+          <Button
+            link="/form"
+            label={translate(`contact.offers.sectionButton3`)}
+          />
 
           <PostScript>
             {translate(`contact.offers.sectionPostScript3`)}

@@ -2,8 +2,9 @@ module.exports = {
   // Since `gatsby-plugin-typescript` is automatically included in Gatsby you
   // don't need to define it here (just if you need to change the options)
   siteMetadata: {
-    title: `Daimley Polska - Agencja zatrudnienia`,
-    description: `Agencja zatrudnienia oraz szkolenia sprzedażowe`,
+    title: `Przyjazne rekrutacje, eksperckie szkolenia, consulting zarządczy.`,
+    description: `Rekrutacje dla firm – atrakcyjne warunki współpracy. Szkolenia dla firm z dofinansowaniem.`,
+    keywords: `szkolenie, szkolenia, rekrutacje, rekrutacja, consulting, rekrutacje stałe, szkolenia sprzedażowe, szkolenia handlowe, dotacje unijne, dofinansowanie szkoleń, praca, szukanie pracy, praca marzeń, wsparcie dla firm, curriculum vitae, życiorys zawodowy, budowanie zespołu, jak sprzedawać więcej, zarządzanie zespołem, motywowanie, zarządzanie, kierowanie, osiąganie celów, rekrutowanie, idealny pracownik, pracodawca.`,
     siteUrl: `https://daimley.pl`,
     author: `Andrzej Urbaniak`,
   },

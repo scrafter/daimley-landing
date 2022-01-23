@@ -8,11 +8,7 @@ import {
   Wrapper,
 } from '@/components/Contact/ContactData/ContactData.styles';
 import useTranslation from '@/useTranslation';
-import {
-  OPINION_EMAIL_ADDRESS,
-  PHONE_NUMBER,
-  PHONE_NUMBER_TO_READ,
-} from '@/constants';
+import { EMAIL_ADDRESS, PHONE_NUMBER, PHONE_NUMBER_TO_READ } from '@/constants';
 import ContactDataForm from '@/components/Contact/ContactData/ContactDataForm/ContactDataForm';
 import { StaticImage } from 'gatsby-plugin-image';
 
@@ -29,9 +25,7 @@ function ContactData() {
         <DataSection>
           <Title>{translate(`contact.data.title`)}</Title>
           <Phone href={`tel:${PHONE_NUMBER}`}>{PHONE_NUMBER_TO_READ}</Phone>
-          <Email href={`mailto:${OPINION_EMAIL_ADDRESS}`}>
-            {OPINION_EMAIL_ADDRESS}
-          </Email>
+          <Email href={`mailto:${EMAIL_ADDRESS}`}>{EMAIL_ADDRESS}</Email>
         </DataSection>
       </Wrapper>
 
