@@ -12,6 +12,7 @@ export const CookiesBarStyled = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 100;
 `;
 
 export const Content = styled.p`
