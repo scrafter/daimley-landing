@@ -33,7 +33,6 @@ function ContactOffers() {
           </SectionDescription>
           <Button
             link={CV_EMAIL}
-            isEmail
             label={translate(`contact.offers.sectionButton1`)}
           />
           <PostScript>
