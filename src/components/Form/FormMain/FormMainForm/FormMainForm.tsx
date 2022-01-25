@@ -46,9 +46,10 @@ function FormMainForm() {
     >
       <Title>{translate(`form.main.formTitle`)}</Title>
 
-      <FieldGroup>
+      <FieldGroup isInvalid={isInvalid(`topic`)}>
         <Label>{translate(`contact.form.companyName`)}</Label>
-        <Select {...register(`topic`)}>
+        <Select {...register(`topic`, { required: true })}>
+          <option selected value={undefined} label=" " />
           {selectOptions.map((value) => (
             <option value={value} key={value}>
               {value}

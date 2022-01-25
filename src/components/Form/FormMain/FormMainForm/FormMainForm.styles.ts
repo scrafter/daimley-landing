@@ -36,6 +36,7 @@ export const FieldGroup = styled.div<{ isInvalid?: boolean }>`
   }
 
   & > input,
+  & > select,
   & > textarea {
     border-color: ${(props) => props.isInvalid && `red`};
   }
