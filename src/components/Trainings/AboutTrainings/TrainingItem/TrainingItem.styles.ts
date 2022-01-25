@@ -32,7 +32,7 @@ export const Title = styled.h3`
   font-size: 1.375rem;
   font-weight: bold;
   margin-top: 18px;
-  max-width: 300px;
+  width: 300px;
 `;
 
 export const ParapgraphWrapper = styled.div`
