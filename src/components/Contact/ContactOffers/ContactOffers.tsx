@@ -15,6 +15,7 @@ import { EMAIL_ADDRESS, PHONE_NUMBER, PHONE_NUMBER_TO_READ } from '@/constants';
 import PhoneIcon from '@/assets/icons/PhoneIcon';
 import BossIcon from '@/assets/icons/BossIcon';
 import WorkIcon from '@/assets/icons/WorkIcon';
+import { CV_EMAIL } from '@/components/MainPage/MainPageHeader/MainPageHeader';
 
 function ContactOffers() {
   const { translate } = useTranslation();
@@ -30,9 +31,9 @@ function ContactOffers() {
           <SectionDescription>
             {translate(`contact.offers.sectionContent1`)}
           </SectionDescription>
-          {/* {'@TODO ADD EMAIL LINK'} */}
           <Button
-            link="/form"
+            link={CV_EMAIL}
+            isEmail
             label={translate(`contact.offers.sectionButton1`)}
           />
           <PostScript>
@@ -91,7 +92,7 @@ function ContactOffers() {
             {translate(`contact.offers.sectionPostScript3`)}
           </PostScript>
           <Contact>
-            <a href={`mailto${EMAIL_ADDRESS}`}>{EMAIL_ADDRESS}</a>
+            <a href={`mailto:${EMAIL_ADDRESS}`}>{EMAIL_ADDRESS}</a>
           </Contact>
         </Section>
       </Wrapper>

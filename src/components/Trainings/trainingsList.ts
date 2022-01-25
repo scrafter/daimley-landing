@@ -1,5 +1,7 @@
 export const TRAININGS_LIST = [
   {
+    type: `Warsztaty szkoleniowe:`,
+    title: `Techniki sprzedaży w praktyce. Level expert 1`,
     description: [
       `Szkolenie „Techniki sprzedaży w praktyce. Level expert 1” jest nowoczesnym i eksperckim szkoleniem prowadzonym w formie wykładowo-warsztatowej. Skierowane jest do osób chcących rozwijać swoje umiejętności w ramach handlu i sprzedaży, jak również osób wiążących rozwój swojej kariery zawodowej z tematyką sprzedaży. Powstało na kanwie wieloletniej praktyki specjalistów związanych z handlem oraz psychologią i prowadzących swoją działalność w różnych gałęziach gospodarki.
 `,
@@ -49,6 +51,8 @@ export const TRAININGS_LIST = [
 
   // drugie szkolenie
   {
+    type: `Warsztaty szkoleniowe:`,
+    title: `Nowoczesne techniki sprzedaży w praktyce. Level expert 2`,
     description: [
       `Szkolenie „Nowoczesne techniki sprzedaży w praktyce. Level expert 2” jest kontynuacją szkolenia poziomu pierwszego. Skierowane jest do osób, które ukończyły szkolenie na poziomie pierwszym i chcą dalej rozwijać swoje umiejętności. `,
     ],
@@ -89,6 +93,8 @@ export const TRAININGS_LIST = [
 
   // trzecie szkolenie
   {
+    type: `Warsztaty szkoleniowe:`,
+    title: `Asysta sprzedażowa w praktyce`,
     description: [
       `Szkolenie „Asysta sprzedażowa w praktyce” skierowane jest do osób, które odpowiedzialne są za bezpośrednie kierowanie grupą handlowców, za ich osiągnięcia i realizację wyznaczonych celów, oraz za szkolenia tych osób podczas codziennej pracy.`,
     ],
@@ -130,6 +136,8 @@ export const TRAININGS_LIST = [
 
   // czwarte szkolenie Skuteczny manager i leader
   {
+    type: `Warsztaty szkoleniowe:`,
+    title: `Skuteczny manager i leader`,
     description: [
       `Celem warsztatów jest zapoznanie uczestników i nauczenie ich technik skutecznego zażądania podległą grupą pracowników. `,
     ],
@@ -169,6 +177,8 @@ Polepszenie atmosfery współpracy w sytuacjach trudnych`,
   },
   // piąte szkolenie Wywieranie wpływu
   {
+    type: `Warsztaty szkoleniowe:`,
+    title: `Wywieranie wpływu`,
     description: [
       `Celem warsztatów, jest przekazanie uczestnikom wiedzy i umiejętności pomagających wpływać na otaczające ich środowisko w taki sposób, aby w pełni realizować swoje cele i wykorzystywać posiadane atuty a jednocześnie robić to w sposób przyjaznych i moralny. `,
     ],
@@ -208,6 +218,8 @@ Polepszenie atmosfery współpracy w sytuacjach trudnych`,
 
   // szóste szkolenie Budowanie zespołu
   {
+    type: `Warsztaty szkoleniowe:`,
+    title: `Budowanie zespołu`,
     description: [
       `Celem szkolenia jest przekazanie  uczestnikom narzędzi i wiedzy potrzebnej do budowanie skutecznych zespołów. `,
     ],
@@ -220,8 +232,8 @@ Polepszenie atmosfery współpracy w sytuacjach trudnych`,
     structure: {
       description: `Managerowie i kandydaci na managerów mający w zakresie swoich obowiązków zarządzanie podległym zespołem. Właściciele firm średnich i dużych firm, których struktura wymusza pracę zespołową.`,
       modules: [
-        `Moduł 1 - Czym jest zespół pracowników   `,
-        `Moduł 2 - Tworzenie zespołu i rekrutacja pracowników   `,
+        `Moduł 1 - Czym jest zespół pracowników`,
+        `Moduł 2 - Tworzenie zespołu i rekrutacja pracowników`,
         `Moduł 3 - Teorie budowania zespołów`,
         `Moduł 4 - Teoria ról`,
         `Moduł 5 - Planowanie stanowiska pracy   `,

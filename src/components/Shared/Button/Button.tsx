@@ -1,15 +1,21 @@
 import React from 'react';
 import { StyledButton } from './Button.styles';
+import { navigate } from 'gatsby';
 
 interface Props {
   label: string;
   type?: 'button' | 'submit' | 'reset';
+  isEmail?: boolean;
   link?: string;
 }
 
-function Button({ label, type, link }: Props) {
+function Button({ label, type, link, isEmail }: Props) {
   const onClick = () => {
-    window.location.href = link;
+    if (isEmail) {
+      window.location.href = link;
+    } else if (link) {
+      navigate(link);
+    }
   };
   return (
     <StyledButton type={type} onClick={onClick}>

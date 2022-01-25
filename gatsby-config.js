@@ -31,6 +31,17 @@ module.exports = {
         redirect: false,
       },
     },
+    {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-T2RT7ZT',
+        // datalayer to be set before GTM is loaded
+        // should be an object or a function that is executed in the browser
+        //
+        // Defaults to null
+        defaultDataLayer: { platform: 'gatsby' },
+      },
+    },
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     `gatsby-plugin-image`,

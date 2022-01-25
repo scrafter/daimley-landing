@@ -24,6 +24,9 @@ const EMAIL_BODY2 = `Szanowni Państwo,
   Jednocześnie proszę o dołączenie mojego CV do bazy danych firmy Daimley.
 `;
 
+export const CV_EMAIL = `mailto:${EMAIL_ADDRESS}?Subject=Rejestracja CV w bazie Daimley&body=${EMAIL_BODY}`;
+export const CV_VERIFY_EMAIL = `mailto:${EMAIL_ADDRESS}?Subject=Darmowa usługa weryfikacji CV&body=${EMAIL_BODY2}`;
+
 const LINKS = [
   [
     { text: `mainPage.header.delegateRecruitment`, url: `/form` },
@@ -35,11 +38,11 @@ const LINKS = [
     { text: `mainPage.header.buyTraining`, url: `/trainings` },
     {
       text: `mainPage.header.registerCV`,
-      url: `mailto:${EMAIL_ADDRESS}?Subject=Rejestracja CV w bazie Daimley&body=${EMAIL_BODY}`,
+      url: CV_EMAIL,
     },
     {
       text: `mainPage.header.registerCVToCheck`,
-      url: `mailto:${EMAIL_ADDRESS}?Subject=Darmowa usługa weryfikacji CV&body=${EMAIL_BODY2}`,
+      url: CV_VERIFY_EMAIL,
     },
   ],
 ];
