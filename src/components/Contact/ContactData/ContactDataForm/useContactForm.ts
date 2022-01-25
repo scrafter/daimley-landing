@@ -31,7 +31,7 @@ const useContactForm = () => {
   const { translate } = useTranslation();
 
   const onSubmit = useCallback((body: FormData, reset: () => void) => {
-    fetch(`https://getform.io/f/3e2d200e-d381-4523-8aee-dacb946c5967`, {
+    fetch(`https://getform.io/f/a34a8a8b-f1e1-4d67-b55b-ba6c29b57ef7`, {
       method: `POST`,
       body: getData(body),
     }).then(() => {
