@@ -18,6 +18,15 @@ export const Wrapper = styled.div`
   z-index: 10;
 `;
 
+export const DescriptionWrapper = styled.div`
+  margin-right: 20px;
+`;
+
+export const TestimonialWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
 export const SubTitle = styled.h6`
   font-size: 1.125rem;
   font-weight: bold;
@@ -41,4 +50,14 @@ export const BackgroundImage = styled.img`
   background-image: url(${backgroundImage});
   background-size: cover;
   background-repeat: no-repeat;
+`;
+
+export const Arrows = styled.div`
+  display: flex;
+  margin-top: 50px;
+
+  svg:first-of-type {
+    transform: rotate(180deg);
+    margin-right: 60px;
+  }
 `;
