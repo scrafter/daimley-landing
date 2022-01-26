@@ -47,7 +47,7 @@ function FormMainForm() {
       <Title>{translate(`form.main.formTitle`)}</Title>
 
       <FieldGroup isInvalid={isInvalid(`topic`)}>
-        <Label>{translate(`contact.form.companyName`)}</Label>
+        <Label>{translate(`contact.form.topic`)}</Label>
         <Select {...register(`topic`, { required: true })}>
           <option selected value={undefined} label=" " />
           {selectOptions.map((value) => (

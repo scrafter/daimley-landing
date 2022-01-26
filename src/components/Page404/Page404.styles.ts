@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Page404Styled = styled.main`
-  height: 100vh;
+  height: calc(100vh - 100px);
   width: 100vw;
   display: flex;
   justify-content: center;
