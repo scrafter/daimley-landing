@@ -1,9 +1,9 @@
 export const TRAININGS_LIST = [
   {
     type: `Warsztaty szkoleniowe:`,
-    title: `Techniki sprzedaży w praktyce. Level expert 1`,
+    title: `Techniki sprzedaży w praktyce. Level expert 1.`,
     description: [
-      `Szkolenie „Techniki sprzedaży w praktyce. Level expert 1” jest nowoczesnym i eksperckim szkoleniem prowadzonym w formie wykładowo-warsztatowej. Skierowane jest do osób chcących rozwijać swoje umiejętności w ramach handlu i sprzedaży, jak również osób wiążących rozwój swojej kariery zawodowej z tematyką sprzedaży. Powstało na kanwie wieloletniej praktyki specjalistów związanych z handlem oraz psychologią i prowadzących swoją działalność w różnych gałęziach gospodarki.
+      `Szkolenie „Techniki sprzedaży w praktyce. Level expert 1.” jest nowoczesnym i eksperckim szkoleniem prowadzonym w formie wykładowo-warsztatowej. Skierowane jest do osób chcących rozwijać swoje umiejętności w ramach handlu i sprzedaży, jak również osób wiążących rozwój swojej kariery zawodowej z tematyką sprzedaży. Powstało na kanwie wieloletniej praktyki specjalistów związanych z handlem, oraz psychologią a prowadzących swoją działalność w różnych gałęziach gospodarki.
 `,
       `Warsztaty pomagają osiągnąć zadowolenie u wszystkich stron związanych z procesem sprzedaży tj. u Przedsiębiorcy (Pracodawcy),  Pracownika i  Klienta. Wyszkolona osoba, która umiejętnie przeprowadza proces sprzedaży, nie tylko osiąga swoje cele, przyczynia się do rozwoju i osiągania celów swojej organizacji/swojego pracodawcy, ale również rozwija swoich klientów osiągając dodatkowy efekt synergii i zwiększenie sprzedaży w przyszłości.`,
     ],
@@ -33,7 +33,7 @@ export const TRAININGS_LIST = [
         `Moduł 10 - Up-selling i cross-selling`,
       ],
       paragraphs: [
-        `Moduły i ćwiczenie w nich zawarte można na życzenie Klienta modyfikować pod kątem jego działalności, to znaczy dopasować do konkretnej branży. Powoduje to, że podczas ćwiczeń można „pracować” na produktach/usługach Klienta, oraz sytuacjach zbliżonych do realnych zdarzeń z jakimi mogą spotkać się jego pracownicy, co w znaczący sposób poprawia efektywność szkolenia i przekłada się na wzrost sprzedaży po szkoleniu.`,
+        `Moduły i ćwiczenia w nich zawarte można na życzenie Klienta modyfikować pod kątem jego działalności, to znaczy dopasować do konkretnej branży. Powoduje to, że podczas ćwiczeń można „pracować” na produktach/usługach Klienta, oraz sytuacjach zbliżonych do realnych zdarzeń z jakimi mogą spotkać się jego pracownicy, co w znaczący sposób poprawia efektywność szkolenia i przekłada się na wzrost sprzedaży po szkoleniu.`,
         `W szkoleniu może jednorazowo brać udział od 8 do 16 osób. W miarę możliwość powinno się tworzyć grupy, w których znajduje się parzysta liczba uczestników. Nie jest to wymagane, ale pomaga podczas wykonywania ćwiczeń, z których część wykonywana jest w grupach/ w parach.`,
         `W zależności od wymaganej przez Klienta intensywności ćwiczeń i liczebności grupy, warsztaty trwają od jednego do trzech dni. Zwyczajowo rozpoczynają się o 9:00 i kończą o 17:00. Zawierają wymaganą przez Klienta liczbę przerw kawowych oraz 45 minutową przerwę na obiad.`,
       ],
@@ -52,15 +52,15 @@ export const TRAININGS_LIST = [
   // drugie szkolenie
   {
     type: `Warsztaty szkoleniowe:`,
-    title: `Nowoczesne techniki sprzedaży w praktyce. Level expert 2`,
+    title: `Nowoczesne techniki sprzedaży w praktyce. Level expert 2.`,
     description: [
-      `Szkolenie „Nowoczesne techniki sprzedaży w praktyce. Level expert 2” jest kontynuacją szkolenia poziomu pierwszego. Skierowane jest do osób, które ukończyły szkolenie na poziomie pierwszym i chcą dalej rozwijać swoje umiejętności. `,
+      `Szkolenie „Nowoczesne techniki sprzedaży w praktyce. Level expert 2.” jest kontynuacją szkolenia poziomu pierwszego. Skierowane jest do osób, które ukończyły szkolenie na poziomie pierwszym i chcą dalej rozwijać swoje umiejętności. `,
     ],
     target: [
-      `Warsztaty mają na celu pogłębienie wiedzy teoretycznej związanej z zaawansowanymi technikami sprzedaży, negocjacji i prowadzenia rozmowy z klientem, a w szczególności praktyczne nauczenie posługiwania się tymi technikami.`,
+      `Warsztaty mają na celu pogłębienie wiedzy teoretycznej związanej z zaawansowanymi technikami sprzedaży, negocjacji i prowadzenia rozmowy z klientem,  znajdowania rozwiązań w trudnych sytuacjach z tzw. "trudnymi klientami", a w szczególności praktyczne nauczenie posługiwania się tymi technikami.`,
     ],
     receivers: [
-      `Osoby, które ukończyły szkolenie „Nowoczesne techniki sprzedaży w praktyce. Level export 1”`,
+      `Osoby, które ukończyły szkolenie „Nowoczesne techniki sprzedaży w praktyce. Level export 1.”`,
       `Osoby zajmujące się sprzedażą usług i produktów na rynku B2B oraz B2C, posiadające już ugruntowaną wiedzę podstawową z zakresu zaawansowanych technik sprzedaży`,
       `Kierownicy pracowników działów handlowych nadzorujący pracę handlowców`,
       `Właściciele firm oraz osoby prowadzące jednoosobową działalność gospodarczą`,
@@ -68,19 +68,21 @@ export const TRAININGS_LIST = [
     structure: {
       description: `Warsztaty prowadzone są w formie stacjonarnej (w sali ćwiczeniowej )przy użyciu multimediów.`,
       modules: [
-        `Moduł 1 - Odświeżenie wiadomości „Techniki sprzedaży w praktyce. Poziom 1”`,
+        `Moduł 1 - Odświeżenie wiadomości „Techniki sprzedaży w praktyce. Poziom 1.”`,
         `Moduł 2 - Trudny klient – łagodny jak baranek`,
         `Moduł 3 - Negocjacje handlowe – kiedy negocjować`,
         `Moduł 4 - Podstawowe metody negocjacji`,
         `Moduł 5 - Naucz swojego Klienta sprzedawać Twoje produkty`,
       ],
       paragraphs: [
-        `Moduły i ćwiczenie w nich zawarte można na życzenie Klienta modyfikować pod kątem jego działalności to znaczy dopasować do konkretnej branży. Powoduje to, że podczas ćwiczeń można „pracować” na produktach/usługach Klienta, oraz sytuacjach zbliżonych do realnych zdarzeń z jakimi mogą spotkać się jego pracownicy, co w znaczący sposób poprawia efektywność szkolenia i przekłada się na wzrost sprzedaży po szkoleniu.`,
+        `Moduły i ćwiczenia w nich zawarte można na życzenie Klienta modyfikować pod kątem jego działalności to znaczy dopasować do konkretnej branży. Powoduje to, że podczas ćwiczeń można „pracować” na produktach/usługach Klienta, oraz sytuacjach zbliżonych do realnych zdarzeń z jakimi mogą spotkać się jego pracownicy, co w znaczący sposób poprawia efektywność szkolenia i przekłada się na wzrost sprzedaży po szkoleniu.`,
         `W szkoleniu może jednorazowo brać udział od 8 do 16 osób. W miarę możliwość powinno się tworzyć grupy, w których znajduje się parzysta liczba uczestników. Nie jest to wymagane, ale pomaga podczas ćwiczeń z których część wykonywana jest w grupach/ w parach. `,
         `W zależności od wymaganej przez Klienta intensywności ćwiczeń i liczebności grupy, warsztaty trwają od jednego do trzech dni. Zwyczajowo rozpoczynają się o 9:00 i kończą o 17:00. Zawierają wymaganą przez Klienta liczbę przerw kawowych oraz 45 minutową przerwę na obiad.`,
       ],
     },
     effects: [
+      `Szkolenie dodaje pewności siebie podczas negocjaji handlowych poprawiając ich efekty.`,
+      `Szkolenie uczy w jaki sposób postępować z różnego typu klientami co poprawia skuteczność handlowców.`,
       `Szkolenie przypisuje pracownika do społeczności jaką jest firma, w której pracuje. Daje poczucie istotności i stabilizacji. Powoduje efekt wzajemności i chęci wypróbowania materiału ze szkolenia. Przekłada się to na wzrost sprzedaży.`,
       `Szklenie intensyfikuje u handlowca poczucie wsparcia ze strony pracodawcy i ogranicza frustracje związane z porażkami. Powoduje wzrost pewności siebie podczas rozmów z Klientami co powoduje wzrost sprzedaży.`,
       `Partnerzy handlowi obsługiwani przez wyszkolonych handlowców mają pozytywne wrażenia. Odczuwają, że rozmawiają i są obsługiwani przez profesjonalnych doradców/ handlowców. W znaczący sposób rośnie ich zadowolenie ze współpracy z firmą Klienta co powoduje, że partnerzy handlowi częściej rekomenduje firmę Klienta kolejnym firmom, wywołując duży wzrost sprzedaży.`,
@@ -94,12 +96,12 @@ export const TRAININGS_LIST = [
   // trzecie szkolenie
   {
     type: `Warsztaty szkoleniowe:`,
-    title: `Asysta sprzedażowa w praktyce`,
+    title: `Ekspercka asysta sprzedażowa w praktyce.`,
     description: [
-      `Szkolenie „Asysta sprzedażowa w praktyce” skierowane jest do osób, które odpowiedzialne są za bezpośrednie kierowanie grupą handlowców, za ich osiągnięcia i realizację wyznaczonych celów, oraz za szkolenia tych osób podczas codziennej pracy.`,
+      `Szkolenie „Ekspercka asysta sprzedażowa w praktyce.” skierowane jest do osób, które odpowiedzialne są za bezpośrednie kierowanie grupą handlowców, za ich osiągnięcia i realizację wyznaczonych celów, oraz za szkolenia tych osób podczas codziennej pracy.`,
     ],
     target: [
-      `Warsztaty mają na celu przedstawienie wiedzy teoretycznej i technik związanych z procesem szkolenia pracowników działów sprzedaży, call center, obsługi klienta,  przez przełożonych tych pracowników, a w szczególności praktyczne nauczenie posługiwania się tymi technikami.`,
+      `Warsztaty mają na celu przedstawienie wiedzy teoretycznej i technik związanych z procesem i metodologią przeprowadzania przez osoby pełniące funkcje kierownicze tzw. szkoleń WTP (W Ttrakcie Pracy, z ang. OTJ On The Job) pracowników działów sprzedaży, call center, obsługi klienta, a w szczególności praktyczne nauczenie posługiwania się tymi technikami.`,
     ],
     receivers: [
       `Kierownicy pracowników działów handlowych nadzorujący pracę handlowców`,
@@ -121,7 +123,7 @@ export const TRAININGS_LIST = [
       ],
     },
     effects: [
-      `Szkolenie uczy kadrę kierowniczą technik uczenia pracowników, sposobu uczenia, przekazywania wiedzy, dawania wskazówek i udzielania konstruktywnej informacji zwrotnej, dzięki czemu proces szkolenia przebiega w sposób zaplanowany przynosząc organizacji maksymalizację efektów i oszczędności.`,
+      `Szkolenie uczy kadrę kierowniczą technik szkolenia pracowników, sposobu uczenia i przekazywania wiedzy, dawania wskazówek i udzielania konstruktywnej informacji zwrotnej, dzięki czemu proces szkolenia przebiega w sposób zaplanowany przynosząc organizacji maksymalizację efektów i oszczędności.`,
       `Wyszkoleni kierownicy posiadają umiejętność, która powoduje, że szkoleni przez nich pracownicy przyswajają wiedzę w lepszym stopniu, bez odczuwania stresu i napięcia, które często towarzyszy pracy z przełożonym. Taka sytuacja poprawia relacje pomiędzy pracownikiem a przełożonym i w konsekwencji efektywności ich współpracy.`,
       `Szkolenie pozwala ustrukturyzować proces szkolenia pracowników, przez co pomaga wytyczać cele i ścieżkę kariery szkolonych pracowników zwiększając ich motywację do pracy i lojalność w stosunku do przełożonego i pracodawcy.`,
       `Szkolenie przypisuje pracownika do społeczności jaką jest firma, w której pracuje. Daje poczucie istotności i stabilizacji. Powoduje efekt wzajemności i chęci wypróbowania materiału ze szkolenia. Przekłada się to na wzrost sprzedaży.`,
@@ -137,7 +139,7 @@ export const TRAININGS_LIST = [
   // czwarte szkolenie Skuteczny manager i leader
   {
     type: `Warsztaty szkoleniowe:`,
-    title: `Skuteczny manager i leader`,
+    title: `Skuteczny manager i leader.`,
     description: [
       `Celem warsztatów jest zapoznanie uczestników i nauczenie ich technik skutecznego zażądania podległą grupą pracowników. `,
     ],
@@ -163,9 +165,9 @@ export const TRAININGS_LIST = [
       ],
     },
     effects: [
-      `Poprawa komunikacji pomiędzy managerem a członkami jego zespołu
-Zwiększenie efektywności zespołów oraz ich poszczególnych członków
-Polepszenie atmosfery współpracy w sytuacjach trudnych`,
+      `Poprawa komunikacji pomiędzy managerem a członkami jego zespołu`,
+      `Zwiększenie efektywności zespołów oraz ich poszczególnych członków`,
+      `Polepszenie atmosfery współpracy w sytuacjach trudnych`,
       `Szkolenie przypisuje pracownika do społeczności jaką jest firma, w której pracuje. Daje poczucie istotności i stabilizacji. Powoduje efekt wzajemności i chęci wypróbowania materiału ze szkolenia. Przekłada się to na wzrost sprzedaży.`,
       `Szklenie intensyfikuje u pracowników poczucie wsparcia ze strony pracodawcy i ogranicza frustracje związane z porażkami. Powoduje wzrost pewności siebie podczas rozmów z Klientami co powoduje wzrost sprzedaży.`,
       `Partnerzy handlowi obsługiwani przez wyszkolonych handlowców mają pozytywne wrażenia. Odczuwają, że rozmawiają i są obsługiwani przez profesjonalnych doradców/ handlowców. W znaczący sposób rośnie ich zadowolenie ze współpracy z firmą Klienta co powoduje, że partnerzy handlowi częściej rekomenduje firmę Klienta kolejnym firmom, wywołując duży wzrost sprzedaży.`,
@@ -178,12 +180,12 @@ Polepszenie atmosfery współpracy w sytuacjach trudnych`,
   // piąte szkolenie Wywieranie wpływu
   {
     type: `Warsztaty szkoleniowe:`,
-    title: `Wywieranie wpływu`,
+    title: `Wywieranie wpływu.`,
     description: [
-      `Celem warsztatów, jest przekazanie uczestnikom wiedzy i umiejętności pomagających wpływać na otaczające ich środowisko w taki sposób, aby w pełni realizować swoje cele i wykorzystywać posiadane atuty a jednocześnie robić to w sposób przyjaznych i moralny. `,
+      `Celem warsztatów, jest przekazanie uczestnikom wiedzy i umiejętności pomagających wpływać na otaczające ich środowisko w taki sposób, aby móc w pełni realizować swoje cele i wykorzystywać posiadane atuty, a jednocześnie robić to w sposób przyjaznych i moralny. `,
     ],
     target: [
-      `Warsztaty strukturyzują  i poszerzają wiedzę teoretyczna i przedstawiają jej praktyczne wykorzystanie.  `,
+      `Warsztaty strukturyzują  i poszerzają wiedzę teoretyczna oraz przedstawiają jej praktyczne wykorzystanie.  `,
     ],
     receivers: [
       `Pracownicy odpowiedzialni za sprzedaż i mający z klientami, managerowie zarządzający pracownikami, właściciele firm i prowadzący jednoosobową działalność gospodarczą.`,
@@ -219,18 +221,18 @@ Polepszenie atmosfery współpracy w sytuacjach trudnych`,
   // szóste szkolenie Budowanie zespołu
   {
     type: `Warsztaty szkoleniowe:`,
-    title: `Budowanie zespołu`,
+    title: `Budowanie zespołu.`,
     description: [
-      `Celem szkolenia jest przekazanie  uczestnikom narzędzi i wiedzy potrzebnej do budowanie skutecznych zespołów. `,
+      `Celem szkolenia jest przekazanie  uczestnikom narzędzi i wiedzy potrzebnej do budowania skutecznych zespołów. `,
     ],
     target: [
-      `Szkolenie daje umiejętności i przekazuje wskazówki jakimi powinni kierować się managerowie w procesie konstruowania i zarządzania zespołami ludzkimi. Podczas warsztatów uczestnicy poznają metody pozyskiwania pracowników, sposoby ich wdrażania oraz doboru pracowników aby zespół osiągał stawiane przed mim cele.  `,
+      `Szkolenie daje umiejętności i przekazuje wskazówki jakimi powinni kierować się managerowie w procesie konstruowania i zarządzania zespołami ludzkimi. Podczas warsztatów uczestnicy poznają metody pozyskiwania pracowników, sposoby ich wdrażania do pracy, oraz doboru pracowników w taki sposób, aby zespół osiągał stawiane przed nim cele.  `,
     ],
     receivers: [
-      `Pracownicy odpowiedzialni za sprzedaż i mający z klientami, managerowie zarządzający pracownikami, właściciele firm i prowadzący jednoosobową działalność gospodarczą.`,
+      `Managerowie i kandydaci na managerów mający w zakresie swoich obowiązków zarządzanie podległym zespołem. Właściciele malych średnich i dużych firm, których struktura wymusza pracę zespołową.`,
     ],
     structure: {
-      description: `Managerowie i kandydaci na managerów mający w zakresie swoich obowiązków zarządzanie podległym zespołem. Właściciele firm średnich i dużych firm, których struktura wymusza pracę zespołową.`,
+      description: `Warsztaty prowadzone są w formie stacjonarnej (w sali ćwiczeniowej )przy użyciu multimediów.`,
       modules: [
         `Moduł 1 - Czym jest zespół pracowników`,
         `Moduł 2 - Tworzenie zespołu i rekrutacja pracowników`,
@@ -248,10 +250,10 @@ Polepszenie atmosfery współpracy w sytuacjach trudnych`,
       ],
     },
     effects: [
-      `Uczestnicy znają mechanizmy działające w zespole i potrafią wykorzystać je w celu zwiększenia efektywności zespołu
-Uczestnicy znają sposoby pozyskiwania pracowników i potrafią przeprowadzić rozmowę rekrutacyjną
-Uczestnicy wiedzą jak rozwiązywać trudne sytuacje
-Uczestnik szkolenia skuteczniej osiąga zaplanowane cele i potrafi wykorzystywać swoje mocne strony zespołu`,
+      `Uczestnicy znają mechanizmy działające w zespole i potrafią wykorzystać je w celu zwiększenia efektywności zespołu`,
+      `Uczestnicy znają sposoby pozyskiwania pracowników i potrafią przeprowadzić rozmowę rekrutacyjną`,
+      `Uczestnicy znają metody rozwiązywania trudnych sytuacji`,
+      `Uczestnik szkolenia skuteczniej osiąga zaplanowane cele i potrafi wykorzystywać swoje mocne jak również mocne strony swojego zespołu`,
       `Szkolenie przypisuje pracownika do społeczności jaką jest firma, w której pracuje. Daje poczucie istotności i stabilizacji. Powoduje efekt wzajemności i chęci wypróbowania materiału ze szkolenia. Przekłada się to na wzrost sprzedaży.`,
       `Szklenie intensyfikuje u pracowników poczucie wsparcia ze strony pracodawcy i ogranicza frustracje związane z porażkami. Powoduje wzrost pewności siebie podczas rozmów z Klientami co powoduje wzrost sprzedaży.`,
       `Partnerzy handlowi obsługiwani przez wyszkolonych handlowców mają pozytywne wrażenia. Odczuwają, że rozmawiają i są obsługiwani przez profesjonalnych doradców/ handlowców. W znaczący sposób rośnie ich zadowolenie ze współpracy z firmą Klienta co powoduje, że partnerzy handlowi częściej rekomenduje firmę Klienta kolejnym firmom, wywołując duży wzrost sprzedaży.`,
