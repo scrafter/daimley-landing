@@ -29,7 +29,7 @@ function Seo({ title, description, lang }: Props) {
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={`${title} - ${site.siteMetadata.title}`}
       meta={[
         {
           name: `description`,
