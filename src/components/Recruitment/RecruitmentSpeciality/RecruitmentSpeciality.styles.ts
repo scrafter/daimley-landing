@@ -7,6 +7,10 @@ export const RecruitmentSpecialityStyled = styled.section`
   display: flex;
   justify-content: center;
   position: relative;
+
+  @media only screen and (max-width: 425px) {
+    padding: 120px 20px 80px;
+  }
 `;
 
 export const BackgroundWrapper = styled.div`
@@ -18,15 +22,28 @@ export const BackgroundWrapper = styled.div`
   right: 0;
   left: 0;
   z-index: -1;
+
+  @media only screen and (max-width: 425px) {
+    height: 560px;
+  }
 `;
 
 export const Wrapper = styled.div`
   display: flex;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const DescriptionSection = styled.section`
   max-width: 600px;
   margin-left: 50px;
+
+  @media only screen and (max-width: 425px) {
+    margin-left: 0;
+    margin-top: 30px;
+  }
 `;
 
 export const Description = styled.p`

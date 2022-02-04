@@ -32,14 +32,26 @@ export const Description = styled.p`
 
 export const StagesWrapper = styled.div`
   display: flex;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const Stage = styled.article`
   padding: 0 45px;
   max-width: 400px;
 
+  @media only screen and (max-width: 425px) {
+    margin-top: 40px;
+  }
+
   &:not(:last-of-type) {
     border-right: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
+
+    @media only screen and (max-width: 425px) {
+      border-right: none;
+    }
   }
 
   &:first-of-type h3 {

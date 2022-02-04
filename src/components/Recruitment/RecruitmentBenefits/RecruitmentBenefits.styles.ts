@@ -7,6 +7,11 @@ export const RecruitmentBenefitsStyled = styled.section`
   display: flex;
   justify-content: center;
   border-bottom: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+    padding: 80px 30px 150px;
+  }
 `;
 
 export const BackgroundWrapper = styled.div`
@@ -17,6 +22,10 @@ export const BackgroundWrapper = styled.div`
   left: 0;
   right: 0;
   z-index: -1;
+
+  @media only screen and (max-width: 425px) {
+    height: 800px;
+  }
 `;
 
 export const DescriptionWrapper = styled.div`
@@ -51,6 +60,11 @@ export const ImageWrapper = styled.div`
   display: flex;
   flex-direction: column;
   margin-left: 50px;
+
+  @media only screen and (max-width: 425px) {
+    margin-left: 0;
+    margin-top: 60px;
+  }
 
   button {
     margin-top: 80px;

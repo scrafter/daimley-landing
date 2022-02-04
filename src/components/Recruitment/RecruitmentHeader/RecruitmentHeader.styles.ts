@@ -15,6 +15,10 @@ export const RecruitmentHeaderStyled = styled.header`
   & button {
     align-self: flex-start;
   }
+
+  @media only screen and (max-width: 425px) {
+    padding: 50px 20px;
+  }
 `;
 
 export const SubTitle = styled.h5`
