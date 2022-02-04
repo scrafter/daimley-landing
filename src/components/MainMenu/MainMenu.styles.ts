@@ -59,4 +59,9 @@ export const MenuTrigger = styled.span<{ darkMenu: boolean }>`
   font-size: 36px;
   color: ${(props) => (props.darkMenu ? `blacl` : `white`)};
   margin-right: 20px;
+  display: none;
+
+  @media only screen and (max-width: 425px) {
+    display: block;
+  }
 `;
