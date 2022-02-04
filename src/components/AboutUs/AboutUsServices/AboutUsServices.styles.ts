@@ -8,11 +8,19 @@ export const AboutUsServicesStyled = styled.section`
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  @media only screen and (max-width: 425px) {
+    padding: 120px 20px;
+  }
 `;
 
 export const Header = styled.header`
   text-align: center;
   margin-bottom: 70px;
+
+  @media only screen and (max-width: 425px) {
+    margin-bottom: 0;
+  }
 `;
 
 export const SubTitle = styled.h6`
@@ -34,16 +42,28 @@ export const Brief = styled.p`
   line-height: 2;
   width: 600px;
   margin: 0 auto;
+
+  @media only screen and (max-width: 425px) {
+    width: auto;
+  }
 `;
 
 export const SectionsWrapper = styled.div`
   margin: 75px 0;
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const Section = styled.section`
   padding: 0 80px;
+
+  @media only screen and (max-width: 425px) {
+    padding: 30px 20px;
+  }
 
   & > button {
     padding: 20px 50px;
@@ -51,6 +71,10 @@ export const Section = styled.section`
 
   &:not(:last-of-type) {
     border-right: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
+
+    @media only screen and (max-width: 425px) {
+      border-right: 0;
+    }
   }
 `;
 

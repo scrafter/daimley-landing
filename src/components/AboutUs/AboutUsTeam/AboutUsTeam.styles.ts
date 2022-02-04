@@ -9,11 +9,21 @@ export const AboutUsTeamStyled = styled.section`
 
 export const Wrapper = styled.div`
   display: flex;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const DescriptionWrapper = styled.div`
   margin-left: 100px;
   max-width: 600px;
+
+  @media only screen and (max-width: 425px) {
+    margin-left: 0;
+    margin-top: 50px;
+    padding: 0 30px;
+  }
 `;
 
 export const ImageWrapper = styled.div`

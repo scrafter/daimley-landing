@@ -11,6 +11,10 @@ export const AboutUsHeaderStyled = styled.header`
   flex-direction: column;
   padding: 0 250px 50px;
   color: white;
+
+  @media only screen and (max-width: 425px) {
+    padding: 0 30px 50px;
+  }
 `;
 
 export const SubTitle = styled.h6`

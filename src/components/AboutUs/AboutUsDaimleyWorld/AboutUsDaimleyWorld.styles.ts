@@ -16,12 +16,20 @@ export const Header = styled.header`
   padding: 0 13vw 120px;
   width: 100vw;
   display: flex;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const SubTitle = styled.h5`
   font-size: 1.375rem;
   font-weight: bold;
   width: 50%;
+
+  @media only screen and (max-width: 425px) {
+    margin-bottom: 30px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -44,6 +52,11 @@ export const ArticlesWrapper = styled.div`
   display: flex;
   margin-top: -5px;
   justify-content: center;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+    margin-top: 50px;
+  }
 `;
 
 export const Article = styled.article`
@@ -56,6 +69,10 @@ export const ArticleBullet = styled.div`
   height: 9px;
   width: 9px;
   border: 2px solid ${(props: DaimleyTheme) => props.theme.gray};
+
+  @media only screen and (max-width: 425px) {
+    display: none;
+  }
 `;
 
 export const ArticleTitle = styled.h4`
@@ -79,6 +96,10 @@ export const ContactSection = styled.div`
   & > button {
     padding: 25px 80px;
   }
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const ContactTitle = styled.h1`
@@ -86,4 +107,10 @@ export const ContactTitle = styled.h1`
   font-weight: bold;
   line-height: 1.36;
   margin-right: 80px;
+
+  @media only screen and (max-width: 425px) {
+    margin-bottom: 50px;
+    text-align: center;
+    margin-right: 0;
+  }
 `;

@@ -6,13 +6,25 @@ export const AboutUsArticlesStyled = styled.section`
   display: flex;
   justify-content: center;
   padding: 100px 0;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const Article = styled.article`
   padding: 0 100px;
 
+  @media only screen and (max-width: 425px) {
+    margin-bottom: 50px;
+  }
+
   &:first-of-type {
     border-right: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
+
+    @media only screen and (max-width: 425px) {
+      border-right: none;
+    }
   }
 `;
 
