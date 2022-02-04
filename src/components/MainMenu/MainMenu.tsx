@@ -37,7 +37,7 @@ function MainMenu({ darkMenu }: Props) {
   return (
     <MenuStyled isScrollOnTop={scrollPosition === 0} darkMenu={darkMenu}>
       <MenuGroup>
-        <MenuTrigger>
+        <MenuTrigger darkMenu={darkMenu}>
           <MenuIcon onClick={() => setIsDrawerOpen(!isDrawerOpen)} />
         </MenuTrigger>
 

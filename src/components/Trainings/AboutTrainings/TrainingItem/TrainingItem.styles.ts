@@ -5,6 +5,8 @@ export const TrainingItemStyled = styled.article`
   padding: 40px;
   display: flex;
   flex-direction: column;
+  max-width: 100vw;
+  overflow: scroll;
 
   :nth-of-type(even) {
     background-color: ${(props: DaimleyTheme) => props.theme.backgroundGray};

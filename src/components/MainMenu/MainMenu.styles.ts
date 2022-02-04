@@ -55,8 +55,8 @@ export const MenuItemStyled = styled.a`
   }
 `;
 
-export const MenuTrigger = styled.span`
+export const MenuTrigger = styled.span<{ darkMenu: boolean }>`
   font-size: 36px;
-  color: white;
+  color: ${(props) => (props.darkMenu ? `blacl` : `white`)};
   margin-right: 20px;
 `;

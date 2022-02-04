@@ -11,6 +11,11 @@ export const TrainingsHeaderStyled = styled.section`
   flex-direction: column;
   justify-content: flex-end;
   padding-left: 200px;
+
+  @media only screen and (max-width: 425px) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 `;
 
 export const Title = styled.h1`

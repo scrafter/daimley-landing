@@ -10,6 +10,10 @@ export const TrainingsBriefStyled = styled.section`
   & button {
     align-self: flex-start;
   }
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const DescriptionWrapper = styled.div`
@@ -21,6 +25,10 @@ export const Title = styled.h2`
   font-size: 2.75rem;
   font-weight: bold;
   margin-bottom: 60px;
+
+  @media only screen and (max-width: 425px) {
+    margin-top: 30px;
+  }
 `;
 
 export const Summary = styled.h6`

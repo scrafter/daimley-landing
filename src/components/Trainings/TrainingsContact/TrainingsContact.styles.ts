@@ -11,6 +11,11 @@ export const TrainingsContactStyled = styled.section`
   & > button {
     padding: 25px 70px;
   }
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+    padding: 120px 30px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -18,12 +23,22 @@ export const Title = styled.h2`
   font-weight: bold;
   margin-right: 70px;
   line-height: 1.36;
+
+  @media only screen and (max-width: 425px) {
+    margin-bottom: 50px;
+  }
 `;
 
 export const ContactDataWrapper = styled.address`
   margin-left: 80px;
   padding-left: 80px;
   border-left: 1px solid white;
+
+  @media only screen and (max-width: 425px) {
+    border: 0;
+    margin-left: 0;
+    padding-left: 0;
+  }
 `;
 
 export const Phone = styled.div`
@@ -36,6 +51,10 @@ export const Phone = styled.div`
     color: white;
     text-decoration: none;
     margin-left: 1rem;
+  }
+
+  @media only screen and (max-width: 425px) {
+    margin: 50px 0 20px;
   }
 `;
 
