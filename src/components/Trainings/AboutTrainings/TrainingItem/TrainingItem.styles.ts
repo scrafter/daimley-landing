@@ -6,7 +6,10 @@ export const TrainingItemStyled = styled.article`
   display: flex;
   flex-direction: column;
   max-width: 100vw;
-  overflow: scroll;
+
+  @media only screen and (max-width: 425px) {
+    padding: 40px 10px;
+  }
 
   :nth-of-type(even) {
     background-color: ${(props: DaimleyTheme) => props.theme.backgroundGray};
@@ -16,8 +19,21 @@ export const TrainingItemStyled = styled.article`
 export const Table = styled.table`
   table-layout: fixed;
 
+  .button-cell button {
+    @media only screen and (max-width: 425px) {
+      display: none;
+    }
+  }
+
   .last-row button {
     width: 100%;
+  }
+`;
+
+export const TableRow = styled.tr`
+  @media only screen and (max-width: 425px) {
+    display: flex;
+    flex-direction: column;
   }
 `;
 
@@ -35,10 +51,21 @@ export const Title = styled.h3`
   font-weight: bold;
   margin-top: 18px;
   width: 300px;
+
+  @media only screen and (max-width: 425px) {
+    width: auto;
+  }
 `;
 
 export const ParapgraphWrapper = styled.div`
   padding: 35px 25px;
+
+  & .bullets-list {
+    @media only screen and (max-width: 425px) {
+      grid-template-columns: 1fr;
+      margin-bottom: 30px;
+    }
+  }
 `;
 
 export const Paragraph = styled.p`
@@ -62,4 +89,8 @@ export const ReadMoreButton = styled.button`
   font-weight: 600;
   font-size: 1rem;
   margin-top: 25px;
+
+  @media only screen and (max-width: 425px) {
+    margin: 25px auto 0;
+  }
 `;

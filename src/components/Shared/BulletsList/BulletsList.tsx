@@ -12,7 +12,7 @@ function BulletsList({ items }: Props) {
   const part2 = items.slice(size1);
 
   return (
-    <BulletsListStyled>
+    <BulletsListStyled className="bullets-list">
       <div>
         {part1.map((item, index) => (
           <BulletItem text={item} key={`part-1-${index}`} />

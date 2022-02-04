@@ -28,4 +28,8 @@ export const List = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  @media only screen and (max-width: 425px) {
+    padding: 0;
+  }
 `;

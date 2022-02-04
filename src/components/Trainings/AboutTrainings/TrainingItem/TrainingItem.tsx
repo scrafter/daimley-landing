@@ -7,6 +7,7 @@ import {
   Title,
   Paragraph,
   ReadMoreButton,
+  TableRow,
 } from '@/components/Trainings/AboutTrainings/TrainingItem/TrainingItem.styles';
 import Button from '@/components/Shared/Button/Button';
 import useTranslation from '@/useTranslation';
@@ -36,7 +37,7 @@ function TrainingItem({ item }: Props) {
   return (
     <TrainingItemStyled>
       <Table>
-        <tr>
+        <TableRow>
           <td>
             <Badge>{item.type}</Badge>
             <Title>{item.title}</Title>
@@ -54,14 +55,14 @@ function TrainingItem({ item }: Props) {
               </ReadMoreButton>
             </ParapgraphWrapper>
           </td>
-          <td>
+          <td className="button-cell">
             <Button link="/form" label={translate(`trainings.list.button`)} />
           </td>
-        </tr>
+        </TableRow>
 
         {isOpen && (
           <>
-            <tr>
+            <TableRow>
               <td>
                 <Title>{translate(`trainings.list.target`)}</Title>
               </td>
@@ -72,9 +73,9 @@ function TrainingItem({ item }: Props) {
                   ))}
                 </ParapgraphWrapper>
               </td>
-            </tr>
+            </TableRow>
 
-            <tr>
+            <TableRow>
               <td>
                 <Title>{translate(`trainings.list.receivers`)}</Title>
               </td>
@@ -85,9 +86,9 @@ function TrainingItem({ item }: Props) {
                   ))}
                 </ParapgraphWrapper>
               </td>
-            </tr>
+            </TableRow>
 
-            <tr>
+            <TableRow>
               <td>
                 <Title>{translate(`trainings.list.structure`)}</Title>
               </td>
@@ -111,9 +112,9 @@ function TrainingItem({ item }: Props) {
                   ))}
                 </ParapgraphWrapper>
               </td>
-            </tr>
+            </TableRow>
 
-            <tr>
+            <TableRow>
               <td>
                 <Title>{translate(`trainings.list.effects`)}</Title>
               </td>
@@ -124,9 +125,9 @@ function TrainingItem({ item }: Props) {
                   ))}
                 </ParapgraphWrapper>
               </td>
-            </tr>
+            </TableRow>
 
-            <tr className="last-row">
+            <TableRow className="last-row">
               <td />
               <td colSpan={2}>
                 <Button
@@ -134,7 +135,7 @@ function TrainingItem({ item }: Props) {
                   label={translate(`trainings.list.button`)}
                 />
               </td>
-            </tr>
+            </TableRow>
           </>
         )}
       </Table>
