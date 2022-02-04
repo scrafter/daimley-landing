@@ -17,6 +17,7 @@ export const Article = styled.article`
 
   @media only screen and (max-width: 425px) {
     margin-bottom: 50px;
+    padding: 0 20px;
   }
 
   &:first-of-type {

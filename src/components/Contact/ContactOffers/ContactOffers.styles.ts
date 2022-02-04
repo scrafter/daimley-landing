@@ -27,7 +27,7 @@ export const Section = styled.section`
   padding: 0 40px;
 
   @media only screen and (max-width: 425px) {
-    padding: 0 10px;
+    padding: 0;
   }
 
   &:not(:last-of-type) {
@@ -66,6 +66,10 @@ export const SectionDescription = styled.p`
   margin-bottom: 40px;
   width: 400px;
 
+  @media only screen and (max-width: 425px) {
+    width: auto;
+  }
+
   & > a {
     color: ${(props: DaimleyTheme) => props.theme.orange};
   }
@@ -76,6 +80,10 @@ export const PostScript = styled.p`
   line-height: 2;
   width: 400px;
   margin: 80px 0 0;
+
+  @media only screen and (max-width: 425px) {
+    width: auto;
+  }
 `;
 
 export const Contact = styled.p`

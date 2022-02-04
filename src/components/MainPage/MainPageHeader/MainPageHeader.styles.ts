@@ -46,6 +46,10 @@ export const MainPageTitle = styled.h1`
   font-size: 80px;
   font-weight: bold;
   color: white;
+
+  @media only screen and (max-width: 425px) {
+    font-size: 60px;
+  }
 `;
 
 export const MainPageDescription = styled.p`

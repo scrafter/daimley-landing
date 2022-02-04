@@ -25,6 +25,10 @@ export const WeAreDaimleyTitle = styled.h1`
   font-weight: bold;
   line-height: 1.36;
 
+  @media only screen and (max-width: 425px) {
+    font-size: 2rem;
+  }
+
   & span {
     margin-left: 1rem;
   }

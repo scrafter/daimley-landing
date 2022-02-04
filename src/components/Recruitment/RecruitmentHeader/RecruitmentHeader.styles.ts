@@ -30,4 +30,8 @@ export const Title = styled.h1`
   margin-bottom: 25px;
   font-size: 5rem;
   font-weight: bold;
+
+  @media only screen and (max-width: 425px) {
+    font-size: 3rem;
+  }
 `;

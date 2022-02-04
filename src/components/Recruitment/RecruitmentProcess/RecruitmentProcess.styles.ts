@@ -44,6 +44,7 @@ export const Stage = styled.article`
 
   @media only screen and (max-width: 425px) {
     margin-top: 40px;
+    padding: 0 20px;
   }
 
   &:not(:last-of-type) {

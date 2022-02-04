@@ -61,6 +61,10 @@ export const ArticlesWrapper = styled.div`
 
 export const Article = styled.article`
   padding: 0 20px;
+
+  @media only screen and (max-width: 425px) {
+    padding: 0;
+  }
 `;
 
 export const ArticleBullet = styled.div`
