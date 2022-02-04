@@ -10,11 +10,21 @@ export const KnowUsBetterStyled = styled.section`
 export const KnowUsBetterWrapper = styled.div`
   width: 75vw;
   display: flex;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const DescriptionSection = styled.div`
   margin-left: 120px;
   width: 620px;
+
+  @media only screen and (max-width: 425px) {
+    width: auto;
+    margin-left: 0;
+    margin-top: 50px;
+  }
 `;
 
 export const SubTitle = styled.h6`

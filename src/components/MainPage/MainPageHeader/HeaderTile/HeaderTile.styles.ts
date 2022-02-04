@@ -10,10 +10,20 @@ export const HeaderTileWrapper = styled.div`
   align-self: flex-start;
   width: 320px;
 
+  @media only screen and (max-width: 425px) {
+    margin-top: 30px;
+    align-self: center;
+    width: 100%;
+  }
+
   &:first-of-type {
     margin-left: 100px;
     padding-bottom: 110px;
     background-color: ${(props: DaimleyTheme) => props.theme.greenSecondary};
+
+    @media only screen and (max-width: 425px) {
+      margin-left: 0;
+    }
   }
 `;
 

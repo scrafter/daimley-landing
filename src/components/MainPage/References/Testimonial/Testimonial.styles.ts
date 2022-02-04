@@ -8,6 +8,11 @@ export const TestimonialStyled = styled.article`
   display: inline-flex;
   flex-direction: column;
   width: 700px;
+
+  @media only screen and (max-width: 425px) {
+    width: 100%;
+    padding: 80px 25px;
+  }
 `;
 
 export const Author = styled.h5`

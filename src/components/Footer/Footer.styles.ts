@@ -34,9 +34,17 @@ export const Copyright = styled.p`
   display: flex;
   justify-content: space-between;
   width: 100vw;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const StatuteLink = styled.a`
   text-decoration: none;
   color: ${(props: DaimleyTheme) => props.theme.gray};
+
+  @media only screen and (max-width: 425px) {
+    margin-top: 20px;
+  }
 `;

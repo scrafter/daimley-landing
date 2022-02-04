@@ -9,18 +9,36 @@ export const StyledMainPageHeader = styled.header`
   display: flex;
   justify-content: space-between;
   padding: 200px 200px 170px;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+    padding: 200px 20px 170px;
+  }
 `;
 
 export const MainPageLeftWrapper = styled.div`
   display: flex;
   flex-direction: column;
   width: 420px;
+
+  @media only screen and (max-width: 425px) {
+    width: auto;
+  }
 `;
 
 export const MainPageRightWrapper = styled.div`
   display: flex;
+
   div:first-of-type {
     margin-right: 20px;
+
+    @media only screen and (max-width: 425px) {
+      margin-right: 0;
+    }
+  }
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
   }
 `;
 
@@ -49,5 +67,9 @@ export const MainPageButton = styled.button`
 
   &:hover {
     background-color: {(props: DaimleyTheme) => props.theme.orange};
+  }
+
+  @media only screen and (max-width: 425px) {
+    margin: 0 auto;
   }
 `;

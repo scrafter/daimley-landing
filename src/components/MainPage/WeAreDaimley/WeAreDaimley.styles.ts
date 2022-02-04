@@ -34,6 +34,10 @@ export const WeAreDaimleyTilesWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 80px;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const WeAreDaimleyTile = styled.div`
@@ -44,6 +48,10 @@ export const WeAreDaimleyTile = styled.div`
   align-items: center;
   flex-direction: column;
   width: 440px;
+
+  @media only screen and (max-width: 425px) {
+    width: auto;
+  }
 
   &:not(:last-of-type) {
     margin-right: 20px;
@@ -62,10 +70,19 @@ export const WeAreDaimleyFooter = styled.div`
   display: flex;
   justify-content: space-between;
   margin-top: 70px;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const WeAreDaimleyDescription = styled.p`
   font-size: 1.125rem;
   color: ${(props: DaimleyTheme) => props.theme.gray};
   width: 470px;
+
+  @media only screen and (max-width: 425px) {
+    width: auto;
+    margin-bottom: 20px;
+  }
 `;

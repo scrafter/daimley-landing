@@ -21,7 +21,12 @@ export const MenuStyled = styled.header<IMenuStyled>`
   padding: ${(props) => (props.isScrollOnTop ? `30px` : `20px 40px`)};
   z-index: 1000;
 
-  & a {
+  @media only screen and (max-width: 425px) {
+    display: none;
+  }
+}
+
+    & a {
     color: ${(props) => (props.darkMenu ? `#000` : `#fff`)}
 `;
 
