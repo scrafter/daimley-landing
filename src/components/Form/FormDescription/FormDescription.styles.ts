@@ -6,11 +6,20 @@ export const FormDescriptionStyled = styled.section`
   border-bottom: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const DescriptionWrapper = styled.div`
   margin-left: 70px;
   max-width: 650px;
+
+  @media only screen and (max-width: 425px) {
+    margin-left: 0;
+    margin-top: 50px;
+  }
 `;
 
 export const SubTitle = styled.h6`

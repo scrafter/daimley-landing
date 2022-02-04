@@ -6,11 +6,20 @@ export const FormMainStyles = styled.section`
   border-bottom: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const DescriptionWrapper = styled.div`
   margin-right: 70px;
   max-width: 480px;
+
+  @media only screen and (max-width: 425px) {
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
 `;
 
 export const SubTitle = styled.h6`

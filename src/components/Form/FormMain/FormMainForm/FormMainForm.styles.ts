@@ -5,6 +5,10 @@ export const FormMainFormStyled = styled.form`
   padding: 80px;
   background-color: ${(props: DaimleyTheme) => props.theme.greenSecondary};
 
+  @media only screen and (max-width: 425px) {
+    padding: 80px 20px;
+  }
+
   & button {
     width: 100%;
     margin-top: 30px;
@@ -20,6 +24,10 @@ export const Title = styled.h2`
 export const FieldWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const FieldGroup = styled.div<{ isInvalid?: boolean }>`
