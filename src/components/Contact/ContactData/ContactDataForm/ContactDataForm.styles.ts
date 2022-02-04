@@ -11,6 +11,12 @@ export const ContactDataFormStyled = styled.form`
     width: 100%;
     margin-top: 30px;
   }
+
+  @media only screen and (max-width: 425px) {
+    top: 0;
+    padding: 80px 20px;
+    margin-top: 30px;
+  }
 `;
 
 export const Title = styled.h2`
@@ -22,6 +28,10 @@ export const Title = styled.h2`
 export const FieldWrapper = styled.div`
   display: flex;
   justify-content: space-between;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const FieldGroup = styled.div<{ isInvalid?: boolean }>`

@@ -11,6 +11,10 @@ export const ContactHeaderStyled = styled.section`
   background-image: url(${header});
   background-size: cover;
   background-repeat: no-repeat;
+
+  @media only screen and (max-width: 425px) {
+    padding: 0 30px 70px;
+  }
 `;
 
 export const SubTitle = styled.h6`

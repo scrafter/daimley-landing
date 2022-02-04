@@ -6,10 +6,18 @@ export const ContactOffersStyled = styled.section`
   background-color: ${(props: DaimleyTheme) => props.theme.gray};
   display: flex;
   justify-content: center;
+
+  @media only screen and (max-width: 425px) {
+    margin-top: 30px;
+  }
 `;
 
 export const Wrapper = styled.div`
   display: flex;
+
+  @media only screen and (max-width: 425px) {
+    flex-direction: column;
+  }
 `;
 
 export const Section = styled.section`
@@ -18,8 +26,17 @@ export const Section = styled.section`
   color: white;
   padding: 0 40px;
 
+  @media only screen and (max-width: 425px) {
+    padding: 0 10px;
+  }
+
   &:not(:last-of-type) {
     border-right: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
+
+    @media only screen and (max-width: 425px) {
+      margin-bottom: 80px;
+      border-right: 0;
+    }
   }
 
   & > button {
