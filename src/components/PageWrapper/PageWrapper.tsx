@@ -11,6 +11,7 @@ import emotionReset from 'emotion-reset';
 import useTranslation from '@/useTranslation';
 import { ToastContainer } from 'react-toastify';
 import CookiesBar from '@/components/CookiesBar/CookiesBar';
+import { createTheme, ThemeProvider as MuiProvider } from '@mui/material';
 
 interface Props {
   children: JSX.Element;
@@ -19,40 +20,43 @@ interface Props {
 
 function PageWrapper({ children, darkMenu }: Props) {
   const { translate, lang } = useTranslation();
+  const muiTheme = createTheme();
 
   return (
-    <ThemeProvider theme={theme}>
-      <SEO title={translate(`pageTitle`)} lang={lang} />
-      <ToastContainer
-        position="bottom-right"
-        theme="colored"
-        hideProgressBar
-        draggable={false}
-      />
+    <MuiProvider theme={muiTheme}>
+      <ThemeProvider theme={theme}>
+        <SEO title={translate(`pageTitle`)} lang={lang} />
+        <ToastContainer
+          position="bottom-right"
+          theme="colored"
+          hideProgressBar
+          draggable={false}
+        />
 
-      <MainMenu darkMenu={darkMenu} />
-      {children}
-      <Footer />
-      <CookiesBar />
+        <MainMenu darkMenu={darkMenu} />
+        {children}
+        <Footer />
+        <CookiesBar />
 
-      <Global
-        styles={css`
-          ${emotionReset}
-          body {
-            font-family: 'lato';
-          }
+        <Global
+          styles={css`
+            ${emotionReset}
+            body {
+              font-family: 'lato';
+            }
 
-          *,
-          *::after,
-          *::before {
-            box-sizing: border-box;
-            -moz-osx-font-smoothing: grayscale;
-            -webkit-font-smoothing: antialiased;
-            font-smoothing: antialiased;
-          }
-        `}
-      />
-    </ThemeProvider>
+            *,
+            *::after,
+            *::before {
+              box-sizing: border-box;
+              -moz-osx-font-smoothing: grayscale;
+              -webkit-font-smoothing: antialiased;
+              font-smoothing: antialiased;
+            }
+          `}
+        />
+      </ThemeProvider>
+    </MuiProvider>
   );
 }
 

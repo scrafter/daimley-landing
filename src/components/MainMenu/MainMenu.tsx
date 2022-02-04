@@ -1,11 +1,18 @@
 import React, { useLayoutEffect, useState } from 'react';
 import useTranslation from '@/useTranslation';
 import { EMAIL_ADDRESS, PHONE_NUMBER, PHONE_NUMBER_TO_READ } from '@/constants';
-import { MenuStyled, MenuItemStyled, MenuGroup } from './MainMenu.styles';
+import {
+  MenuTrigger,
+  MenuStyled,
+  MenuItemStyled,
+  MenuGroup,
+} from './MainMenu.styles';
 import Logo from '@/assets/icons/Logo';
 import PhoneIcon from '@/assets/icons/PhoneIcon';
 import MailIcon from '@/assets/icons/MailIcon';
 import LogoWhite from '@/assets/icons/LogoWhite';
+import MenuIcon from '@mui/icons-material/Menu';
+import Drawer from '@/components/MainMenu/Drawer/Drawer';
 
 interface Props {
   darkMenu?: boolean;
@@ -14,6 +21,7 @@ interface Props {
 function MainMenu({ darkMenu }: Props) {
   const { translate } = useTranslation();
   const [scrollPosition, setScrollPosition] = useState<number>(0);
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   useLayoutEffect(() => {
     function updatePosition() {
@@ -29,7 +37,11 @@ function MainMenu({ darkMenu }: Props) {
   return (
     <MenuStyled isScrollOnTop={scrollPosition === 0} darkMenu={darkMenu}>
       <MenuGroup>
-        <MenuItemStyled href="/">
+        <MenuTrigger>
+          <MenuIcon onClick={() => setIsDrawerOpen(!isDrawerOpen)} />
+        </MenuTrigger>
+
+        <MenuItemStyled href="/" className="logo">
           {darkMenu ? <Logo /> : <LogoWhite />}
         </MenuItemStyled>
         <MenuItemStyled href="/">{translate(`menu.main`)}</MenuItemStyled>
@@ -57,6 +69,8 @@ function MainMenu({ darkMenu }: Props) {
           {EMAIL_ADDRESS}
         </MenuItemStyled>
       </MenuGroup>
+
+      <Drawer open={isDrawerOpen} toggleDrawer={setIsDrawerOpen} />
     </MenuStyled>
   );
 }

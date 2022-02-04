@@ -13,6 +13,7 @@ function Button({ label, type, link }: Props) {
       window.location.href = link;
     }
   };
+
   return (
     <StyledButton type={type} onClick={onClick}>
       {label}

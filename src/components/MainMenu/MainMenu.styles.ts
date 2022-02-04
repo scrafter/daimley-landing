@@ -21,13 +21,9 @@ export const MenuStyled = styled.header<IMenuStyled>`
   padding: ${(props) => (props.isScrollOnTop ? `30px` : `20px 40px`)};
   z-index: 1000;
 
-  @media only screen and (max-width: 425px) {
-    display: none;
+  & a {
+    color: ${(props) => (props.darkMenu ? `#000` : `#fff`)};
   }
-}
-
-    & a {
-    color: ${(props) => (props.darkMenu ? `#000` : `#fff`)}
 `;
 
 export const MenuGroup = styled.div`
@@ -44,6 +40,12 @@ export const MenuItemStyled = styled.a`
   display: flex;
   align-items: center;
 
+  &:not(.logo) {
+    @media only screen and (max-width: 425px) {
+      display: none;
+    }
+  }
+
   svg {
     margin-right: 6px;
   }
@@ -51,4 +53,10 @@ export const MenuItemStyled = styled.a`
   :first-of-type {
     padding-left: 0;
   }
+`;
+
+export const MenuTrigger = styled.span`
+  font-size: 36px;
+  color: white;
+  margin-right: 20px;
 `;
