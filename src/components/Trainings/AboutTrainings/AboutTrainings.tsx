@@ -13,7 +13,7 @@ function AboutTrainings() {
   const { translate } = useTranslation();
 
   return (
-    <AboutTrainingsStyled>
+    <AboutTrainingsStyled id="types">
       <SubTitle>{translate(`trainings.list.subTitle`)}</SubTitle>
       <Title>{translate(`trainings.list.subTitle`)}</Title>
 

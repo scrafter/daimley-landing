@@ -20,7 +20,7 @@ import Button from '@/components/Shared/Button/Button';
 function AboutUsDaimleyWorld() {
   const { translate } = useTranslation();
   return (
-    <AboutUsDaimleyWorldStyles>
+    <AboutUsDaimleyWorldStyles id="our-values">
       <Header>
         <SubTitle>{translate(`aboutUs.daimleyWorld.subTitle`)}</SubTitle>
         <Title>{translate(`aboutUs.daimleyWorld.title`)}</Title>

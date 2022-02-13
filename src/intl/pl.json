@@ -1,10 +1,32 @@
 {
   "pageTitle": "Daimley Polska",
+
   "menu.main": "Strona główna",
+  "menu.main.ourServices": "Nasze usługi",
+  "menu.main.delegateService": "Zleć usługę",
+  "menu.main.sendCV": "Wyślij CV",
+  "menu.main.references": "Referencje",
+
   "menu.trainings": "Szkolenia",
+  "menu.trainings.howDoWeTrain": "Jak szkolimy?",
+  "menu.trainings.types": "Rodzaje szkoleń",
+
   "menu.recruitment": "Rekrutacje",
+  "menu.recruitment.positions": "Stanowiska, na które rekrutujemy",
+  "menu.recruitment.businesses": "W jakich branżach się specjalizujemy",
+  "menu.recruitment.process": "Efektywny proces rekrutacji",
+  "menu.recruitment.whyWe": "Dlaczego rekrutacja z Daimley",
+
   "menu.aboutUs": "O nas",
+  "menu.aboutUs.getKnowDaimley": "Poznaj Daimley",
+  "menu.aboutUs.ourServices": "Nasze usługi",
+  "menu.aboutUs.ourTeam": "Nasz zespół",
+  "menu.aboutUs.ourValues": "Nasze wartości",
+
   "menu.contact": "Kontakt",
+  "menu.contact.delegateForm": "Formularz zlecenia usługi",
+  "menu.contact.form": "Formularz kontaktowy",
+  "menu.contact.sendCV": "Wyślij CV",
 
   "mainPage.header.recruitment": "Rekrutacje\nSzkolenia\nConsulting",
   "mainPage.header.weSupport": "Wspieramy naszych Klientów w kluczowych\nchwilach dla rozwoju ich biznesu",

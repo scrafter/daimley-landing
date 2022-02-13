@@ -16,7 +16,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 function AboutUsTeam() {
   const { translate } = useTranslation();
   return (
-    <AboutUsTeamStyled>
+    <AboutUsTeamStyled id="get-know-daimley">
       <Wrapper>
         <StaticImage
           src="../../../assets/aboutUs/aboutUs2.jpg"

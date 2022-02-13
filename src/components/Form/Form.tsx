@@ -4,7 +4,7 @@ import FormMain from '@/components/Form/FormMain/FormMain';
 
 function Form() {
   return (
-    <main>
+    <main id="delegate-form">
       <FormMain />
       <FormDescription />
     </main>

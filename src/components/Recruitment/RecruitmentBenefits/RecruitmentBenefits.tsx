@@ -17,7 +17,7 @@ function RecruitmentBenefits() {
   const { translate } = useTranslation();
 
   return (
-    <RecruitmentBenefitsStyled>
+    <RecruitmentBenefitsStyled id="why-we">
       <BackgroundWrapper />
 
       <DescriptionWrapper>

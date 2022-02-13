@@ -16,7 +16,7 @@ import { StaticImage } from 'gatsby-plugin-image';
 function AboutUsKnowLedge() {
   const { translate } = useTranslation();
   return (
-    <AboutUsKnowLedgeStyled>
+    <AboutUsKnowLedgeStyled id="our-team">
       <PositionWrapper>
         <StaticImage
           src="../../../assets/aboutUs/aboutUs4.jpg"

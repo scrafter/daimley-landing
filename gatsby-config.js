@@ -11,6 +11,13 @@ module.exports = {
   plugins: [
     'gatsby-plugin-emotion',
     {
+      resolve: 'gatsby-plugin-anchor-links',
+      options: {
+        offset: -72,
+        time: 0,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Daimley Polska | Agencja zatrudnienia oraz szkolenia sprzedażowe`,

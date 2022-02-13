@@ -20,7 +20,7 @@ function RecruitmentSpeciality() {
   const { translate } = useTranslation();
 
   return (
-    <RecruitmentSpecialityStyled>
+    <RecruitmentSpecialityStyled id="positions">
       <BackgroundWrapper />
       <Wrapper>
         <StaticImage

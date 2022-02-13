@@ -14,7 +14,7 @@ import UnderlinedText from '@/components/Shared/UnderlinedText/UnderlinedText';
 function TrainingsBrief() {
   const { translate } = useTranslation();
   return (
-    <TrainingsBriefStyled>
+    <TrainingsBriefStyled id="how-do-we-train">
       <StaticImage
         src="../../../assets/trainings/trainings2.jpg"
         alt="Recruitment photo"

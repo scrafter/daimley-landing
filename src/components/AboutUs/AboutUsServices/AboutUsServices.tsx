@@ -21,7 +21,7 @@ import SupportIcon from '@/assets/icons/SupportIcon';
 function AboutUsServices() {
   const { translate } = useTranslation();
   return (
-    <AboutUsServicesStyled>
+    <AboutUsServicesStyled id="our-services">
       <Header>
         <SubTitle>{translate(`aboutUs.services.subTitle`)}</SubTitle>
         <Title>{translate(`aboutUs.services.title`)}</Title>

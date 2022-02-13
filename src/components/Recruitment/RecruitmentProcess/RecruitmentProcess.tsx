@@ -19,7 +19,7 @@ function RecruitmentProcess() {
   const { translate } = useTranslation();
 
   return (
-    <RecruitmentProcessStyled>
+    <RecruitmentProcessStyled id="process">
       <SubTitle>{translate(`recruitment.process.subtitle`)}</SubTitle>
       <Title>{translate(`recruitment.process.title`)}</Title>
       <Description>{translate(`recruitment.process.description`)}</Description>

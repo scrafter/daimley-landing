@@ -30,6 +30,7 @@ function ContactDataForm() {
 
   return (
     <ContactDataFormStyled
+      id="form"
       onSubmit={handleSubmit((data) => onSubmit(data as any, reset))}
     >
       <Title>{translate(`contact.form.title`)}</Title>

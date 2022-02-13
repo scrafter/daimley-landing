@@ -32,7 +32,7 @@ function References() {
   };
 
   return (
-    <ReferencesStyled>
+    <ReferencesStyled id="references">
       <Wrapper>
         <DescriptionWrapper>
           <SubTitle>{translate(`references.subTitle`)}</SubTitle>
