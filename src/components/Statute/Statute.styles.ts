@@ -3,14 +3,14 @@ import { DaimleyTheme } from '@/theme';
 
 export const StatuteStyled = styled.section`
   max-width: 700px;
-  margin: 30px auto;
+  margin: 0 auto 30px;
   padding: 150px 0 50px;
   text-align: center;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: calc(100vh - 150px);
+  height: calc(100vh - 130px);
 `;
 
 export const Title = styled.h2`

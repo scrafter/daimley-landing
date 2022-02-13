@@ -29,7 +29,9 @@ function ContactOffers() {
             <Title>{translate(`contact.offers.sectionTitle1`)}</Title>
           </TitleWrapper>
           <SectionDescription>
-            {translate(`contact.offers.sectionContent1`)}
+            {translate(`contact.offers.sectionContent11`)}
+            <a href="/rodo">{translate(`contact.offers.sectionContent12`)}</a>
+            {translate(`contact.offers.sectionContent13`)}
           </SectionDescription>
           <Button
             link={CV_EMAIL}
