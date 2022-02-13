@@ -32,7 +32,7 @@ export const MenuGroup = styled.div`
 `;
 
 export const MenuItemStyled = styled.a`
-  padding: 0 40px;
+  padding: 0 35px;
   font-weight: 600;
   cursor: pointer;
   text-decoration: none;
