@@ -15,7 +15,7 @@ function AboutTrainings() {
   return (
     <AboutTrainingsStyled id="types">
       <SubTitle>{translate(`trainings.list.subTitle`)}</SubTitle>
-      <Title>{translate(`trainings.list.subTitle`)}</Title>
+      <Title>{translate(`trainings.list.title`)}</Title>
 
       <List>
         {TRAININGS_LIST.map((item, key) => (

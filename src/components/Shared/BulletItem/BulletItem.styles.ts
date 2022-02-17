@@ -3,9 +3,9 @@ import { DaimleyTheme } from '@/theme';
 
 export const BulletItemStyled = styled.div`
   display: flex;
-  align-items: center;
 
   & > svg {
+    margin-top: 5px;
     flex-shrink: 0;
   }
 `;

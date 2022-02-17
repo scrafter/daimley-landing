@@ -46,6 +46,14 @@ function RecruitmentSpeciality() {
 
           <WeSpecilizeDescription>
             {translate(`recruitment.speciality.weSpecialize`)}
+
+            <BulletsList
+              items={[
+                `recruitment.speciality.speciality1`,
+                `recruitment.speciality.speciality2`,
+                `recruitment.speciality.speciality3`,
+              ]}
+            />
           </WeSpecilizeDescription>
 
           <BulletsDescription>

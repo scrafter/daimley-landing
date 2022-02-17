@@ -2,15 +2,6 @@ import { CV_EMAIL } from '@/components/MainPage/MainPageHeader/MainPageHeader';
 
 export const MENU_ITEMS = [
   {
-    label: `menu.main`,
-    subItems: [
-      { label: `menu.main.ourServices`, link: `/about-us#our-services` },
-      { label: `menu.main.delegateService`, link: `/form` },
-      { label: `menu.main.sendCV`, link: CV_EMAIL },
-      { label: `menu.main.references`, link: `/#references` },
-    ],
-  },
-  {
     label: `menu.trainings`,
     subItems: [
       {

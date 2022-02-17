@@ -61,7 +61,9 @@ function MainPageHeader() {
           {translate(`mainPage.header.weSupport`)}
         </MainPageDescription>
 
-        <MainPageButton onClick={() => window.location.replace(`/about-us`)}>
+        <MainPageButton
+          onClick={() => window.location.replace(`/#we-are-daimley`)}
+        >
           {translate(`mainPage.header.checkOut`)}
         </MainPageButton>
       </MainPageLeftWrapper>

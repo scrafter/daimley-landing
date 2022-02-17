@@ -76,10 +76,15 @@ export const WeSpecilizeDescription = styled.p`
   font-size: 1.25rem;
   color: ${(props: DaimleyTheme) => props.theme.gray};
   line-height: 1.8;
+
+  .bullets-list {
+    margin-top: 10px;
+    grid-template-columns: 1fr;
+  }
 `;
 
 export const BulletsDescription = styled.h6`
   font-size: 1.25rem;
   color: ${(props: DaimleyTheme) => props.theme.gray};
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 `;

@@ -21,7 +21,7 @@ function WeAreDaimley() {
   return (
     <WeAreDaimleyStyled>
       <WeAreDaimleyWrapper>
-        <WeAreDaimleySubTitle>
+        <WeAreDaimleySubTitle id="we-are-daimley">
           {translate(`weAreDaimley.subTitle`)}
         </WeAreDaimleySubTitle>
 
@@ -59,7 +59,10 @@ function WeAreDaimley() {
             {translate(`weAreDaimley.footerDescription`)}
           </WeAreDaimleyDescription>
 
-          <Button link="/about-us" label={translate(`weAreDaimley.button`)} />
+          <Button
+            link="/about-us#our-services"
+            label={translate(`weAreDaimley.button`)}
+          />
         </WeAreDaimleyFooter>
       </WeAreDaimleyWrapper>
     </WeAreDaimleyStyled>
