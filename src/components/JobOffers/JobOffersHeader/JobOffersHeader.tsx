@@ -2,17 +2,19 @@ import React from 'react';
 import {
   JobOffersHeaderStyled,
   Title,
-  Description,
+  SubTitle,
 } from '@/components/JobOffers/JobOffersHeader/JobOffersHeader.styles';
 import useTranslation from '@/useTranslation';
+import Button from '@/components/Shared/Button/Button';
 
 function JobOffersHeader() {
   const { translate } = useTranslation();
 
   return (
     <JobOffersHeaderStyled>
+      <SubTitle>{translate(`jobOffers.header.subTitle`)}</SubTitle>
       <Title>{translate(`jobOffers.header.title`)}</Title>
-      <Description>{translate(`jobOffers.header.description`)}</Description>
+      <Button link="/form" label={translate(`recruitment.header.button`)} />
     </JobOffersHeaderStyled>
   );
 }
