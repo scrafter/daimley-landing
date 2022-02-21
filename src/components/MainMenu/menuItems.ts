@@ -12,6 +12,13 @@ export const MENU_ITEMS = [
     ],
   },
   {
+    label: `menu.jobOffers`,
+    subItems: [
+      { label: `O ofertach`, link: `/job-offers` },
+      { label: `Lista`, link: `/job-offers#list` },
+    ],
+  },
+  {
     label: `menu.recruitment`,
     subItems: [
       {

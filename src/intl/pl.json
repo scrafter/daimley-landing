@@ -11,6 +11,8 @@
   "menu.trainings.howDoWeTrain": "Jak szkolimy?",
   "menu.trainings.types": "Rodzaje szkoleń",
 
+  "menu.jobOffers": "Oferty pracy",
+
   "menu.recruitment": "Rekrutacje",
   "menu.recruitment.positions": "Stanowiska, na które rekrutujemy",
   "menu.recruitment.businesses": "W jakich branżach się specjalizujemy",
@@ -217,6 +219,19 @@
   "trainings.contact.title1": "Masz dodatkowe pytania?",
   "trainings.contact.title2": "Skontaktuj się z nami.",
   "trainings.contact.button": "Kontakt",
+
+  "jobOffers.header.title": "Rekrutacje - oferty pracy",
+  "jobOffers.header.description": "Wieloletnie doświadczenie, usługi najwyżej jakości",
+
+  "jobOffers.description.title1": "Wymarzona",
+  "jobOffers.description.title2": " praca - jak ją znaleźć?",
+  "jobOffers.description.text1": "Opis 1",
+  "jobOffers.description.text2": "Opis 2",
+  "jobOffers.description.sendCV": "Wyślij CV do konsultacji",
+  "jobOffers.description.contactUs": "Skontaktuj się z nami",
+
+  "jobOffers.list.subTitle": "Daimley",
+  "jobOffers.list.title": "Aktualne oferty pracy",
 
   "form.main.subTitle": "Formularz zgłoszenia",
   "form.main.title1": "Wypełnij formularz Rekrutacji, Szkolenia",
