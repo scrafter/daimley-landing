@@ -28,9 +28,10 @@ interface Props {
     };
     effects: string[];
   };
+  labels: string[];
 }
 
-function TrainingItem({ item }: Props) {
+function TrainingItem({ item, labels }: Props) {
   const { translate } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
 
@@ -56,7 +57,7 @@ function TrainingItem({ item }: Props) {
             </ParapgraphWrapper>
           </td>
           <td className="button-cell">
-            <Button link="/form" label={translate(`trainings.list.button`)} />
+            <Button link="/form" label={translate(labels[0])} />
           </td>
         </TableRow>
 
@@ -64,7 +65,7 @@ function TrainingItem({ item }: Props) {
           <>
             <TableRow>
               <td>
-                <Title>{translate(`trainings.list.target`)}</Title>
+                <Title>{translate(labels[1])}</Title>
               </td>
               <td colSpan={2}>
                 <ParapgraphWrapper>
@@ -77,12 +78,16 @@ function TrainingItem({ item }: Props) {
 
             <TableRow>
               <td>
-                <Title>{translate(`trainings.list.receivers`)}</Title>
+                <Title>{translate(labels[2])}</Title>
               </td>
               <td colSpan={2}>
                 <ParapgraphWrapper>
                   {item.receivers.map((receiver, index) => (
-                    <BulletItem text={receiver} key={`receiver-${index}`} />
+                    <BulletItem
+                      doNotTranslate
+                      text={receiver}
+                      key={`receiver-${index}`}
+                    />
                   ))}
                 </ParapgraphWrapper>
               </td>
@@ -90,7 +95,7 @@ function TrainingItem({ item }: Props) {
 
             <TableRow>
               <td>
-                <Title>{translate(`trainings.list.structure`)}</Title>
+                <Title>{translate(labels[3])}</Title>
               </td>
 
               <td colSpan={2}>
@@ -98,12 +103,12 @@ function TrainingItem({ item }: Props) {
                   <Paragraph>{item.structure.description}</Paragraph>
 
                   <Paragraph>
-                    {translate(`trainings.list.consistOf`, {
+                    {translate(labels[4], {
                       number: item.structure.modules.length,
                     })}
                   </Paragraph>
 
-                  <BulletsList items={item.structure.modules} />
+                  <BulletsList doNotTranslate items={item.structure.modules} />
 
                   {item.structure.paragraphs.map((paragraph, index) => (
                     <Paragraph key={`structure-paragraph-${index}`}>
@@ -116,7 +121,7 @@ function TrainingItem({ item }: Props) {
 
             <TableRow>
               <td>
-                <Title>{translate(`trainings.list.effects`)}</Title>
+                <Title>{translate(labels[5])}</Title>
               </td>
               <td colSpan={2}>
                 <ParapgraphWrapper>
@@ -130,10 +135,7 @@ function TrainingItem({ item }: Props) {
             <TableRow className="last-row">
               <td />
               <td colSpan={2}>
-                <Button
-                  link="/form"
-                  label={translate(`trainings.list.button`)}
-                />
+                <Button link="/form" label={translate(labels[0])} />
               </td>
             </TableRow>
           </>

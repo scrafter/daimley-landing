@@ -45,8 +45,12 @@ function MainMenu({ darkMenu }: Props) {
           {darkMenu ? <Logo /> : <LogoWhite />}
         </MenuItemStyled>
 
-        {MENU_ITEMS.map((item) => (
-          <MenuItem label={item.label} subItems={item.subItems} />
+        {MENU_ITEMS.map((item, index) => (
+          <MenuItem
+            label={item.label}
+            subItems={item.subItems}
+            key={`menu-item-${index}`}
+          />
         ))}
       </MenuGroup>
 

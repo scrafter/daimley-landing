@@ -48,7 +48,10 @@ function MenuItem({ label, subItems }: Props) {
         }}
       >
         {subItems?.map((item) => (
-          <MenuItemComponent onClick={(event) => handleClick(event, item.link)}>
+          <MenuItemComponent
+            onClick={(event) => handleClick(event, item.link)}
+            key={`menu-subItem-${Math.random()}`}
+          >
             {translate(item.label)}
           </MenuItemComponent>
         ))}

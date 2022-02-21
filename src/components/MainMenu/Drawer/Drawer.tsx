@@ -21,6 +21,7 @@ function Drawer({ open, toggleDrawer }: Props) {
             label={item.label}
             items={item.subItems}
             toggleDrawer={toggleDrawer}
+            key={`drawer-item-${Math.random()}`}
           />
         ))}
       </List>

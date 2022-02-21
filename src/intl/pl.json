@@ -12,6 +12,8 @@
   "menu.trainings.types": "Rodzaje szkoleń",
 
   "menu.jobOffers": "Oferty pracy",
+  "menu.about": "O ofertach",
+  "menu.list": "Lista ofert",
 
   "menu.recruitment": "Rekrutacje",
   "menu.recruitment.positions": "Stanowiska, na które rekrutujemy",
@@ -222,6 +224,12 @@
 
   "jobOffers.header.subTitle": "Wieloletnie doświadczenie, usługi najwyżej jakości",
   "jobOffers.header.title": "Rekrutacje - oferty pracy",
+  "jobOffers.header.label1": "Label 1",
+  "jobOffers.header.label2": "Label 2",
+  "jobOffers.header.label3": "Label 3",
+  "jobOffers.header.label4": "Label 4",
+  "jobOffers.header.label5": "Label 5",
+  "jobOffers.header.button": "Aplikuj teraz",
 
   "jobOffers.description.title1": "Wymarzona",
   "jobOffers.description.title2": " praca - jak ją znaleźć?",

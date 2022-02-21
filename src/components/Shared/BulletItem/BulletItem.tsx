@@ -8,14 +8,17 @@ import { CheckIcon } from '@/assets/icons/CheckIcon';
 
 interface Props {
   text: string;
+  doNotTranslate?: boolean;
 }
 
-function BulletItem({ text }: Props) {
+function BulletItem({ text, doNotTranslate }: Props) {
   const { translate } = useTranslation();
+  const label = doNotTranslate ? text : translate(text);
+
   return (
     <BulletItemStyled>
       <CheckIcon color="green" height={20} width={20} />
-      <Text>{translate(text)}</Text>
+      <Text>{label}</Text>
     </BulletItemStyled>
   );
 }

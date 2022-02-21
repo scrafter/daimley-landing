@@ -9,6 +9,15 @@ import useTranslation from '@/useTranslation';
 import { TRAININGS_LIST } from '@/components/Trainings/trainingsList';
 import TrainingItem from '@/components/Trainings/AboutTrainings/TrainingItem/TrainingItem';
 
+const LABELS = [
+  `trainings.list.button`,
+  `trainings.list.target`,
+  `trainings.list.receivers`,
+  `trainings.list.structure`,
+  `trainings.list.consistOf`,
+  `trainings.list.effects`,
+];
+
 function AboutTrainings() {
   const { translate } = useTranslation();
 
@@ -19,7 +28,11 @@ function AboutTrainings() {
 
       <List>
         {TRAININGS_LIST.map((item, key) => (
-          <TrainingItem item={item} key={`training-item-${key}`} />
+          <TrainingItem
+            labels={LABELS}
+            item={item}
+            key={`training-item-${key}`}
+          />
         ))}
       </List>
     </AboutTrainingsStyled>
