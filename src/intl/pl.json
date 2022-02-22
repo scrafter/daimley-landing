@@ -224,12 +224,14 @@
 
   "jobOffers.header.subTitle": "Wieloletnie doświadczenie, usługi najwyżej jakości",
   "jobOffers.header.title": "Rekrutacje - oferty pracy",
-  "jobOffers.header.label1": "Label 1",
-  "jobOffers.header.label2": "Label 2",
-  "jobOffers.header.label3": "Label 3",
-  "jobOffers.header.label4": "Label 4",
-  "jobOffers.header.label5": "Label 5",
-  "jobOffers.header.button": "Aplikuj teraz",
+  "jobOffers.header.button": "Wyślij CV do konsultacji",
+
+  "jobOffers.list.label1": "Label 1",
+  "jobOffers.list.label2": "Label 2",
+  "jobOffers.list.label3": "Label 3",
+  "jobOffers.list.label4": "Label 4",
+  "jobOffers.list.label5": "Label 5",
+  "jobOffers.list.button": "Aplikuj teraz",
 
   "jobOffers.description.title1": "Wymarzona",
   "jobOffers.description.title2": " praca - jak ją znaleźć?",
