@@ -226,11 +226,11 @@
   "jobOffers.header.title": "Rekrutacje - oferty pracy",
   "jobOffers.header.button": "Wyślij CV do konsultacji",
 
-  "jobOffers.list.label1": "Label 1",
-  "jobOffers.list.label2": "Label 2",
-  "jobOffers.list.label3": "Label 3",
-  "jobOffers.list.label4": "Label 4",
-  "jobOffers.list.label5": "Label 5",
+  "jobOffers.list.label1": "Cel stanowiska",
+  "jobOffers.list.label2": "Twoje obowiązki",
+  "jobOffers.list.label3": "Twoje kwalifikacje",
+  "jobOffers.list.label4": "Składa się z:",
+  "jobOffers.list.label5": "Twoje korzyści",
   "jobOffers.list.button": "Aplikuj teraz",
 
   "jobOffers.description.title1": "Wymarzona",

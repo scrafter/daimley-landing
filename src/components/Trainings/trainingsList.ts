@@ -81,7 +81,7 @@ export const TRAININGS_LIST = [
       ],
     },
     effects: [
-      `Szkolenie dodaje pewności siebie podczas negocjaji handlowych poprawiając ich efekty.`,
+      `Szkolenie dodaje pewności siebie podczas negocjacji handlowych poprawiając ich efekty.`,
       `Szkolenie uczy w jaki sposób postępować z różnego typu klientami co poprawia skuteczność handlowców.`,
       `Szkolenie przypisuje pracownika do społeczności jaką jest firma, w której pracuje. Daje poczucie istotności i stabilizacji. Powoduje efekt wzajemności i chęci wypróbowania materiału ze szkolenia. Przekłada się to na wzrost sprzedaży.`,
       `Szklenie intensyfikuje u handlowca poczucie wsparcia ze strony pracodawcy i ogranicza frustracje związane z porażkami. Powoduje wzrost pewności siebie podczas rozmów z Klientami co powoduje wzrost sprzedaży.`,
@@ -101,7 +101,7 @@ export const TRAININGS_LIST = [
       `Szkolenie „Ekspercka asysta sprzedażowa w praktyce.” skierowane jest do osób, które odpowiedzialne są za bezpośrednie kierowanie grupą handlowców, za ich osiągnięcia i realizację wyznaczonych celów, oraz za szkolenia tych osób podczas codziennej pracy.`,
     ],
     target: [
-      `Warsztaty mają na celu przedstawienie wiedzy teoretycznej i technik związanych z procesem i metodologią przeprowadzania przez osoby pełniące funkcje kierownicze tzw. szkoleń WTP (W Ttrakcie Pracy, z ang. OTJ On The Job) pracowników działów sprzedaży, call center, obsługi klienta, a w szczególności praktyczne nauczenie posługiwania się tymi technikami.`,
+      `Warsztaty mają na celu przedstawienie wiedzy teoretycznej i technik związanych z procesem i metodologią przeprowadzania przez osoby pełniące funkcje kierownicze tzw. szkoleń WTP (W Trakcie Pracy, z ang. OTJ On The Job) pracowników działów sprzedaży, call center, obsługi klienta, a w szczególności praktyczne nauczenie posługiwania się tymi technikami.`,
     ],
     receivers: [
       `Kierownicy pracowników działów handlowych nadzorujący pracę handlowców`,
@@ -261,6 +261,101 @@ export const TRAININGS_LIST = [
       `Szkolenie daje handlowcowi wiedzę i umiejętności, które dając poczucie pewności siebie w znaczący sposób ułatwiają, przyspieszają rozmowę handlową i proces sprzedaży znacząco zwiększając sprzedaż.`,
       `Samodoskonalenie się pracowników działu sprzedaży, poprzez możliwość analizy swojej pracy w porównaniu do elementów szkolenia powoduje dalszy rozwój umiejętności, chęć sprawdzenia się, chęć realizacji trudniejszych celów co potęguje osiągane wyniki.`,
       `Możliwość dalszego rozwoju wewnątrz organizacji i awansu na wyższe stanowiska przyczyniając się do rozwoju firmy, wzrostu jej wartości rynkowej i konkurencyjności.`,
+    ],
+  },
+
+  // siódme szkolenie Warsztaty szkoleniowe Excel od podstaw
+  {
+    type: `Warsztaty szkoleniowe:`,
+    title: `Excel od podstaw.`,
+    description: [
+      `Warsztaty szkoleniowe Excel od podstaw skierowany jest do osób, które rozpoczynają pracę z programem Excel lub chcą usystematyzować i pogłębić podstawowe informacje o tym programie. Prowadzony jest w formie warsztatów podczas, których Uczestnicy otrzymują wiedzę teoretyczną oraz uczą cię praktycznego zastosowania funkcjonalności programu co powoduje, że po zakończonym szkoleni od razu potrafią korzystać z programu Excel.  `,
+    ],
+    target: [
+      `Celem warsztatów jest nauczenie jego uczestników łatwego i efektywnego korzystania z programu MS Excel. Jest to szkolenie dla początkujących urzytkowników, dlatego treść skupia się na zaznajomieniu uczestników szkolenia z zasadami obsługi oraz funkcjonowania najważniejszych funkcji potrzebnych do pracy z programem Excel,  sposobu pracy z danymi i ich edycji, tworzenia wykresów, tabel i analizy danych.`,
+    ],
+    receivers: [
+      `Osoby, które nigdy nie miały kontaktu i zaczynające dopiero pracę z programem Excel np. studenci, pracownicy biurowi`,
+      `Osoby mające pierwsze doświadczenia z programem Excel za sobą i chcące ustrukturyzować swoją wiedzę.`,
+      `Pracownicy działów sprzedaży, obsługi klienta księgowości i finansów.`,
+    ],
+    structure: {
+      description: `Warsztaty prowadzone są w formie stacjonarnej (w sali ćwiczeniowej )przy użyciu multimediów lub online`,
+      modules: [
+        `Moduł 1 - Podstawowe informacje o programie (Do czego służy excel, Pasek narządzi i menu, Widok Backstage)`,
+        `Moduł 2 - Skoroszyty (Co to jest skoroszyt do czego służy, Tworzenie nowych skoroszytów i praca w istniejących skoroszytach)`,
+        `Moduł 3 - Operacje na arkuszach (Co to jest arkusz i z czego się składa, Tworzenie i usuwanie arkuszy, Praca w arkuszu i poruszanie się pomiędzy arkuszami) `,
+        `Moduł 4 - Podstawowe operacje na danych (Czym są dane w Excelu, Liczby i tekst – różnice, Edycja danych, Edytowanie komórek/ wierszy/ kolumn, Tworzenie komentarzy)`,
+        `Moduł 5 - Praca z danymi (Formatowanie, kopiowanie, usuwane wklejanie danych, Sposoby zaznaczania danych oraz edycji zaznaczonych obszarów danych, Możliwości selekcji danych [myszka, klawiatura], Wykorzystywanie do edycji danych menu kontekstowego oraz paska narzędzi, Podstawowe skróty klawiszowe do edycji danych) `,
+        `Moduł 6 - Edycja obszaru roboczego (Ustawianie wielkości widocznego obszaru roboczego, Ustawianie odpowiedniej szerokości kolumn – ręczne i automatyczne, Ustawianie odpowiedniej wysokości wierszy – ręczne i automatyczne, Operacje na wierszach i kolumnach)`,
+        `Moduł 7 - Podstawowe operacje na oknach (Co to jest okno i czym różni się od arkusza, Kiedy używać funkcji okno, Jak wykonać podział okna, Jak wykonać blokowanie komórek)`,
+        `Moduł 8 - Podstawowe formuły w programie Excel (Ogólne informacje o formułach, Sposób wprowadzania formuł, Edycja formuł i sposób jej zapisu, Zamiana formuł na wartości)`,
+        `Moduł 9 - Czym są odwołania i do czego służą (Rodzaje odwołań i różnice, Dodawanie odwołania między arkuszami)`,
+        `Moduł 10 - Funkcje w programie Excel (Co to jest funkcja i do czego służy, Wprowadzanie i wyszukiwanie funkcji, Podstawowe funkcje w programie Excel, Czym są błędy i jak je usunąć)`,
+        `Moduł 11 - Podstawy analizy (Jak sortować i i filtrować dane, Rodzaje filtrów)`,
+        `Moduł 12 - Rodzaje wykresów (Edycja i tworzenie podstawowych wykresów)`,
+        `Moduł 13 - Zapisywanie i drukowanie (Ustawianie obszaru wydruku, Edytowanie wydruku - marginesy, strony nagłówek i stopka)`,
+        `Moduł 14 - Zabezpieczanie arkusza danych (Ochrona arkusza, Ochrona skoroszytu`,
+      ],
+      paragraphs: [
+        `Moduły i ćwiczenie w nich zawarte można na życzenie Klienta modyfikować pod kątem jego działalności to znaczy dopasować do konkretnej branży. Powoduje to, że podczas ćwiczeń można „pracować” na produktach/usługach Klienta, oraz sytuacjach zbliżonych do realnych zdarzeń z jakimi mogą spotkać się jego pracownicy, co w znaczący sposób poprawia efektywność szkolenia i przekłada się na wzrost sprzedaży po szkoleniu.`,
+        `W szkoleniu stacjonarnym może jednorazowo brać udział od 8 do 16 osób. W przypadku szkoleń online liczba ucztników może wynosić do 25 osób. `,
+        `W zależności od wymaganej przez Klienta intensywności ćwiczeń i liczebności grupy, warsztaty trwają dwa dni. Zwyczajowo rozpoczynają się o 9:00 i kończą o 17:00. Zawierają wymaganą przez Klienta liczbę przerw kawowych oraz 45 minutową przerwę na obiad. W przypadku szkoleń online, są dwoe 15 minutowe przerwy oraz jedna 45 minutowa.`,
+      ],
+    },
+    effects: [
+      `Uczestnik zna i umie posługiwać się programem Excel w stopniu pozwalającym na wykonywanie pracy polegającej na wprowadzaniu, formatowaniu i analizie danych danych `,
+      `Uczestnik efektywnie pracuje z arkuszami i skoroszytami programu Excel`,
+      `Uczestnik zna i potrafi skorzystać z formuł i podstawowych funkcji programu Excel`,
+      `Uczestnik potrafi przygotować i wydrukować podstawowe raporty w programie Excel`,
+      `Uczestnik ma wiedze o tworzeniu tabel i sposobie ich edycji `,
+    ],
+  },
+
+  // ósme szkolenie Warsztaty szkoleniowe Excel od podstaw
+  {
+    type: `Warsztaty szkoleniowe:`,
+    title: `Excel poziom średniozaawansowany.`,
+    description: [
+      `Warsztaty szkoleniowe Excel dla średniozaawansowanych skierowany jest do osób, które chcą usystematyzować i pogłębić wiedzę oraz umiejętności pracy w tym programie. Prowadzony jest w formie warsztatów podczas, których Uczestnicy otrzymują wiedzę teoretyczną oraz uczą cię praktycznego zastosowania funkcjonalności programu co powoduje, że po zakończonym szkoleni od razu potrafią korzystać z programu Excel. Warsztaty mogą zostać poprzedzone badaniem, mającym na celu umiejętności uczestników.  `,
+    ],
+    target: [
+      `Celem warsztatów jest nauczenie jego uczestników łatwego i efektywnego korzystania z programu MS Excel. Jest to szkolenie urzytkowników chcących porzeszyć swoją wiedzę, dlatego treść skupia się na pogłębieniiu wiedzy uczestników o najcześciej wykorzystywane funkcje, które pozwalają na efektywne wykorzystywanie czasu pracy.`,
+    ],
+    receivers: [
+      `Osoby, które znają podstawy pracy z programem Excel np. studenci, pracownicy biurowi`,
+      `Osoby mające  doświadczenia z programem Excel za sobą i chcące ustrukturyzować swoją wiedzę.`,
+      `Pracownicy działów sprzedaży, obsługi klienta księgowości i finansów.`,
+    ],
+    structure: {
+      description: `Warsztaty prowadzone są w formie stacjonarnej (w sali ćwiczeniowej )przy użyciu multimediów lub online`,
+      modules: [
+        `Moduł 1 - Edytowanie i automatyzacja wprowadzania danych (Funkcja błyskawicznego wypełniania danymi (FF), Serie danych, Edycja własnych list Listy niestandardowe, Tekst jako kolumny)`,
+        `Moduł 2 - Tworzenie i edycja formuł w programie Excel`,
+        `Moduł 3 - Baza funkcji w programie Excel `,
+        `Moduł 4 - Do czego i jak wykorzystujemy łącza (Połączenia między arkuszami i między skoroszytami)`,
+        `Moduł 5 - Omówienie wybranych funkcji programu Excel (Funkcje podstawowe: Suma, Średnia, Funkcje zaawansowane: Wyszukaj.pionowo, Jeżeli, Omówienie funkcji daty i czasu, Liczba.całkowita, Suma.jeżeli, Zaokr )`,
+        `Moduł 6 - Integralność Danych (Tworzenie walidacji daty, liczb i tekstu)`,
+        `Moduł 7 - Tworzenie i edycja wykresów (Wybór wykresu, Określanie źródła danych, Zmiana typu i układu wykresu, Omówienie elementów wykresu oraz edycji, Formatowanie wykresu, Tworzenie szablonów)`,
+        `Moduł 8 - Elementy analizy danych`,
+        `Moduł 9 - Zaawansowane sortowanie danych (Sortowanie wg. poziomów, Sortowanie w wierszach, Sortowanie wg. List niestandardowych, Tworzenie filtrów złożonych, Tworzenie niestandardowych filtrów, Używanie symboli wieloznacznych, Zapisywanie ustawień Autofiltra)`,
+        `Moduł 10 - Tworzenie konspektów (Autokonspekt- zasady tworzenia, Tworzenie konspektów ręcznych, Ukrywanie widoków konspektów)`,
+        `Moduł 11 - Sumy częściowe (Tworzenie sum częściowych, Zastosowanie sum częściowych, Kopiowanie raportów sum częściowych)`,
+        `Moduł 12 - Tabele przestawne (Tworzenie tabel przestawnych, Definicje w ramach Tabeli Przestawnych, Sortowanie i filtrowanie, Tworzenie wykresów przestawnych, Formatowanie)`,
+        `Moduł 13 - Zabezpieczanie arkusza danych (Ochrona arkusza, Ochrona skoroszytu)`,
+      ],
+      paragraphs: [
+        `Moduły i ćwiczenie w nich zawarte można na życzenie Klienta modyfikować pod kątem jego działalności to znaczy dopasować do konkretnej branży. Powoduje to, że podczas ćwiczeń można „pracować” na produktach/usługach Klienta, oraz sytuacjach zbliżonych do realnych zdarzeń z jakimi mogą spotkać się jego pracownicy, co w znaczący sposób poprawia efektywność szkolenia i przekłada się na wzrost sprzedaży po szkoleniu.`,
+        `W szkoleniu stacjonarnym może jednorazowo brać udział od 8 do 16 osób. W przypadku szkoleń online liczba ucztników może wynosić do 25 osób. `,
+        `W zależności od wymaganej przez Klienta intensywności ćwiczeń i liczebności grupy, warsztaty trwają dwa dni. Zwyczajowo rozpoczynają się o 9:00 i kończą o 17:00. Zawierają wymaganą przez Klienta liczbę przerw kawowych oraz 45 minutową przerwę na obiad. W przypadku szkoleń online, są dwoe 15 minutowe przerwy oraz jedna 45 minutowa.`,
+      ],
+    },
+    effects: [
+      `Uczestnik zna i umie posługiwać się programem Excel w stopniu pozwalającym na wykonywanie większości zagadnień  `,
+      `Uczestnik efektywnie pracuje z arkuszami i skoroszytami tabelami i wykresami programu Excel`,
+      `Uczestnik zna i potrafi skorzystać z formuł i najważniejszych funkcji programu Excel`,
+      `Uczestnik potrafi przygotować i wydrukować raporty w programie Excel`,
+      `Uczestnik ma wiedze o tworzeniu tabel i sposobie ich edycji  `,
     ],
   },
 ];
