@@ -34,7 +34,7 @@ const LINKS = [
     { text: `mainPage.header.delegateConsulting`, url: `/form` },
   ],
   [
-    { text: `mainPage.header.jobOffers`, url: `#` },
+    { text: `mainPage.header.jobOffers`, url: `/job-offers#list` },
     { text: `mainPage.header.buyTraining`, url: `/trainings` },
     {
       text: `mainPage.header.registerCV`,

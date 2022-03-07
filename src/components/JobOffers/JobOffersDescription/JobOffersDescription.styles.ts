@@ -30,6 +30,11 @@ export const Description = styled.p`
   &:nth-of-type(2) {
     margin-top: 30px;
   }
+
+  strong {
+    font-weight: 700;
+    margin-left: 0.5rem;
+  }
 `;
 
 export const Title = styled.h2`

@@ -15,7 +15,7 @@ function JobOffersDescription() {
   const { translate } = useTranslation();
 
   return (
-    <JobOffersDescriptionStyled>
+    <JobOffersDescriptionStyled id="description">
       <StaticImage
         src="../../../assets/recruitment/recr1.png"
         alt="Recruitment photo"
@@ -37,7 +37,7 @@ function JobOffersDescription() {
         <Description>
           {translate(`jobOffers.description.text21`)}
           <strong>{translate(`jobOffers.description.text22`)}</strong>
-          {translate(`jobOffers.description.text23`)}
+          <p>{translate(`jobOffers.description.text23`)}</p>
         </Description>
 
         <Button

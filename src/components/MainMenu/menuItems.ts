@@ -14,7 +14,7 @@ export const MENU_ITEMS = [
   {
     label: `menu.jobOffers`,
     subItems: [
-      { label: `menu.about`, link: `/job-offers` },
+      { label: `menu.about`, link: `/job-offers#description` },
       { label: `menu.list`, link: `/job-offers#list` },
     ],
   },

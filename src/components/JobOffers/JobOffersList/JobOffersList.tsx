@@ -8,6 +8,7 @@ import {
 import useTranslation from '@/useTranslation';
 import { JOB_OFFERS } from '@/components/JobOffers/JobOffersList/jobOffers';
 import TrainingItem from '@/components/Trainings/AboutTrainings/TrainingItem/TrainingItem';
+import { CV_EMAIL } from '@/components/MainPage/MainPageHeader/MainPageHeader';
 
 const LABELS = [
   `jobOffers.list.button`,
@@ -28,7 +29,12 @@ function JobOffersList() {
 
       <List>
         {JOB_OFFERS.map((item, key) => (
-          <TrainingItem labels={LABELS} item={item} key={`job-offer-${key}`} />
+          <TrainingItem
+            labels={LABELS}
+            item={item}
+            key={`job-offer-${key}`}
+            buttonLink={CV_EMAIL}
+          />
         ))}
       </List>
     </JobOffersListStyled>

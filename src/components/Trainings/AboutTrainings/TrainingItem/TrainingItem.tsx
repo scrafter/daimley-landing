@@ -29,11 +29,13 @@ interface Props {
     effects: string[];
   };
   labels: string[];
+  buttonLink?: string;
 }
 
-function TrainingItem({ item, labels }: Props) {
+function TrainingItem({ item, labels, buttonLink }: Props) {
   const { translate } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
+  const link = buttonLink || `/form`;
 
   return (
     <TrainingItemStyled>
@@ -57,7 +59,7 @@ function TrainingItem({ item, labels }: Props) {
             </ParapgraphWrapper>
           </td>
           <td className="button-cell">
-            <Button link="/form" label={translate(labels[0])} />
+            <Button link={link} label={translate(labels[0])} />
           </td>
         </TableRow>
 
@@ -135,7 +137,7 @@ function TrainingItem({ item, labels }: Props) {
             <TableRow className="last-row">
               <td />
               <td colSpan={2}>
-                <Button link="/form" label={translate(labels[0])} />
+                <Button link={link} label={translate(labels[0])} />
               </td>
             </TableRow>
           </>
