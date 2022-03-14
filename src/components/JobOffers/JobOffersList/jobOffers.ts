@@ -1,5 +1,63 @@
 export const JOB_OFFERS = [
   {
+    type: `Głuchołazy woj. Opolskie`,
+    title: `Dyrektor sprzedaży ds. eksportu i sprzedaży krajowej.`,
+    description: [
+      `Nasz Klient to dynamicznie rozwijający się i działający od ponad 25 lat holding firm z ugruntowaną i stabilną pozycją rynkową, prowadzący operacje w różnych branżach na rynku krajowym i na wielu rynkach zagranicznych.`,
+    ],
+    target: [
+      `W związku z planowaną dalszą ekspansją na rynki zagraniczne oraz wzmocnieniem pozycji na rynku krajowym do jednej ze swoich spółek działających w branży elektro poszukuje doświadczonego managera z pasją, osoby przedsiębiorczej i samodzielnej, która wytyczy ścieżkę wzrostu i wdroży swój plan w życie. Jeśli sprzedaż jest tym co dodaje Ci energii do działania, jesteś twórczy, lubisz pracę z ludźmi a myślenie strategiczne i operacyjne to Twoje atuty, wyślij swoją aplikację.`,
+      `Twój nowy pracodawca oferuje Ci atrakcyjne wynagrodzenie, autonomię i samodzielność w działaniu abyś mógł osiągać swoje cele i czuć się dobrze w nowym miejscu pracy. Dodatkowo otrzymasz możliwość pracy hybrydowej abyś mógł zaoszczędzić swój prywatny czas, a to tylko niektóre możliwości jakie znajdziesz w ofercie.`,
+      `Osoba zatrudniona na tym stanowisku będzie podlegać bezpośrednio pod Prezesa firmy oraz raportować efekty swoich działań do zarządu przedsiębiorstwa.`,
+
+      `Jeśli to brzmi dla Ciebie interesująco wyślij swoje CV na adres rekrutacje@daimly.pl,
+	W tytule maila wpisz numer oferty: 15/03/2022`,
+    ],
+    receivers: [
+      `Zapewnienie wzrostu sprzedaży eksportowej `,
+      `Budowanie i wdrażanie przyjętej do realizacji strategii sprzedażowej, oraz odpowiedzialność za jej realizację  `,
+      `Planowanie budżetu i realizacja jego założeń – odpowiedzialność z P&L`,
+      `Rozwój sprzedaży eksportowej poprzez zawieranie i negocjowanie umów i nadzór nad ich realizacją`,
+      `Zarządzanie pracą działu sprzedaży`,
+      `Ocena istniejących i proponowanie nowych możliwości biznesowych`,
+      `Zbudowanie systemu monitoringu oraz analiza danych rynkowych danego segmentu oraz otoczenia konkurencyjnego`,
+      `Raportowanie wyników pracy swojej i podległego zespołu`,
+    ],
+    structure: {
+      description: `Aby skutecznie i efektywnie wykonywać swoje obowiązki, oraz osiągać cele jakie organizacja postawi wybranemu Kandydatowi/ Kandydatce  idealna osoba powinna spełniać następujące kryteria i powinna posiadać:`,
+      modules: [
+        `Co najmniej 5 letnie poparte sukcesami doświadczenie w zarządzaniu sprzedażą i zespołami sprzedażowymi`,
+        `Doświadczenie w budowaniu sprzedaży eksportowej`,
+        `Znajomość języka angielskiego na poziomie umożliwiającym swobodną biznesową komunikację w mowie i piśmie – warunek niezbędny`,
+        `Łatwość w rozumieniu technicznych zagadnień (doświadczenie w branży elektro lub pokrewnej może  być dodatkowym atutem)`,
+        `Znajomość technik sprzedaży oraz doświadczenie w prowadzeniu negocjacji`,
+        `Wysoki poziom kompetencji komunikacyjnych`,
+        `Elastyczność w działaniu, umiejętność przystosowywania się do zmieniających się warunków`,
+        `Przedsiębiorczość - umiejętność dostrzegania szans i ich wykorzystywania`,
+        `Ambicje dające motywację do wygrywania z najlepszymi i dążenie do wprowadzania ulepszeń`,
+        `Umiejętność strategicznego myślenia`,
+        `Wykształcenie wyższe`,
+        `Znajomości obsługi komputera (pakiet Office) oraz prawo jazdy kat. B`,
+        `Znajomość i chęć korzystania z systemów ERP będzie dodatkowym atutem ( preferowany SAP BUSSINESS ONE)`,
+      ],
+      paragraphs: [
+        `Firma oferuje pracę na podstawie umowy o pracę lub umowy B2B w atmosferze współpracy. Dodatkowo otrzymasz:`,
+      ],
+    },
+    effects: [
+      `Bardzo atrakcyjne wynagrodzenie`,
+      `Niezbędne narzędzia pracy w tym samochód z segmentu D`,
+      `Samochód do użytku prywatnego`,
+      `Praca w trybie hybrydowym (biuro, praca w domu, oraz delegacje)`,
+      `Dofinansowanie wypoczynku`,
+      `Możliwość zaciągnięcia kredytu na preferencyjnych warunkach`,
+      `Możliwość otrzymania dofinansowania do studiów lub wybranych szkoleń`,
+      `Możliwość doskonalenia umiejętności podczas szkoleń`,
+      `Paczki lub bony świąteczne`,
+      `W biurze zawsze dostępne są darmowe kawa i napoje`,
+    ],
+  },
+  {
     type: `Wrocław i okolice`,
     title: `Customer Success Manager_Sales Manager.`,
     description: [
