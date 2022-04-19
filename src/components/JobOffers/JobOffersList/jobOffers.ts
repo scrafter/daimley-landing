@@ -1,6 +1,62 @@
 export const JOB_OFFERS = [
   {
     type: `Głuchołazy woj. Opolskie`,
+    title: `Kierownik Działu Utrzymania Ruchu.`,
+    description: [
+      `Nasz Klient to dynamicznie rozwijający się i działający od ponad 25 lat holding firm z ugruntowaną i stabilną pozycją rynkową, prowadzący operacje w różnych branżach na rynku krajowym i na wielu rynkach zagranicznych.`,
+    ],
+    target: [
+      `W związku z wdrażaniem planu rozwoju i poprawy jakości działalności produkcyjnej, poszukujemy doświadczonej, innowacyjnej i rozumiejącej procesy produkcyjne osoby, która przejmie odpowiedzialne stanowisko Kierownika Działu Utrzymania Ruchu w ramach wszystkich firm należących do grupy kapitałowej.`,
+      `Jeśli mechanika maszyn jest tym, co dodaje Ci energii do działania, jesteś twórczy, lubisz pracę z ludźmi, a planowanie i organizowanie to Twoje atuty, wyślij swoją aplikację.`,
+      `Twój nowy pracodawca oferuje Ci atrakcyjne wynagrodzenie, autonomię i samodzielność w działaniu abyś mógł osiągać swoje cele i czuć się dobrze w nowym miejscu pracy.`,
+      `Osoba zatrudniona na tym stanowisku będzie podlegać bezpośrednio pod Prezesa firmy oraz raportować efekty swoich działań do zarządu przedsiębiorstwa.`,
+      `Jeśli to brzmi dla Ciebie interesująco wyślij swoje CV na adres rekrutacje@daimly.pl,
+      W tytule maila wpisz numer oferty: 19/04/2022`,
+    ],
+    receivers: [
+      `Proponowanie i wdrażanie innowacyjnych rozwiązań, mających na celu poprawę jakości procesu produkcji`,
+      `Organizowanie i sprawowanie nadzoru nad pracą Działu Utrzymania Ruchu, nadzorowanie realizacji zadań podległych pracowników, prowadzenie ewidencji realizowanych zadań`,
+      `Doskonalenie wewnętrznej organizacji pracy Działu oraz opracowywanie metod i formy pracy podległych pracowników`,
+      `Organizacja i nadzór nad magazynami części zamiennych i narzędzi`,
+      `Opracowywanie, nadzorowanie i realizacja harmonogramów cyklów remontowych i konserwacji maszyn, urządzeń, linii produkcyjnych oraz obiektów budowlanych (we współpracy z wydziałem budowlanym)`,
+      `Wdrażanie i egzekwowanie procedur zapewniających ciągłość pracy maszyn i urządzeń produkcyjnych`,
+      `Bezpośrednie sprawowanie nadzoru nad infrastrukturą zakładu, maszyn oraz instalacji produkcyjnych, realizowanie planów przeglądów okresowych maszyn i urządzeń`,
+      `Analiza przyczyn awarii i usterek oraz przygotowanie i wdrażanie działań prewencyjnych i naprawczych`,
+      `Zapewnianie doradztwa technicznego przy podejmowaniu decyzji zakupowych oraz związanych nowymi inwestycjami`,
+      `Nadzór nad dokumentacją techniczną maszyn, urządzeń i instalacji oraz zapewnienie ich aktualności i kompletności`,
+      `Współpraca z innymi działami/wydziałami organizacji, podwykonawcami i serwisami zewnętrznymi`,
+      `Dążenie do automatyzacji procesów produkcyjnych`,
+      `Raportowanie i prowadzenie statystyk na potrzeby Zarządu`,
+    ],
+    structure: {
+      description: `Aby skutecznie i efektywnie wykonywać swoje obowiązki, oraz osiągać cele jakie organizacja postawi wybranemu Kandydatowi/ Kandydatce  idealna osoba powinna spełniać następujące kryteria i powinna posiadać:`,
+      modules: [
+        `Wykształcenie wyższe, o kierunku technicznym (preferowane kierunki: mechanika, automatyka, budowa maszyn lub pokrewne)`,
+        `Znajomość parku maszynowego m.in obrabiarek CMC, robotów spawalniczych, ploterów frezujących`,
+        `Minimum 3 lata doświadczenia na samodzielnym stanowisku kierowniczym w Dziale Utrzymania Ruchu w branży produkcyjnej (znajomość branży tworzyw sztucznych, obróbki aluminium lub szkła będzie dodatkowym atutem)`,
+        `Wiedzę techniczną z zakresu eksploatacji maszyn i urządzeń przemysłowych`,
+        `Umiejętność organizacji pracy własnej i podległego zespołu`,
+        `Umiejętności wielopłaszczyznowego rozwiązywania problemów`,
+        `Umiejętność samodzielnego podejmowania decyzji, poczucie odpowiedzialności`,
+        `Doświadczenie w usprawnianiu i automatyzacji procesów produkcyjnych`,
+      ],
+      paragraphs: [
+        `Firma oferuje pracę na podstawie umowy o pracę lub umowy B2B w atmosferze współpracy. Dodatkowo otrzymasz:`,
+      ],
+    },
+    effects: [
+      `Bardzo atrakcyjne wynagrodzenie`,
+      `Niezbędne narzędzia pracy`,
+      `Dofinansowanie wypoczynku`,
+      `Możliwość zaciągnięcia kredytu na preferencyjnych warunkach`,
+      `Możliwość otrzymania dofinansowania do studiów lub wybranych szkoleń`,
+      `Możliwość doskonalenia umiejętności podczas szkoleń`,
+      `Paczki lub bony świąteczne`,
+      `W biurze zawsze dostępne są darmowe kawa i napoje`,
+    ],
+  },
+  {
+    type: `Głuchołazy woj. Opolskie`,
     title: `Dyrektor sprzedaży ds. eksportu i sprzedaży krajowej.`,
     description: [
       `Nasz Klient to dynamicznie rozwijający się i działający od ponad 25 lat holding firm z ugruntowaną i stabilną pozycją rynkową, prowadzący operacje w różnych branżach na rynku krajowym i na wielu rynkach zagranicznych.`,
@@ -11,7 +67,7 @@ export const JOB_OFFERS = [
       `Osoba zatrudniona na tym stanowisku będzie podlegać bezpośrednio pod Prezesa firmy oraz raportować efekty swoich działań do zarządu przedsiębiorstwa.`,
 
       `Jeśli to brzmi dla Ciebie interesująco wyślij swoje CV na adres rekrutacje@daimly.pl,
-	W tytule maila wpisz numer oferty: 15/03/2022`,
+W tytule maila wpisz numer oferty: 15/03/2022`,
     ],
     receivers: [
       `Zapewnienie wzrostu sprzedaży eksportowej `,
@@ -66,7 +122,7 @@ export const JOB_OFFERS = [
     target: [
       `W swojej codziennej pracy będziesz się czuł jak ryba w wodzie, jeśli lubisz współpracę z ludźmi, a atrakcyjne wynagrodzenie i dodatkowe premie motywują Cię do działania.  Innowacyjne systemy i procesy sprzedażowe stosowane w firmie sprawiają, iż w opisanej poniżej roli, będziesz się skupiać na otrzymanych klientach i nie będziesz ich samodzielnie poszukiwać. Elastyczne godziny oraz możliwość pracy zdalnej abyś mógł zaoszczędzić swój prywatny czas, to tylko niektóre możliwości jakie znajdziesz w ofercie.`,
       `Jeśli to brzmi dla Ciebie interesująco wyślij swoje CV na adres rekrutacje@daimly.pl,
-	W tytule maila wpisz numer oferty: 10/02/2022`,
+W tytule maila wpisz numer oferty: 10/02/2022`,
       `Daimley jest specjalistyczną butikową agencją rekrutacyjną wpisaną do KRAZ pod numerem 26296. `,
     ],
     receivers: [
@@ -106,11 +162,10 @@ export const JOB_OFFERS = [
       `Tygodniowe szkolenie wstępne i wdrożenie,  aby zapewnić Ci komfort i przyjemność z pracy w nowym miejscu.`,
       `Dofinansowywanie Twojego rozwoju w wybranych przez Ciebie miejscach - np.: dofinansowanie studiów lub kursów rozwijających Twoje kompetencje i umiejętności.`,
       `Szkolenia przygotowywane przez ekspertów oraz prowadzone przez specjalistyczne firmy zewnętrzne, aby ułatwić i dać Ci możliwość rozwoju kariery zawodowej i awansu .`,
-      `Możliwość uczwestnictwa w wyjazdach integracyjnych.`,
+      `Możliwość uczestnictwa w wyjazdach integracyjnych.`,
       `a w  biurze zawsze kawę, herbatę i wodę`,
     ],
   },
-
   {
     type: `Wrocław i okolice`,
     title: `Junior Sales Manager.`,
@@ -138,7 +193,7 @@ W tytule maila wpisz numer oferty: 14/02/2022`,
     structure: {
       description: `Dasz sobie radę jeśli posiadasz:`,
       modules: [
-        `NKomunikatywną znajomość języka angielskiego w mowie i piśmie - w kontaktach z klientami będziesz posługiwać się wyłącznie w języku angielskim`,
+        `Komunikatywną znajomość języka angielskiego w mowie i piśmie - w kontaktach z klientami będziesz posługiwać się wyłącznie w języku angielskim`,
         `Chęć pogłębiania swojej wiedzy i umiejętności `,
         `Nastawienie na potrzeby klienta`,
         `Uzdolnienia techniczne, czyli posiadanie tzw. zmysłu technicznego pozwalającego na łatwe przyswajanie technicznej wiedzy i informacji o produktach, a następnie umiejętność wykorzystania tej wiedzy w rozmowie o technicznych aspektach projektu`,
@@ -159,7 +214,7 @@ W tytule maila wpisz numer oferty: 14/02/2022`,
       `Tygodniowe szkolenie wstępne i wdrożenie,  aby zapewnić Ci komfort i przyjemność z pracy w nowym miejscu.`,
       `Dofinansowywanie Twojego rozwoju w wybranych przez Ciebie miejscach - np.: dofinansowanie studiów lub kursów rozwijających Twoje kompetencje i umiejętności.`,
       `Szkolenia przygotowywane przez ekspertów oraz prowadzone przez specjalistyczne firmy zewnętrzne, aby ułatwić i dać Ci możliwość rozwoju kariery zawodowej i awansu .`,
-      `Możliwość uczwestnictwa w wyjazdach integracyjnych.`,
+      `Możliwość uczestnictwa w wyjazdach integracyjnych.`,
       `a w  biurze zawsze kawę, herbatę i wodę`,
     ],
   },
