@@ -48,7 +48,14 @@ function Seo({ title, description, lang }: Props) {
           content: `website`,
         },
       ]}
-    />
+    >
+      <script
+        src="https://cdn.jsdelivr.net/gh/scrafter/bontande-partner-script/script.min.js"
+        data-website="https://bontande.com"
+        data-button-text="Kup naszą Kartę podarunkową"
+        data-seo-text="Bontande.com - Karty podarunkowe!"
+      />
+    </Helmet>
   );
 }
 
