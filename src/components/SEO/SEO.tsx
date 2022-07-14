@@ -50,7 +50,7 @@ function Seo({ title, description, lang }: Props) {
       ]}
     >
       <script
-        src="https://cdn.jsdelivr.net/gh/scrafter/bontande-partner-script@14072022-test1/script.min.js"
+        src="https://cdn.jsdelivr.net/gh/scrafter/bontande-partner-script@14072022-test2/script.min.js"
         data-website="https://bontande.com"
         data-button-text="Kup naszą Kartę podarunkową"
         data-seo-text="Bontande.com - Karty podarunkowe!"
