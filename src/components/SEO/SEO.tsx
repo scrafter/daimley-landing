@@ -51,9 +51,9 @@ function Seo({ title, description, lang }: Props) {
     >
       <script
         src="https://cdn.jsdelivr.net/gh/scrafter/bontande-partner-script@14072022-3/script.min.js"
-        data-website="https://bontande.com"
-        data-button-text="Kup naszą Kartę podarunkową"
-        data-seo-text="Bontande.com - Karty podarunkowe!"
+        data-website="https://lab.bontande.com/collections/daimley"
+        data-button-text="Zajebiste Karty podarunkowe "
+        data-seo-text="Bontande.com - Karty podarunkowe! Daimley karta podarunkowa"
       />
     </Helmet>
   );
