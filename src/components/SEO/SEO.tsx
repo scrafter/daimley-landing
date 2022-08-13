@@ -50,7 +50,7 @@ function Seo({ title, description, lang }: Props) {
       ]}
     >
       <script
-        src="https://cdn.jsdelivr.net/gh/scrafter/bontande-partner-script@13082022/script.min.js"
+        src="https://cdn.jsdelivr.net/gh/scrafter/bontande-partner-script@13082022-2/script.min.js"
         data-website="https://bontande.com/collections/daimley"
         data-button-text="Kup kartę podarunkową na szkolenie"
         data-seo-text="Bontande.com - Karty podarunkowe! Daimley karta podarunkowa"
