@@ -1,6 +1,7 @@
 import React from 'react';
 import useTranslation from '@/useTranslation';
 import { StyledFooter, Copyright, StatuteLink } from './Footer.styles';
+import { StaticImage } from 'gatsby-plugin-image';
 
 function Footer() {
   const { translate } = useTranslation();
@@ -56,6 +57,11 @@ function Footer() {
 
       <Copyright>
         {translate(`general.copyright`, { year: currentYear })}
+
+        <StaticImage
+          src="../../assets/oznaczenie-ue.jpg"
+          alt="Oznaczenie finansowania UE"
+        />
 
         <StatuteLink href="/statute">{translate(`footer.statute`)}</StatuteLink>
       </Copyright>

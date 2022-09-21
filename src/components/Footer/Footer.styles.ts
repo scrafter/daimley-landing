@@ -27,16 +27,23 @@ export const FooterColumnItem = styled.a`
 `;
 
 export const Copyright = styled.p`
-  padding: 40px 50px;
+  padding: 0 50px;
   border-top: 1px solid ${(props: DaimleyTheme) => props.theme.borderGray};
   font-size: 1rem;
   color: ${(props: DaimleyTheme) => props.theme.gray};
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100vw;
 
   @media only screen and (max-width: 425px) {
     flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+
+    .gatsby-image-wrapper {
+      margin-top: 20px;
+    }
   }
 `;
 
