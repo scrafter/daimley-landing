@@ -8,6 +8,7 @@ module.exports = {
     siteUrl: `https://daimley.pl`,
     author: `Andrzej Urbaniak`,
   },
+  assetPrefix: '__GATSBY_RELATIVE_PATH__',
   plugins: [
     'gatsby-plugin-emotion',
     {
